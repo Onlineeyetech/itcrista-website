@@ -1,0 +1,95 @@
+import { Link } from "react-router-dom";
+import { ArrowUpRight, Github, Linkedin, Twitter, Instagram, Mail } from "lucide-react";
+
+const cols = [
+  {
+    title: "Services",
+    links: [
+      "Custom Website Development",
+      "Ecommerce Store Development",
+      "Shopify Development",
+      "WordPress Development",
+      "WooCommerce",
+      "Magento Development",
+    ],
+  },
+  {
+    title: "Solutions",
+    links: ["Custom CMS", "Landing Page Design", "UI / UX Design", "SEO Optimization", "Speed Optimization", "Maintenance & Support"],
+  },
+  {
+    title: "Company",
+    links: ["About", "Portfolio", "Careers", "Process", "Contact", "Blog"],
+  },
+];
+
+export default function Footer() {
+  return (
+    <footer data-testid="footer" className="relative bg-[#071120] text-white border-t border-white/10 overflow-hidden">
+      <div className="absolute inset-x-0 -top-32 h-64 bg-gradient-to-b from-[#06B6D4]/10 to-transparent blur-3xl pointer-events-none" />
+      <div className="max-w-7xl mx-auto px-6 md:px-10 pt-24 pb-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
+          <div className="lg:col-span-2">
+            <Link to="/" className="inline-flex items-center gap-2">
+              <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-[#06B6D4] via-[#3B82F6] to-[#7C3AED] grid place-items-center font-display font-black text-white">i</div>
+              <span className="font-display text-2xl font-bold tracking-tight">ITcrista <span className="text-[#06B6D4]">infoX</span></span>
+            </Link>
+            <p className="mt-5 text-white/60 max-w-sm leading-relaxed">
+              A world-class IT agency crafting premium digital experiences for ambitious brands, startups and enterprises across the globe.
+            </p>
+            <Link
+              to="/contact"
+              data-testid="footer-cta"
+              className="mt-6 inline-flex items-center gap-2 px-5 py-3 rounded-full bg-white text-[#071120] font-semibold hover:bg-[#06B6D4] hover:text-white transition-colors btn-shine"
+            >
+              Start a Project <ArrowUpRight className="w-4 h-4" />
+            </Link>
+          </div>
+
+          {cols.map((c) => (
+            <div key={c.title}>
+              <h4 className="text-xs uppercase tracking-[0.2em] text-white/50 font-semibold mb-5">{c.title}</h4>
+              <ul className="space-y-3">
+                {c.links.map((l) => (
+                  <li key={l}>
+                    <a href="#" className="text-white/70 hover:text-[#06B6D4] text-sm transition-colors" data-testid={`footer-link-${l.toLowerCase().replace(/\s+/g, "-")}`}>
+                      {l}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+          <div className="flex flex-wrap items-center gap-4 text-sm text-white/50">
+            <span>© {new Date().getFullYear()} ITcrista infoX. All rights reserved.</span>
+            <span className="hidden md:inline">·</span>
+            <a href="#" className="hover:text-white">Privacy</a>
+            <a href="#" className="hover:text-white">Terms</a>
+          </div>
+          <div className="flex items-center gap-3">
+            {[Twitter, Linkedin, Github, Instagram, Mail].map((Ic, i) => (
+              <a
+                key={i}
+                href="#"
+                aria-label="social"
+                data-testid={`footer-social-${i}`}
+                className="w-10 h-10 grid place-items-center rounded-full border border-white/10 text-white/70 hover:text-white hover:border-[#06B6D4]/50 hover:bg-white/5 transition-colors"
+              >
+                <Ic className="w-4 h-4" />
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <div className="select-none pointer-events-none overflow-hidden">
+        <div className="text-[18vw] leading-none font-display font-black tracking-tighter text-transparent text-center" style={{ WebkitTextStroke: "1px rgba(255,255,255,0.08)" }}>
+          ITcrista
+        </div>
+      </div>
+    </footer>
+  );
+}
