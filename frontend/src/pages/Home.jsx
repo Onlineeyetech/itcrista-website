@@ -3,8 +3,10 @@ import TrustedBy from "../components/sections/TrustedBy";
 import Services from "../components/sections/Services";
 import WhyChooseUs from "../components/sections/WhyChooseUs";
 import Portfolio from "../components/sections/Portfolio";
+import VideoShowcase from "../components/sections/VideoShowcase";
 import Process from "../components/sections/Process";
 import Testimonials from "../components/sections/Testimonials";
+import Founder from "../components/sections/Founder";
 import Technologies from "../components/sections/Technologies";
 import Pricing from "../components/sections/Pricing";
 import Blog from "../components/sections/Blog";
@@ -19,8 +21,10 @@ export default function Home() {
       <Services />
       <WhyChooseUs />
       <Portfolio />
+        <VideoShowcase />
       <Process />
       <Testimonials />
+      <Founder />
       <Technologies />
       <Pricing />
       <Blog />
