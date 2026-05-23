@@ -55,7 +55,7 @@ export default function Hero() {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/[0.03] text-xs uppercase tracking-[0.25em] text-white/70"
           >
             <Sparkles className="w-3.5 h-3.5 text-[#06B6D4]" />
-            Premium IT Agency · Est. 2016
+            PREMIUM WEB DEVELOPMENT AGENCY • EST. 2022
           </motion.div>
 
           <motion.h1
@@ -64,11 +64,11 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.05 }}
             className="font-display font-black tracking-tighter text-white mt-6 text-5xl sm:text-6xl lg:text-7xl xl:text-8xl leading-[0.95]"
           >
-            We engineer
+           We Build
             <br />
-            the <span className="text-gradient">next-gen</span>
+            Fast, <span className="text-gradient">SEO-Driven</span>
             <br />
-            digital web.
+           Digital Experiences.
           </motion.h1>
 
           <motion.p
