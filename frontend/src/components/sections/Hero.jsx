@@ -62,7 +62,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.05 }}
-            className="font-display font-black tracking-tighter text-white mt-6 text-5xl sm:text-6xl lg:text-6xl xl:text-8xl leading-[0.95]"
+            className="font-display font-black tracking-tighter text-white mt-6 text-5xl sm:text-6xl lg:text-7xl xl:text-6xl leading-[0.95]"
           >
            We Build
             <br />
