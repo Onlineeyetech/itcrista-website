@@ -7,6 +7,7 @@ import Process from "../components/sections/Process";
 import Testimonials from "../components/sections/Testimonials";
 import Technologies from "../components/sections/Technologies";
 import Pricing from "../components/sections/Pricing";
+import Blog from "../components/sections/Blog";
 import FAQ from "../components/sections/FAQ";
 import FinalCTA from "../components/sections/FinalCTA";
 
@@ -22,6 +23,7 @@ export default function Home() {
       <Testimonials />
       <Technologies />
       <Pricing />
+      <Blog />
       <FAQ />
       <FinalCTA />
     </main>
