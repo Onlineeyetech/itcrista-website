@@ -7,7 +7,7 @@ const features = [
   { icon: HeartHandshake, title: "Dedicated Support", desc: "Ongoing technical support, website maintenance, SEO improvements, and performance monitoring for long-term business growth." },
   { icon: Zap, title: "Performance-Driven Builds", desc: "Engineered for blazing-fast load times, exceptional Core Web Vitals, and conversion-focused user experiences." },
   { icon: ShieldCheck, title: "SEO-First Development", desc: "Every website is structured with technical SEO, responsive architecture, and search visibility built in from the ground up." },
-  { icon: Globe2, title: "GTrusted Worldwide", desc: "Supporting startups, agencies, and modern brands with scalable web development solutions across global markets." },
+  { icon: Globe2, title: "Trusted Worldwide", desc: "Supporting startups, agencies, and modern brands with scalable web development solutions across global markets." },
 ];
 
 export default function WhyChooseUs() {
