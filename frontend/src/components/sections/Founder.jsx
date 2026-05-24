@@ -120,7 +120,7 @@ built for performance, SEO, scalability, and long-term business growth.
             </p>
 
             {/* Vision quote */}
-            <div className="mt-8 relative pl-6 border-l-2 border-[#06B6D4]/60">
+            <div className="mt-3 relative pl-6 border-l-2 border-[#06B6D4]/60">
               <p className="font-display text-lg md:text-xl text-white/85 leading-relaxed italic">
                 “A great website should do more than look good — it should help businesses grow faster, perform better, and scale confidently.”
               </p>
@@ -152,7 +152,7 @@ built for performance, SEO, scalability, and long-term business growth.
             </div>
 
             {/* Socials */}
-            <div className="mt-10 flex items-center gap-3">
+            <div className="mt-3 flex items-center gap-3">
               <span className="text-xs uppercase tracking-[0.25em] text-white/40 mr-2">Connect</span>
               {[
                 { Ic: Linkedin, href: "www.linkedin.com/in/rajat-bharawa", label: "linkedin" },
