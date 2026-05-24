@@ -23,9 +23,9 @@ export default function Portfolio() {
       <div className="relative max-w-7xl mx-auto px-6 md:px-10">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-12">
           <div>
-            <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">/ Selected Work</p>
+            <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">Selected Work</p>
             <h2 className="font-display font-black tracking-tighter text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.02]">
-              Recent <span className="text-gradient">case studies.</span>
+             Featured <span className="text-gradient">Web Projects.</span>
             </h2>
           </div>
           <div className="flex flex-wrap gap-2">
