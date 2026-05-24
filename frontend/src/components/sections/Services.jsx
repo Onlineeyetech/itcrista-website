@@ -10,7 +10,6 @@ const services = [
   { icon: Store, title: "Shopify Development", desc: "Premium Shopify storefronts, theme dev & app integrations." },
   { icon: FileCode2, title: "WordPress Development", desc: "Headless and traditional WordPress builds with luxe page experience." },
   { icon: Boxes, title: "WooCommerce Development", desc: "Sophisticated WooCommerce stores with advanced product logic." },
-  { icon: Layers, title: "Magento Development", desc: "Enterprise-grade Magento commerce for global retail brands." },
   { icon: Database, title: "Custom CMS Development", desc: "Tailored content platforms built around your editorial workflow." },
   { icon: MousePointerClick, title: "Landing Page Design", desc: "High-converting landing pages crafted for paid traffic & launches." },
   { icon: PencilRuler, title: "UI / UX Design", desc: "Beautiful, accessible interfaces backed by rigorous research." },
