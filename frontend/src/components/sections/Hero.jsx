@@ -4,10 +4,10 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowUpRight, Sparkles, Play } from "lucide-react";
 
 const stats = [
-  { value: 250, suffix: "+", label: "Projects Delivered" },
+  { value: 200, suffix: "+", label: "Projects Delivered" },
   { value: 98, suffix: "%", label: "Client Satisfaction" },
-  { value: 40, suffix: "+", label: "Global Clients" },
-  { value: 9, suffix: "y", label: "Years of Craft" },
+  { value: 10, suffix: "+", label: "Global Clients" },
+  { value: 5, suffix: "yr", label: "Years of Craft" },
 ];
 
 function Counter({ value, suffix }) {
