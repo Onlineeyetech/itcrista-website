@@ -137,8 +137,8 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-t from-[#071120] via-transparent to-transparent" />
               <div className="absolute bottom-6 left-6 right-6 flex items-center justify-between">
                 <div>
-                  <div className="text-xs uppercase tracking-[0.2em] text-white/60">Live build</div>
-                  <div className="font-display font-bold text-xl text-white mt-1">Project Aurora · v2.4</div>
+                  <div className="text-xs uppercase tracking-[0.2em] text-white/60">CUSTOM DEVELOPMENT</div>
+                  <div className="font-display font-bold text-xl text-white mt-1">React • Shopify • SEO</div>
                 </div>
                 <div className="w-12 h-12 rounded-full border border-white/15 grid place-items-center bg-white/5">
                   <span className="w-2 h-2 rounded-full bg-[#06B6D4] animate-pulse" />
@@ -152,8 +152,8 @@ export default function Hero() {
               transition={{ delay: 0.6 }}
               className="absolute -left-4 top-10 glass rounded-2xl px-4 py-3 hidden md:block"
             >
-              <div className="text-[11px] uppercase tracking-[0.2em] text-white/50">Performance</div>
-              <div className="font-display font-black text-2xl text-white">99/100</div>
+              <div className="text-[11px] uppercase tracking-[0.2em] text-white/50">LIGHTNING FAST</div>
+              <div className="font-display font-black text-2xl text-white">< 2s Load Time</div>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 20 }}
@@ -161,8 +161,8 @@ export default function Hero() {
               transition={{ delay: 0.7 }}
               className="absolute -right-4 bottom-16 glass rounded-2xl px-4 py-3 hidden md:block"
             >
-              <div className="text-[11px] uppercase tracking-[0.2em] text-white/50">Lighthouse</div>
-              <div className="font-display font-black text-2xl text-[#06B6D4]">AAA</div>
+              <div className="text-[11px] uppercase tracking-[0.2em] text-white/50">GOOGLE READY</div>
+              <div className="font-display font-black text-2xl text-[#06B6D4]">Technical SEO</div>
             </motion.div>
           </motion.div>
         </div>
