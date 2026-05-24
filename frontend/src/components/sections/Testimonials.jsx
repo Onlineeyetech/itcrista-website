@@ -33,7 +33,7 @@ export default function Testimonials() {
     <section data-testid="testimonials-section" className="relative py-24 md:py-32 bg-[#071120] overflow-hidden">
       <div className="absolute inset-0 bg-grid opacity-40" />
       <div className="relative max-w-5xl mx-auto px-6 md:px-10 text-center">
-        <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">/ Testimonials</p>
+        <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">Testimonials</p>
         <h2 className="font-display font-black tracking-tighter text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.02]">
           Loved by founders
           <br />
