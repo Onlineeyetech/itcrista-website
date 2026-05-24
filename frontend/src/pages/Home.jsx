@@ -21,7 +21,6 @@ export default function Home() {
       <Services />
       <WhyChooseUs />
       <Portfolio />
-        <VideoShowcase />
       <Process />
       <Testimonials />
       <Founder />
