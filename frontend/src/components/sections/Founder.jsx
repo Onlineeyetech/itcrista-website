@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { Linkedin, Twitter, Github, Mail, Sparkles, Award, Globe2, Users } from "lucide-react";
 
 const highlights = [
-  { icon: Award, label: "9+ Years", sub: "Building luxury products" },
-  { icon: Globe2, label: "40+ Countries", sub: "Global client footprint" },
-  { icon: Users, label: "120+ Brands", sub: "Trusted partnerships" },
+  { icon: Award, label: "Built to Scale", sub: "Modern web solutions." },
+  { icon: Globe2, label: "Global Clients", sub: "Trusted internationally." },
+  { icon: Users, label: "Long-Term Support", sub: "Reliable growth partnership." },
 ];
 
 export default function Founder() {
@@ -31,7 +31,7 @@ export default function Founder() {
           transition={{ duration: 0.6 }}
           className="text-center max-w-2xl mx-auto mb-16"
         >
-          <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">/ Meet the Founder</p>
+          <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">Meet the Founder</p>
           <h2 className="font-display font-black tracking-tighter text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.02]">
             The vision behind <span className="text-gradient">the studio.</span>
           </h2>
@@ -109,21 +109,22 @@ export default function Founder() {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="lg:col-span-7"
           >
-            <div className="text-xs uppercase tracking-[0.3em] text-white/40 mb-3">Founder & Chief Executive</div>
+            <div className="text-xs uppercase tracking-[0.3em] text-white/40 mb-3">Founder & CEO</div>
             <h3 className="font-display font-black tracking-tighter text-white text-4xl md:text-5xl leading-[1.05]">
-              Aarav Crista
+              Rajat Bharawa
             </h3>
             <p className="mt-5 text-white/70 leading-relaxed text-base md:text-lg max-w-xl">
-              Aarav started ITcrista infoX in 2016 with a single belief —
-              <span className="text-white"> great software should feel like luxury.</span> Today the studio partners with founders, ecommerce brands and growing enterprises to ship premium digital products end-to-end.
+            Rajat Bharawa founded ITcrista in 2022 after years of freelance web development experience and trusted client partnerships. Today, the agency delivers end-to-end web solutions including 
+              <span className="text-white">hopify development, WordPress websites, React.js, Next.js, Node.js, and custom-coded platforms </span>
+built for performance, SEO, scalability, and long-term business growth.
             </p>
 
             {/* Vision quote */}
             <div className="mt-8 relative pl-6 border-l-2 border-[#06B6D4]/60">
               <p className="font-display text-lg md:text-xl text-white/85 leading-relaxed italic">
-                "We don't measure ourselves by how many websites we ship — we measure ourselves by how much they move the business needle."
+                “A great website should do more than look good — it should help businesses grow faster, perform better, and scale confidently.”
               </p>
-              <p className="mt-3 text-sm text-white/45">— Aarav, on the ITcrista philosophy</p>
+              <p className="mt-3 text-sm text-white/45">— Rajat Bharawa, Full Stack Developer</p>
             </div>
 
             {/* Highlights */}
