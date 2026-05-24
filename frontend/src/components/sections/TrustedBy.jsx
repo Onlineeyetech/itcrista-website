@@ -1,7 +1,7 @@
 import Marquee from "react-fast-marquee";
 
 const brands = [
-  "Stripe", "Vercel", "Notion", "Linear", "Shopify", "Figma", "Webflow", "Framer", "Supabase", "Loom", "Arc", "Pitch",
+  "Loop", "Inkhouse", "Niviasports", "Veaves", "CrescentGroup", "Bestink", "Nindhaara", "Veaves", "CrescentGroup", "Agri-Auto", "Scalitconsulting", "Veda",
 ];
 
 export default function TrustedBy() {
