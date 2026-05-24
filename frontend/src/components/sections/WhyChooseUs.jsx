@@ -19,9 +19,9 @@ export default function WhyChooseUs() {
           <div className="lg:col-span-7">
             <p className="text-xs uppercase tracking-[0.3em] text-[#3B82F6] mb-4">/ Why ITcrista infoX</p>
             <h2 className="font-display font-black tracking-tighter text-4xl sm:text-5xl lg:text-6xl leading-[1.02] text-[#0A0F1A]">
-              We don't make websites.
+             Premium Websites Engineered for Growth.
               <br />
-              We build <span className="text-[#3B82F6]">competitive advantage.</span>
+             <span className="text-[#3B82F6]">Growth.</span>
             </h2>
           </div>
           <p className="lg:col-span-5 text-base md:text-lg text-[#475569] leading-relaxed">
