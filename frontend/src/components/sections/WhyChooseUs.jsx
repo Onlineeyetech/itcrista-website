@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 import { Award, Rocket, HeartHandshake, Zap, ShieldCheck, Globe2 } from "lucide-react";
 
 const features = [
-  { icon: Award, title: "9+ Years of Craft", desc: "A senior team that has shipped premium digital products across 40+ countries." },
-  { icon: Rocket, title: "Fast Delivery", desc: "Tight, disciplined sprints. Most launches in 4-8 weeks without compromising quality." },
-  { icon: HeartHandshake, title: "Dedicated Support", desc: "A real human team on Slack, Email & WhatsApp — never tickets, never templates." },
-  { icon: Zap, title: "Performance First", desc: "Sub-second load times, perfect Core Web Vitals and elite-grade infrastructure." },
-  { icon: ShieldCheck, title: "SEO-Friendly Builds", desc: "Search-engine perfection baked into the architecture from day one." },
-  { icon: Globe2, title: "Global, White-label", desc: "We power growth for agencies & brands across the US, UK, EU and APAC." },
+  { icon: Award, title: "5 Yr of Web Development Expertise", desc: "Delivering custom websites, eCommerce platforms, and SEO-focused digital solutions for businesses across multiple industries worldwide." },
+  { icon: Rocket, title: "Fast & Scalable Website Development", desc: "Agile development workflows, optimized coding standards, and rapid deployment processes designed for speed and performance." },
+  { icon: HeartHandshake, title: "Dedicated Support", desc: "Ongoing technical support, website maintenance, SEO improvements, and performance monitoring for long-term business growth." },
+  { icon: Zap, title: "Performance-Driven Builds", desc: "Engineered for blazing-fast load times, exceptional Core Web Vitals, and conversion-focused user experiences." },
+  { icon: ShieldCheck, title: "SEO-First Development", desc: "Every website is structured with technical SEO, responsive architecture, and search visibility built in from the ground up." },
+  { icon: Globe2, title: "GTrusted Worldwide", desc: "Supporting startups, agencies, and modern brands with scalable web development solutions across global markets." },
 ];
 
 export default function WhyChooseUs() {
@@ -25,7 +25,7 @@ export default function WhyChooseUs() {
             </h2>
           </div>
           <p className="lg:col-span-5 text-base md:text-lg text-[#475569] leading-relaxed">
-            Every engagement is a partnership. We obsess about your numbers — conversion rate, retention, page speed, lifetime value — and design every pixel to move them up and to the right.
+            We create fast, scalable, and SEO-optimized digital experiences designed to improve performance, conversions, and long-term business growth.
           </p>
         </div>
 
