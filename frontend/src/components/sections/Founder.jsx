@@ -110,7 +110,7 @@ export default function Founder() {
             className="lg:col-span-7"
           >
             <div className="text-xs uppercase tracking-[0.3em] text-white/40 mb-3">Founder & CEO</div>
-            <h3 className="font-display font-black tracking-tighter text-white text-4xl md:text-5xl leading-[1.05]">
+            <h3 className="font-display font-black tracking-tighter text-white text-2xl md:text-2xl leading-[1.05]">
              Built on Trust. Engineered for Growth.
             </h3>
             <p className="mt-5 text-white/70 leading-relaxed text-base md:text-lg max-w-xl">
