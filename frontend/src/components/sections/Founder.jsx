@@ -155,7 +155,7 @@ built for performance, SEO, scalability, and long-term business growth.
             <div className="mt-10 flex items-center gap-3">
               <span className="text-xs uppercase tracking-[0.25em] text-white/40 mr-2">Connect</span>
               {[
-                { Ic: Linkedin, href: "#", label: "linkedin" },
+                { Ic: Linkedin, href: "www.linkedin.com/in/rajat-bharawa", label: "linkedin" },
                 { Ic: Twitter, href: "#", label: "twitter" },
                 { Ic: Github, href: "#", label: "github" },
                 { Ic: Mail, href: "#", label: "email" },
