@@ -128,7 +128,7 @@ built for performance, SEO, scalability, and long-term business growth.
             </div>
 
             {/* Highlights */}
-            <div className="mt-10 grid sm:grid-cols-3 gap-3">
+            <div className="mt-4 grid sm:grid-cols-3 gap-3">
               {highlights.map((h, i) => {
                 const Ic = h.icon;
                 return (
