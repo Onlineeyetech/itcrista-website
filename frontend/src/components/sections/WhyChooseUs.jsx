@@ -17,7 +17,7 @@ export default function WhyChooseUs() {
       <div className="relative max-w-7xl mx-auto px-6 md:px-10">
         <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-end mb-16">
           <div className="lg:col-span-7">
-            <p className="text-xs uppercase tracking-[0.3em] text-[#3B82F6] mb-4">/ Why ITcrista infoX</p>
+            <p className="text-xs uppercase tracking-[0.3em] text-[#3B82F6] mb-4">Why ITcrista infoX</p>
             <h2 className="font-display font-black tracking-tighter text-4xl sm:text-5xl lg:text-6xl leading-[1.02] text-[#0A0F1A]">
              Premium Websites Engineered for Growth.
               <br />
