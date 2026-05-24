@@ -52,13 +52,13 @@ export default function Services() {
           <div className="max-w-2xl">
             <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">Services</p>
             <h2 className="font-display font-black tracking-tighter text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.02]">
-              A premium studio
+             High-Performance
               <br />
-              <span className="text-gradient">for every digital need.</span>
+              <span className="text-gradient">Websites for Modern Brands.</span>
             </h2>
           </div>
           <p className="text-white/55 max-w-md text-base leading-relaxed">
-            From custom platforms to ecommerce empires — we ship pixel-perfect, performance-first products end-to-end.
+            We build high-performance websites, Shopify stores, and custom digital experiences optimized for speed, SEO, and long-term growth.
           </p>
         </div>
 
