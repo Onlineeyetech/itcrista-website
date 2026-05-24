@@ -153,7 +153,7 @@ export default function Hero() {
               className="absolute -left-4 top-10 glass rounded-2xl px-4 py-3 hidden md:block"
             >
               <div className="text-[11px] uppercase tracking-[0.2em] text-white/50">LIGHTNING FAST</div>
-              <div className="font-display font-black text-2xl text-white">< 2s Load Time</div>
+              <div className="font-display font-black text-2xl text-white"> 2s Load Time</div>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 20 }}
