@@ -15,7 +15,7 @@ export default function Process() {
       <div className="max-w-7xl mx-auto px-6 md:px-10">
         <div className="grid lg:grid-cols-12 gap-10 mb-16">
           <div className="lg:col-span-7">
-            <p className="text-xs uppercase tracking-[0.3em] text-[#3B82F6] mb-4">/ How we work</p>
+            <p className="text-xs uppercase tracking-[0.3em] text-[#3B82F6] mb-4">How we work</p>
             <h2 className="font-display font-black tracking-tighter text-4xl sm:text-5xl lg:text-6xl leading-[1.02] text-[#0A0F1A]">
               A proven 6-step
               <br />
@@ -23,7 +23,7 @@ export default function Process() {
             </h2>
           </div>
           <p className="lg:col-span-5 text-[#475569] leading-relaxed self-end text-base md:text-lg">
-            Transparent. Calm. Predictable. Our delivery system is built around your stakeholders and your timeline — never against them.
+           We follow a streamlined web development process focused on strategy, UI/UX design, performance optimization, technical SEO, and scalable development to deliver fast, high-converting digital experiences.
           </p>
         </div>
 
