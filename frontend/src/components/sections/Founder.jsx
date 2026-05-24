@@ -115,7 +115,7 @@ export default function Founder() {
             </h3>
             <p className="mt-5 text-white/70 leading-relaxed text-base md:text-lg max-w-xl">
             Rajat Bharawa founded ITcrista in 2022 after years of freelance web development experience and trusted client partnerships. Today, the agency delivers end-to-end web solutions including 
-              <span className="text-white">hopify development, WordPress websites, React.js, Next.js, Node.js, and custom-coded platforms </span>
+              <span className="text-white"> Shopify development, WordPress websites, React.js, Next.js, Node.js, and custom-coded platforms </span>
 built for performance, SEO, scalability, and long-term business growth.
             </p>
 
