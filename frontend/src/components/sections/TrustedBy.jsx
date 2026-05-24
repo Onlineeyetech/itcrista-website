@@ -1,7 +1,7 @@
 import Marquee from "react-fast-marquee";
 
 const brands = [
-  "Loop", "Inkhouse", "Niviasports", "Veaves", "CrescentGroup", "Bestink", "Nindhaara", "Veaves", "CrescentGroup", "Agriauto", "Scalitconsulting", "Veda",
+  "Loop", "Inkhouse", "Niviasports", "Veaves", "CrescentGroup", "Bestink", "Nindhaara", "Inkquest", "Agriauto", "Scalitconsulting", "Veda",
 ];
 
 export default function TrustedBy() {
