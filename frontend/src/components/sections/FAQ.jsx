@@ -1,12 +1,12 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "../ui/accordion";
 
 const faqs = [
-  { q: "How long does a typical project take?", a: "Most landing pages launch in 2 weeks. Full websites in 4-6 weeks. Custom platforms and large ecommerce builds usually run 8-16 weeks depending on scope." },
-  { q: "Do you work with international clients?", a: "Yes. We currently partner with founders, teams and agencies across 40+ countries. We work asynchronously and over scheduled live sessions in your timezone." },
-  { q: "Can you white-label for other agencies?", a: "Absolutely. We have a dedicated white-label engagement model for design and dev studios that need premium delivery capacity." },
-  { q: "What tech stacks do you specialise in?", a: "React, Next.js, Node, Laravel, Shopify, WordPress, WooCommerce, Magento and bespoke CMS — chosen based on what fits your product best." },
-  { q: "Do you offer ongoing maintenance?", a: "Yes — flexible monthly support plans covering hosting, updates, performance, security, content edits and growth experiments." },
-  { q: "How do payments and contracts work?", a: "We work on a milestone basis with transparent SOWs. 30% to begin, balance split across delivery phases. NDA & MSA available on request." },
+  { q: "How long does custom website development take?", a: "Most custom website development projects are completed within 2–6 weeks depending on features, integrations, and project scope. Advanced Shopify stores, SaaS platforms, and custom web applications may require additional development and testing time for performance optimization and scalability." },
+  { q: "Do you provide Shopify and WordPress development services?", a: "Yes. We specialize in Shopify development, WordPress website development, custom theme design, speed optimization, app integrations, and scalable eCommerce solutions tailored for modern businesses and growing brands." },
+  { q: "Are your websites SEO optimized?", a: "Absolutely. Every website is built with technical SEO, mobile responsiveness, fast loading speeds, Core Web Vitals optimization, clean code structure, and search-engine-friendly architecture to improve rankings, traffic, and online visibility." },
+  { q: "Do you work with international clients?", a: "Yes. ITcrista works with startups, agencies, eCommerce brands, and businesses across India, Australia, Canada, and other global markets through fully remote collaboration and long-term development support." },
+  { q: "What technologies do you use for web development?", a: "We work with modern technologies including React.js, Next.js, Node.js, Shopify, WordPress, custom CMS platforms, and scalable full-stack web development solutions designed for performance and business growth." },
+  { q: "Do you offer ongoing website maintenance and support?", a: "Yes. We provide ongoing website maintenance, performance optimization, technical support, and SEO improvements for brands and eCommerce businesses. Our long-term maintenance partnerships include platforms like Nivia Sports, where we help maintain website performance, stability, and user experience on a monthly basis." },
 ];
 
 export default function FAQ() {
