@@ -25,9 +25,7 @@ export default function Home() {
       <Testimonials />
       <Founder />
       <Technologies />
-      <Pricing />
-
-      <FAQ />
+       <FAQ />
       <FinalCTA />
     </main>
   );
