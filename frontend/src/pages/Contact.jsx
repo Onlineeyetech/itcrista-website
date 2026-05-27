@@ -29,7 +29,6 @@ const submit = async (e) => {
         name: "",
         email: "",
         company: "",
-        budget: "",
         message: "",
       });
     }
