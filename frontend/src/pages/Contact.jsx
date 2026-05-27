@@ -11,17 +11,18 @@ const submit = async (e) => {
   e.preventDefault();
 
   try {
-    const res = await fetch("https://script.google.com/macros/s/AKfycbzVOTfYbUb-9jeJCBNllQZrzRS7uJvNPSqK6YVFCcS9UASRn30GTp9PjWkJU5CqNGlN/exec", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(form),
-    });
+    const res = await fetch(
+      "https://script.google.com/macros/s/AKfycbzVOTfYbUb-9jeJCBNllQZrzRS7uJvNPSqK6YVFCcS9UASRn30GTp9PjWkJU5CqNGlN/exec",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(form),
+      }
+    );
 
-    const data = await res.json();
-
-    if (data.success) {
+    if (res.ok) {
       setSent(true);
 
       setForm({
