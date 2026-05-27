@@ -26,7 +26,7 @@ export default function Home() {
       <Founder />
       <Technologies />
       <Pricing />
-      <Blog />
+
       <FAQ />
       <FinalCTA />
     </main>
