@@ -11,7 +11,7 @@ const steps = [
 
 export default function Process() {
   return (
-    <section data-testid="process-section" className="relative py-24 md:py-32 bg-[#F8FAFC] text-[#0A0F1A] overflow-hidden">
+    <section data-testid="process-section" className="relative py-8 md:py-16 bg-[#F8FAFC] text-[#0A0F1A] overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
         <div className="grid lg:grid-cols-12 gap-10 mb-16">
           <div className="lg:col-span-7">
