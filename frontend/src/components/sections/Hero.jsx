@@ -130,7 +130,7 @@ export default function Hero() {
             <div className="absolute inset-0 rounded-[2.5rem] bg-gradient-to-br from-[#06B6D4]/30 via-[#3B82F6]/20 to-[#7C3AED]/30 blur-3xl" />
             <div className="relative h-full rounded-[2.5rem] overflow-hidden border border-white/10 bg-[#0D1B2A]">
               <img
-                src="https://static.prod-images.emergentagent.com/jobs/e5edbea0-9077-4246-8082-58f6c769b341/images/e1591ae0a0d59c159f91152eedf231aced637a4db3c9c40f74daefeecdbc6bda.png"
+                src="images/Gemini_Generated_Image_3w4p993w4p993w4p.png"
                 alt="3D abstract"
                 className="absolute inset-0 w-full h-full object-cover animate-floaty"
               />
