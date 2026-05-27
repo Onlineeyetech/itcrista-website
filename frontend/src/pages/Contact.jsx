@@ -7,10 +7,36 @@ export default function ContactPage() {
   const [form, setForm] = useState({ name: "", email: "", company: "", budget: "", message: "" });
 
   const update = (k, v) => setForm((f) => ({ ...f, [k]: v }));
-  const submit = (e) => {
-    e.preventDefault();
-    setSent(true);
-  };
+const submit = async (e) => {
+  e.preventDefault();
+
+  try {
+    const res = await fetch("https://script.google.com/macros/s/AKfycbzVOTfYbUb-9jeJCBNllQZrzRS7uJvNPSqK6YVFCcS9UASRn30GTp9PjWkJU5CqNGlN/exec", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(form),
+    });
+
+    const data = await res.json();
+
+    if (data.success) {
+      setSent(true);
+
+      setForm({
+        name: "",
+        email: "",
+        company: "",
+        budget: "",
+        message: "",
+      });
+    }
+
+  } catch (error) {
+    console.log(error);
+  }
+};
 
   return (
     <main data-testid="contact-page">
