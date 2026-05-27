@@ -11,7 +11,7 @@ export default function Founder() {
   return (
     <section
       data-testid="founder-section"
-      className="relative py-24 md:py-32 bg-[#071120] overflow-hidden"
+      className="relative py-8 md:py-16 bg-[#071120] overflow-hidden"
     >
       {/* Animated glowing background */}
       <div className="absolute inset-0 pointer-events-none">
