@@ -28,7 +28,7 @@ const tiers = [
 
 export default function Pricing() {
   return (
-    <section data-testid="pricing-section" className="relative py-24 md:py-32 bg-[#071120] overflow-hidden">
+    <section data-testid="pricing-section" className="relative py-8 md:py-16 bg-[#071120] overflow-hidden">
       <div className="absolute inset-0 bg-grid opacity-40" />
       <div className="relative max-w-7xl mx-auto px-6 md:px-10">
         <div className="text-center max-w-2xl mx-auto mb-16">
