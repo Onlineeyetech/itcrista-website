@@ -141,7 +141,7 @@ export default function Projects() {
   const filtered = active === "All" ? projects : projects.filter((p) => p.category === active);
 
   return (
-    <section data-testid="projects-section" className="relative py-24 md:py-32 bg-[#071120] overflow-hidden">
+    <section data-testid="projects-section" className="relative py-8 md:py-16 bg-[#071120] overflow-hidden">
       <div className="absolute inset-0 bg-grid opacity-40 pointer-events-none" />
       <div className="relative max-w-7xl mx-auto px-6 md:px-10">
         {/* Header */}
