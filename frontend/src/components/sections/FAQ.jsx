@@ -11,7 +11,7 @@ const faqs = [
 
 export default function FAQ() {
   return (
-    <section data-testid="faq-section" className="relative py-24 md:py-32 bg-[#071120] overflow-hidden">
+    <section data-testid="faq-section" className="relative py-8 md:py-16 bg-[#071120] overflow-hidden">
       <div className="absolute inset-0 bg-grid opacity-40" />
       <div className="relative max-w-4xl mx-auto px-6 md:px-10">
         <div className="text-center mb-14">
