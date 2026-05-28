@@ -30,7 +30,7 @@ export default function AboutCompany() {
   return (
     <section
       data-testid="about-company-section"
-      className="relative py-24 md:py-32 bg-[#071120] overflow-hidden"
+      className="relative py-8 md:py-16 bg-[#071120] overflow-hidden"
     >
       <div className="absolute inset-0 bg-grid opacity-40 pointer-events-none" />
       <div className="absolute -top-32 left-1/2 -translate-x-1/2 w-[60rem] h-[40rem] bg-gradient-to-r from-[#06B6D4]/15 via-[#3B82F6]/10 to-[#7C3AED]/15 blur-3xl rounded-full pointer-events-none" />
