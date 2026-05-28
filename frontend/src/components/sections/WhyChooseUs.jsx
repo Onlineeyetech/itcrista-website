@@ -12,7 +12,7 @@ const features = [
 
 export default function WhyChooseUs() {
   return (
-    <section data-testid="why-section" className="relative py-24 md:py-32 bg-[#F8FAFC] text-[#0A0F1A] overflow-hidden">
+    <section data-testid="why-section" className="relative py-8 md:py-16 bg-[#F8FAFC] text-[#0A0F1A] overflow-hidden">
       <div className="absolute inset-0 bg-grid-light pointer-events-none" />
       <div className="relative max-w-7xl mx-auto px-6 md:px-10">
         <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-end mb-16">
