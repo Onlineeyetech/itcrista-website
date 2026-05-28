@@ -44,7 +44,7 @@ function Card({ s, i }) {
 
 export default function Services() {
   return (
-    <section data-testid="services-section" id="services" className="relative py-24 md:py-32 bg-[#071120]">
+    <section data-testid="services-section" id="services" className="relative py-8 md:py-16 bg-[#071120]">
       <div className="absolute inset-0 bg-grid opacity-50" />
       <div className="relative max-w-7xl mx-auto px-6 md:px-10">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
