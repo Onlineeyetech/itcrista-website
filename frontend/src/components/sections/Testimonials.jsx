@@ -30,7 +30,7 @@ export default function Testimonials() {
   const next = () => setI((p) => (p + 1) % items.length);
 
   return (
-    <section data-testid="testimonials-section" className="relative py-24 md:py-32 bg-[#071120] overflow-hidden">
+    <section data-testid="testimonials-section" className="relative py-8 md:py-16 bg-[#071120] overflow-hidden">
       <div className="absolute inset-0 bg-grid opacity-40" />
       <div className="relative max-w-5xl mx-auto px-6 md:px-10 text-center">
         <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">Testimonials</p>
