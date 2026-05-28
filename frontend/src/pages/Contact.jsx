@@ -11,17 +11,7 @@ const submit = async (e) => {
   e.preventDefault();
 
   try {
-    const formData = new FormData();
 
-    formData.append("name", form.name);
-    formData.append("email", form.email);
-    formData.append("company", form.company);
-    formData.append("message", form.message);
-
-const submit = async (e) => {
-  e.preventDefault();
-
-  try {
     await fetch(
       "https://script.google.com/macros/s/AKfycbzVOTfYbUb-9jeJCBNllQZrzRS7uJvNPSqK6YVFCcS9UASRn30GTp9PjWkJU5CqNGlN/exec",
       {
