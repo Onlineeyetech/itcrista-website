@@ -18,29 +18,30 @@ const submit = async (e) => {
     formData.append("company", form.company);
     formData.append("message", form.message);
 
-    const res = await fetch(
+const submit = async (e) => {
+  e.preventDefault();
+
+  try {
+    await fetch(
       "https://script.google.com/macros/s/AKfycbzVOTfYbUb-9jeJCBNllQZrzRS7uJvNPSqK6YVFCcS9UASRn30GTp9PjWkJU5CqNGlN/exec",
       {
         method: "POST",
-        body: formData,
+        mode: "no-cors",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(form),
       }
     );
 
-    const data = await res.text();
+    setSent(true);
 
-    console.log(data);
-
-    if (res.ok) {
-      setSent(true);
-
-      setForm({
-        name: "",
-        email: "",
-        company: "",
-        budget: "",
-        message: "",
-      });
-    }
+    setForm({
+      name: "",
+      email: "",
+      company: "",
+      message: "",
+    });
 
   } catch (error) {
     console.log("Submit Error:", error);
