@@ -11,16 +11,24 @@ const submit = async (e) => {
   e.preventDefault();
 
   try {
+    const formData = new FormData();
+
+    formData.append("name", form.name);
+    formData.append("email", form.email);
+    formData.append("company", form.company);
+    formData.append("message", form.message);
+
     const res = await fetch(
       "https://script.google.com/macros/s/AKfycbzVOTfYbUb-9jeJCBNllQZrzRS7uJvNPSqK6YVFCcS9UASRn30GTp9PjWkJU5CqNGlN/exec",
       {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(form),
+        body: formData,
       }
     );
+
+    const data = await res.text();
+
+    console.log(data);
 
     if (res.ok) {
       setSent(true);
@@ -29,12 +37,13 @@ const submit = async (e) => {
         name: "",
         email: "",
         company: "",
+        budget: "",
         message: "",
       });
     }
 
   } catch (error) {
-    console.log(error);
+    console.log("Submit Error:", error);
   }
 };
 
