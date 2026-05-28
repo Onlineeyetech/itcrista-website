@@ -6,7 +6,7 @@ const brands = [
 
 export default function TrustedBy() {
   return (
-    <section data-testid="trusted-by-section" className="relative py-16 md:py-20 border-y border-white/10 bg-[#0A1525]">
+    <section data-testid="trusted-by-section" className="relative py-8 md:py-16 border-y border-white/10 bg-[#0A1525]">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
         <p className="text-center text-xs uppercase tracking-[0.3em] text-white/40 mb-10">
           Trusted by world-class brands & teams
