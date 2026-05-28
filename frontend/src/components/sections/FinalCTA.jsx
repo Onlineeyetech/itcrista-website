@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function FinalCTA() {
   return (
-    <section data-testid="final-cta-section" className="relative py-24 md:py-32 bg-[#071120] overflow-hidden">
+    <section data-testid="final-cta-section" className="relative py-8 md:py-16 bg-[#071120] overflow-hidden">
       <div className="absolute inset-0">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[60%] bg-gradient-to-r from-[#06B6D4]/20 via-[#3B82F6]/15 to-[#7C3AED]/20 blur-3xl rounded-full" />
       </div>
