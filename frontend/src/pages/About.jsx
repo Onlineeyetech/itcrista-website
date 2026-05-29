@@ -6,10 +6,10 @@ import FinalCTA from "../components/sections/FinalCTA";
 import PageHeader from "../components/PageHeader";
 
 const values = [
-  { t: "Craft", d: "We treat every pixel and every line of code with luxury-brand discipline." },
-  { t: "Clarity", d: "Calm communication, transparent scopes and predictable delivery." },
-  { t: "Conviction", d: "We say no often, so we can ship work we're proud of." },
-  { t: "Compounding", d: "Performance, SEO and growth are not features — they're foundations." },
+  { t: "Craft", d: "Premium websites built with precision and performance in mind." },
+  { t: "Clarity", d: "Transparent communication and predictable project delivery." },
+  { t: "Reliability", d: "Scalable solutions backed by modern development standards." },
+  { t: "Growth", d: "SEO, speed, and conversions built into every project." },
 ];
 
 export default function AboutPage() {
@@ -25,7 +25,7 @@ export default function AboutPage() {
           <div className="lg:col-span-5">
             <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">Our values</p>
             <h2 className="font-display font-black tracking-tighter text-white text-4xl md:text-5xl leading-[1.05]">
-              What we stand for.
+              What Drives Every Build.
             </h2>
           </div>
           <div className="lg:col-span-7 grid sm:grid-cols-2 gap-4">
