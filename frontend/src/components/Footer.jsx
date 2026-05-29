@@ -5,12 +5,9 @@ const cols = [
   {
     title: "Services",
     links: [
-      "Custom Website Development",
-      "Ecommerce Store Development",
-      "Shopify Development",
-      "WordPress Development",
-      "WooCommerce",
-      "Magento Development",
+         { name: "Custom Website Development", url: "/services/custom-website-development" },
+    { name: "Shopify Development", url: "/services/shopify-development" },
+    { name: "WordPress Development", url: "/services/wordpress-development" },
     ],
   },
   {
@@ -50,25 +47,16 @@ export default function Footer() {
             <div key={c.title}>
               <h4 className="text-xs uppercase tracking-[0.2em] text-white/50 font-semibold mb-5">{c.title}</h4>
               <ul className="space-y-3">
-                {c.links.map((l) => (
-                <li key={l}>
-  {l === "Custom Website Development" ? (
+              {c.links.map((item) => (
+  <li key={item.name}>
     <Link
-      to="/services/custom-website-development"
+      to={item.url}
       className="text-white/70 hover:text-[#06B6D4] text-sm transition-colors"
     >
-      {l}
+      {item.name}
     </Link>
-  ) : (
-    <a
-      href="#"
-      className="text-white/70 hover:text-[#06B6D4] text-sm transition-colors"
-    >
-      {l}
-    </a>
-  )}
-</li>
-                ))}
+  </li>
+))}
               </ul>
             </div>
           ))}
