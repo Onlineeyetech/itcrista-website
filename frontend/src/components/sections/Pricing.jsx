@@ -32,7 +32,7 @@ export default function Pricing() {
       <div className="absolute inset-0 bg-grid opacity-40" />
       <div className="relative max-w-7xl mx-auto px-6 md:px-10">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">/ Pricing</p>
+          <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">Pricing</p>
           <h2 className="font-display font-black tracking-tighter text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.02]">
             Investment, <span className="text-gradient">simplified.</span>
           </h2>
