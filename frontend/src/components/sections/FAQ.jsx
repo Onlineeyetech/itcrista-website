@@ -15,7 +15,7 @@ export default function FAQ() {
       <div className="absolute inset-0 bg-grid opacity-40" />
       <div className="relative max-w-4xl mx-auto px-6 md:px-10">
         <div className="text-center mb-14">
-          <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">/ FAQ</p>
+          <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">FAQ</p>
           <h2 className="font-display font-black tracking-tighter text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.02]">
             Frequently asked.
           </h2>
