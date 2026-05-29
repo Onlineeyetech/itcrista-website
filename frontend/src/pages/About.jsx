@@ -16,14 +16,14 @@ export default function AboutPage() {
   return (
     <main data-testid="about-page">
       <PageHeader
-        eyebrow="/ About"
-        title={<>A studio built for <span className="text-gradient">ambitious founders.</span></>}
-        subtitle="ITcrista infoX is a small, senior team of designers and engineers obsessed with shipping premium digital products that move the business needle."
+        eyebrow="About IT-Crista"
+        title={<>Built on Trust. <span className="text-gradient">Engineered for Growth.</span></>}
+        subtitle="ITcrista is a web development agency founded by Rajat Bharawa, helping businesses build high-performance websites, Shopify stores, and custom digital platforms. Working with brands across India, Australia, and Canada, we combine modern development, technical SEO, and long-term support to create scalable digital experiences that drive traffic, conversions, and business growth."
       />
       <section className="py-20 md:py-28 bg-[#071120]">
         <div className="max-w-6xl mx-auto px-6 md:px-10 grid lg:grid-cols-12 gap-12 items-start">
           <div className="lg:col-span-5">
-            <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">/ Our values</p>
+            <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">Our values</p>
             <h2 className="font-display font-black tracking-tighter text-white text-4xl md:text-5xl leading-[1.05]">
               What we stand for.
             </h2>
