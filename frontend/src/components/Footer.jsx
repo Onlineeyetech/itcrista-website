@@ -11,13 +11,21 @@ const cols = [
     ],
   },
   {
-    title: "Solutions",
-    links: ["Custom CMS", "Landing Page Design", "UI / UX Design", "SEO Optimization", "Speed Optimization", "Maintenance & Support"],
-  },
-  {
-    title: "Company",
-    links: ["About", "Portfolio", "Careers", "Process", "Contact", "Blog"],
-  },
+  title: "Solutions",
+  links: [
+    { name: "UI / UX Design", url: "/services/ui-ux-design" },
+    { name: "Speed Optimization", url: "/services/speed-optimization" },
+    { name: "Maintenance & Support", url: "/services/maintenance-support" },
+  ],
+},
+ {
+  title: "Company",
+  links: [
+    { name: "About", url: "/about" },
+    { name: "Portfolio", url: "/portfolio" },
+    { name: "Contact", url: "/contact" }
+  ]
+}
 ];
 
 export default function Footer() {
