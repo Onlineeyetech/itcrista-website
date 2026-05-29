@@ -8,8 +8,8 @@ export default function PortfolioPage() {
     <main data-testid="portfolio-page">
       <PageHeader
         eyebrow="/ Portfolio"
-        title={<>Work that earned a <span className="text-gradient">standing ovation.</span></>}
-        subtitle="A curated collection of premium ecommerce, SaaS and brand websites delivered for global founders and enterprise teams."
+        title={<>Real Projects. <span className="text-gradient">Proven Results.</span></>}
+        subtitle="A curated collection of premium ecommerce, SaaS and brand websites delivered for global founders and enterprise teams"
       />
       <Portfolio />
       <Testimonials />
