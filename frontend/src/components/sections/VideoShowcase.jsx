@@ -66,7 +66,7 @@ export default function VideoShowcase() {
           className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14"
         >
           <div className="max-w-2xl">
-            <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">/ Watch</p>
+            <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">Watch</p>
             <h2 className="font-display font-black tracking-tighter text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.02]">
               Stories from <span className="text-gradient">the studio.</span>
             </h2>
