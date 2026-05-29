@@ -4,21 +4,21 @@ import { Quote, ChevronLeft, ChevronRight, Star } from "lucide-react";
 
 const items = [
   {
-    quote: "ITcrista infoX delivered a launch that exceeded every metric — speed, design and conversion. They feel like an internal team.",
-    name: "Sophia Reeves",
-    role: "VP Product · Aurora Studios",
+    quote: "Superb, Rajat has been super easy to work with, always available to get the work done",
+    name: "Aditya Rathi",
+    role: "Bluebrew.in · Founder",
     img: "https://images.unsplash.com/photo-1638290047807-4c9d389b9aa6?auto=format&fit=crop&w=400&q=80",
   },
   {
-    quote: "Hands down the most considered, premium agency we've worked with in the last decade. The craftsmanship shows everywhere.",
-    name: "Marcus Hale",
-    role: "Founder · Nimbus Analytics",
+    quote: "My go to web designer! Trusted & work always on point. Understands my aesthetics & implement it. 11/10 from my side",
+    name: "Vidhi Goel",
+    role: "Scoopofjewels · Founder",
     img: "https://images.unsplash.com/photo-1764545973653-94c40d993495?auto=format&fit=crop&w=400&q=80",
   },
   {
-    quote: "From discovery to launch they handled our rebrand with surgical precision. Our LCP went from 4.2s to under 0.8s.",
-    name: "Aisha Khan",
-    role: "Head of Growth · Lume",
+    quote: "Rajat is a great guy to work with, always available. He is very good and fast with his work. He is a very hard working guy.",
+    name: "Vatsala Chopra ",
+    role: "Veaves · Founder",
     img: "https://images.unsplash.com/photo-1767175620484-1ed37931a0d1?auto=format&fit=crop&w=400&q=80",
   },
 ];
