@@ -39,7 +39,7 @@ export default function AboutCompany() {
         {/* Header */}
         <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-end mb-16">
           <div className="lg:col-span-7">
-            <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">/ About the company</p>
+            <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">About the company</p>
             <h2 className="font-display font-black tracking-tighter text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.02]">
               A small studio with a <span className="text-gradient">global obsession.</span>
             </h2>
