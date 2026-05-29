@@ -4,6 +4,7 @@ import Process from "../components/sections/Process";
 import Testimonials from "../components/sections/Testimonials";
 import FinalCTA from "../components/sections/FinalCTA";
 import PageHeader from "../components/PageHeader";
+import { Helmet } from "react-helmet-async";
 
 const values = [
   { t: "Craft", d: "Premium websites built with precision and performance in mind." },
@@ -14,7 +15,20 @@ const values = [
 
 export default function AboutPage() {
   return (
-    <main data-testid="about-page">
+    <>
+       <Helmet>
+    <title>
+      About ITcrista infoX | Web Development, Shopify & SEO Experts
+    </title>
+
+    <meta
+      name="description"
+      content="Learn about ITcrista infoX, a leading web development company specializing in custom website development, Shopify development, WordPress websites, ecommerce solutions, SEO optimization and website redesign services."
+    />
+
+    <link rel="canonical" href="https://itcrista.in/about" />
+  </Helmet>
+      <main data-testid="about-page">
       <PageHeader
         eyebrow="About IT-Crista"
         title={<>Built on Trust. <span className="text-gradient">Engineered for Growth.</span></>}
@@ -51,5 +65,6 @@ export default function AboutPage() {
       <Testimonials />
       <FinalCTA />
     </main>
+    </>
   );
 }
