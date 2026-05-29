@@ -15,12 +15,12 @@ export default function FinalCTA() {
           viewport={{ once: true }}
           className="font-display font-black tracking-tighter text-white text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-[0.95]"
         >
-          Let's build
+          Ready to Build
           <br />
-          <span className="text-gradient">the future, together.</span>
+          <span className="text-gradient">Something Exceptional?</span>
         </motion.h2>
         <p className="mt-8 text-base md:text-lg text-white/60 max-w-2xl mx-auto">
-          Whether you're scaling a product or rebuilding a brand — we're the senior team you've been looking for.
+        From Shopify stores and custom websites to scalable web applications, we help businesses create high-performance digital experiences built for growth.
         </p>
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
           <Link
