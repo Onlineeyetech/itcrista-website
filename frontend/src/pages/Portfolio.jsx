@@ -7,7 +7,7 @@ export default function PortfolioPage() {
   return (
     <main data-testid="portfolio-page">
       <PageHeader
-        eyebrow="/ Portfolio"
+        eyebrow="Portfolio"
         title={<>Real Projects. <span className="text-gradient">Proven Results.</span></>}
         subtitle="A curated collection of premium ecommerce, SaaS and brand websites delivered for global founders and enterprise teams"
       />
