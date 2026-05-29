@@ -73,7 +73,7 @@ export default function Footer() {
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div className="flex flex-wrap items-center gap-4 text-sm text-white/50">
             <span>© {new Date().getFullYear()} ITcrista infoX. All rights reserved.</span>
-            <span className="hidden md:inline">·</span>
+            <span className="hidden md:inline">·</span>  <span><a href="www.linkedin.com/in/rajat-bharawa">Design & Developed By Rajat Bharawa</a></span>
              </div>
           <div className="flex items-center gap-3">
             {[Linkedin, Instagram, Mail].map((Ic, i) => (
