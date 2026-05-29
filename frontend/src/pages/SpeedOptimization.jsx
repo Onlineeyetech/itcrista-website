@@ -48,7 +48,7 @@ const content = {
   stack: {
     Measurement: ["WebPageTest", "Lighthouse CI", "Chrome UX Report", "SpeedCurve"],
     Delivery: ["Cloudflare", "Vercel Edge", "Fastly", "Bunny CDN", "Image CDN"],
-    Frameworks: ["Next.js", "Remix", "Astro", "Hydrogen", "WordPress"],
+    Frameworks: ["Shopify", "Next.js", "Remix", "Astro", "Hydrogen", "WordPress"],
     Monitoring: ["Sentry", "Plausible", "RUM", "Datadog", "Calibre"],
   },
   featuresTitle: "Performance wins",
