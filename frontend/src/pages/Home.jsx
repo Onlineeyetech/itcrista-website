@@ -12,9 +12,24 @@ import Pricing from "../components/sections/Pricing";
 import Blog from "../components/sections/Blog";
 import FAQ from "../components/sections/FAQ";
 import FinalCTA from "../components/sections/FinalCTA";
+import { Helmet } from "react-helmet-async";
 
 export default function Home() {
   return (
+     <>
+      <Helmet>
+        <title>
+          ITcrista infoX | Custom Website Development & Shopify Experts
+        </title>
+
+        <meta
+          name="description"
+          content="Custom website development, Shopify stores, WordPress, SEO optimization, website redesign and eCommerce solutions for growing businesses worldwide."
+        />
+
+        <link rel="canonical" href="https://itcrista.in/" />
+      </Helmet>
+
     <main data-testid="home-page">
       <Hero />
       <TrustedBy />
@@ -28,5 +43,6 @@ export default function Home() {
        <FAQ />
       <FinalCTA />
     </main>
+        </>
   );
 }
