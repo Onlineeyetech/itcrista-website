@@ -74,11 +74,9 @@ export default function Footer() {
           <div className="flex flex-wrap items-center gap-4 text-sm text-white/50">
             <span>© {new Date().getFullYear()} ITcrista infoX. All rights reserved.</span>
             <span className="hidden md:inline">·</span>
-            <a href="#" className="hover:text-white">Privacy</a>
-            <a href="#" className="hover:text-white">Terms</a>
-          </div>
+             </div>
           <div className="flex items-center gap-3">
-            {[Twitter, Linkedin, Github, Instagram, Mail].map((Ic, i) => (
+            {[Linkedin, Instagram, Mail].map((Ic, i) => (
               <a
                 key={i}
                 href="#"
