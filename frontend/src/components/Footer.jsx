@@ -51,11 +51,23 @@ export default function Footer() {
               <h4 className="text-xs uppercase tracking-[0.2em] text-white/50 font-semibold mb-5">{c.title}</h4>
               <ul className="space-y-3">
                 {c.links.map((l) => (
-                  <li key={l}>
-                    <a href="#" className="text-white/70 hover:text-[#06B6D4] text-sm transition-colors" data-testid={`footer-link-${l.toLowerCase().replace(/\s+/g, "-")}`}>
-                      {l}
-                    </a>
-                  </li>
+                <li key={l}>
+  {l === "Custom Website Development" ? (
+    <Link
+      to="/services/custom-website-development"
+      className="text-white/70 hover:text-[#06B6D4] text-sm transition-colors"
+    >
+      {l}
+    </Link>
+  ) : (
+    <a
+      href="#"
+      className="text-white/70 hover:text-[#06B6D4] text-sm transition-colors"
+    >
+      {l}
+    </a>
+  )}
+</li>
                 ))}
               </ul>
             </div>
