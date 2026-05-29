@@ -9,6 +9,11 @@ import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import CustomWebsiteDevelopment from "./pages/CustomWebsiteDevelopment";
+import ShopifyDevelopment from "./pages/ShopifyDevelopment";
+import WordPressDevelopment from "./pages/WordPressDevelopment";
+import SpeedOptimization from "./pages/SpeedOptimization";
+import MaintenanceSupport from "./pages/MaintenanceSupport";
+import UIUXDesign from "./pages/UIUXDesign";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -31,6 +36,11 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/services/custom-website-development"  element={<CustomWebsiteDevelopment />}/>
+          <Route path="/services/shopify-development" element={<ShopifyDevelopment />} />
+<Route path="/services/wordpress-development" element={<WordPressDevelopment />} />
+<Route path="/services/speed-optimization" element={<SpeedOptimization />} />
+<Route path="/services/maintenance-support" element={<MaintenanceSupport />} />
+<Route path="/services/ui-ux-design" element={<UIUXDesign />} />
           <Route path="*" element={<Home />} />
         </Routes>
         <Footer />
