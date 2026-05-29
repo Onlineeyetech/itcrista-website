@@ -9,7 +9,7 @@ export default function Technologies() {
   return (
     <section data-testid="tech-section" className="relative py-8 md:py-16 bg-[#0A1525] border-y border-white/10 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 md:px-10 text-center mb-12">
-        <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">/ Stack</p>
+        <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">Stack</p>
         <h2 className="font-display font-black tracking-tighter text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.02]">
           Technologies <span className="text-gradient">we master.</span>
         </h2>
