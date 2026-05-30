@@ -652,6 +652,7 @@ export default function CustomWebsiteDevelopment() {
       <Testimonials />
       <FAQ />
       <FinalCTA />
+      <Blog />
     </main>
   );
 }
