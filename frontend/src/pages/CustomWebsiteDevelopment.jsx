@@ -60,7 +60,7 @@ function Hero() {
             Built like <span className="text-gradient">luxury software.</span>
           </h1>
           <p className="mt-6 text-base md:text-lg text-white/65 max-w-xl leading-relaxed">
-            We design and engineer fully custom websites — pixel-perfect, lightning-fast, conversion-obsessed. No themes, no templates, no compromises.
+           Custom Website Development for Businesses That Need More Than Templates
           </p>
           <div className="mt-9 flex flex-wrap gap-4">
             <Link
