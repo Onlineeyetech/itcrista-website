@@ -15,7 +15,7 @@ const article = {
   featuredImage:
     "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&w=1800&q=80",
   author: {
-    name: "Aarav Crista",
+    name: "Rajat Bharawa",
     role: "Founder · ITcrista infoX",
     image:
       "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=400&q=80",
