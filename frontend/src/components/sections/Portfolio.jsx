@@ -6,9 +6,9 @@ const categories = ["All", "Ecommerce", "SaaS", "Website", "Branding"];
 
 const projects = [
   { title: "Aurora — Luxury Fashion DTC", category: "Ecommerce", tag: "Shopify · Custom", img: "/images/loopagency.svg" },
-  { title: "Nimbus — Analytics Platform", category: "SaaS", tag: "Next.js · Node", img: "https://static.prod-images.emergentagent.com/jobs/e5edbea0-9077-4246-8082-58f6c769b341/images/eb5d50e19c5d7e9fd61a24cb80740ba3ebac2a776fad94143524b7d0d1bd5425.png" },
-  { title: "Orbit Studio", category: "Website", tag: "Custom CMS", img: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80" },
-  { title: "Lume Skincare", category: "Ecommerce", tag: "WooCommerce", img: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&w=1200&q=80" },
+  { title: "Nimbus — Analytics Platform", category: "SaaS", tag: "Next.js · Node", img: "/images/veaves.png" },
+  { title: "Orbit Studio", category: "Website", tag: "Custom CMS", img: "/images/bestink.png" },
+  { title: "Lume Skincare", category: "Ecommerce", tag: "WooCommerce", img: "/images/buyveda.png" },
   { title: "Northwind CRM", category: "SaaS", tag: "React · Laravel", img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80" },
   { title: "Maven Agency", category: "Branding", tag: "Brand · UI", img: "https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1200&q=80" },
 ];
