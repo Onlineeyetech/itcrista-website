@@ -52,135 +52,208 @@ const article = {
       href: "#",
     },
   ],
-  content: [
-    {
-      type: "paragraph",
-      text:
-        "Two years ago, recommending a premium Shopify theme was good advice. In 2026 it is, more often than not, the wrong call. The reasons are quietly stacking up — and the brands that move first are pulling away.",
-    },
+content: [
+  {
+    type: "paragraph",
+    text:
+      "Most ecommerce brands launch with a Shopify theme. It is fast, affordable, and gets a store online quickly. But as traffic grows, products expand, and customer expectations increase, many brands discover that a generic theme can limit growth. In 2026, successful ecommerce businesses are investing in custom Shopify development to improve performance, SEO, user experience, and conversions."
+  },
 
-    { type: "h2", text: "The state of premium themes in 2026" },
-    {
-      type: "paragraph",
-      text:
-        "Premium themes were built for a different era — one where assembly speed mattered more than performance, brand expression or growth experimentation. In a market where Lighthouse, search engines and shoppers all expect more, the ceiling of a theme-based store is hitting fast.",
-    },
-    {
-      type: "list",
-      items: [
-        "Themes ship dozens of features you never use — bloating the JavaScript bundle and inflating LCP.",
-        "Brand expression is capped by the visual editor. Premium feels generic without heavy customisation.",
-        "A/B testing high-impact UX patterns is friction-heavy and often impossible without a dev unblock.",
-        "Search engines increasingly favour fast, semantic, server-rendered storefronts.",
-      ],
-    },
+  {
+    type: "h2",
+    text: "Why Many Shopify Themes Become a Limitation"
+  },
 
-    { type: "h3", text: "Why themes still feel safe" },
-    {
-      type: "paragraph",
-      text:
-        "Themes optimise for one thing: getting live fast. For a brand validating a product idea, that is genuinely valuable. The problem starts once your business is real. Then the same things that made themes fast to launch make them slow to evolve.",
-    },
+  {
+    type: "paragraph",
+    text:
+      "Shopify themes are designed to serve thousands of different businesses. While that flexibility is useful in the beginning, it often introduces unnecessary code, design restrictions, and performance challenges that affect long-term growth."
+  },
 
-    {
-      type: "image",
-      src:
-        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1800&q=80",
-      alt: "Premium storefront UI",
-      caption: "A custom Hydrogen storefront we shipped for a luxury DTC brand in Q4 2025.",
-    },
+  {
+    type: "list",
+    items: [
+      "Slow-loading pages caused by unused features and heavy scripts.",
+      "Limited design flexibility for premium brand experiences.",
+      "Difficult conversion optimization and A/B testing.",
+      "Restricted control over advanced SEO improvements.",
+      "Growing dependence on multiple third-party apps."
+    ]
+  },
 
-    {
-      type: "quote",
-      quote:
-        "Themes optimise for assembly. Custom storefronts optimise for outcomes. In 2026, that gap is where the moat is.",
-      cite: "Aarav Crista, Founder · ITcrista infoX",
-    },
+  {
+    type: "h2",
+    text: "What Custom Shopify Development Actually Means"
+  },
 
-    { type: "h2", text: "The custom Hydrogen framework we standardised on" },
-    {
-      type: "paragraph",
-      text:
-        "Across twelve premium DTC migrations in 2025, we standardised our luxury Shopify builds on Hydrogen, Oxygen and a tightly-scoped design system. The combination is simple to maintain, fast to extend and fast to render — exactly what a luxury DTC brand needs.",
-    },
+  {
+    type: "paragraph",
+    text:
+      "Custom Shopify development is not simply redesigning a storefront. It is the process of creating a shopping experience tailored to your business goals, customer journey, and growth strategy. Every section, interaction, and performance improvement is built around how your customers shop."
+  },
 
-    { type: "h3", text: "Architecture pillars" },
-    {
-      type: "list",
-      items: [
-        "Edge rendering with Oxygen for sub-second TTFB across regions.",
-        "A scoped design system in Tailwind so marketing can ship landing pages without dev.",
-        "A headless CMS layer (Sanity) for editorial flexibility and previews.",
-        "A custom analytics layer that captures revenue events server-side for accuracy.",
-      ],
-    },
+  {
+    type: "list",
+    items: [
+      "Custom Shopify themes",
+      "Advanced product page experiences",
+      "Performance optimization",
+      "Technical SEO improvements",
+      "Custom integrations",
+      "Conversion-focused design systems",
+      "Scalable ecommerce architecture"
+    ]
+  },
 
-    { type: "h2", text: "Results we've measured" },
-    {
-      type: "paragraph",
-      text:
-        "Across twelve premium DTC brands we migrated from themes to custom Hydrogen in 2025, the median outcomes were striking — and they compounded month over month.",
-    },
-    {
-      type: "stats",
-      items: [
-        { label: "P75 LCP", value: "0.8s", note: "From a 3.4s median pre-migration." },
-        { label: "Conversion lift", value: "+34%", note: "Year-over-year, averaged across 12 clients." },
-        { label: "AOV lift", value: "+18%", note: "Driven by upgraded PDP and cart UX." },
-        { label: "Refund rate", value: "-12%", note: "Better PDP storytelling reduces mismatch returns." },
-      ],
-    },
+  {
+    type: "quote",
+    quote:
+      "The goal is not to build a more complex store. The goal is to build a store that performs better, converts better, and grows with the business.",
+    cite: "Rajat Bharawa, Founder · ITcrista"
+  },
 
-    { type: "h2", text: "When themes are still the right call" },
-    {
-      type: "paragraph",
-      text:
-        "We are not romantics about custom builds. If you are validating a product, running under $100k/month in revenue, or have a small team — a premium theme is still a sensible first step. The right time to upgrade is when your traffic, ad-spend or brand expectations outgrow what the editor allows.",
-    },
+  {
+    type: "h2",
+    text: "Business Benefits of Custom Shopify Development"
+  },
 
-    { type: "h3", text: "A simple decision framework" },
-    {
-      type: "list",
-      items: [
-        "Under $50k/month revenue: keep your theme, focus on product-market fit.",
-        "$50k–$200k/month: optimise the theme aggressively; consider a custom checkout extension.",
-        "$200k/month or premium brand positioning: invest in a custom Hydrogen storefront.",
-      ],
-    },
+  {
+    type: "paragraph",
+    text:
+      "For growing ecommerce brands, custom Shopify development creates measurable business advantages that go beyond design."
+  },
 
-    { type: "h2", text: "Where to go from here" },
-    {
-      type: "paragraph",
-      text:
-        "If you're spending more than $50k a month on paid traffic, or building a brand where customers expect a luxury feel, a custom storefront is no longer optional — it is the highest-leverage upgrade you can make to the next two years of your business.",
-    },
+  {
+    type: "stats",
+    items: [
+      {
+        label: "Faster Performance",
+        value: "Speed",
+        note: "Improved loading times and user experience."
+      },
+      {
+        label: "Better SEO",
+        value: "Growth",
+        note: "Stronger search visibility and organic traffic."
+      },
+      {
+        label: "Higher Conversions",
+        value: "Sales",
+        note: "Optimized customer journeys increase revenue."
+      },
+      {
+        label: "Scalable Systems",
+        value: "Future Ready",
+        note: "Built to support long-term business growth."
+      }
+    ]
+  },
 
-    {
-      type: "faqs",
-      faqs: [
-        {
-          q: "How long does a custom Hydrogen storefront take to build?",
-          a: "A premium custom Hydrogen build typically launches in 10–14 weeks including discovery, design, build and migration. Marketing-only relaunches can run faster.",
-        },
-        {
-          q: "Will I lose my SEO during the migration?",
-          a: "Not if it's planned properly. We map every legacy URL, ship a 301 redirect strategy and preserve schema markup. Most clients see a search lift within 6–8 weeks post-launch.",
-        },
-        {
-          q: "Can my team still update content without engineering?",
-          a: "Yes. We pair Hydrogen with a headless CMS (Sanity or custom) and a scoped block library. Marketing can ship landing pages, edit copy and swap imagery with no dev unblock.",
-        },
-        {
-          q: "Is Hydrogen worth it if we're on Basic Shopify?",
-          a: "Hydrogen requires Shopify Plus for most premium use-cases. If you're on Basic, we typically recommend optimising your theme first and migrating to Plus when revenue justifies it.",
-        },
-        {
-          q: "Do you handle ongoing support after launch?",
-          a: "Yes — optional monthly retainer covering monitoring, performance care, security updates, growth experiments and a senior team in your Slack channel.",
-        },
-      ],
-    },
-  ],
+  {
+    type: "h2",
+    text: "Who Should Consider Custom Shopify Development?"
+  },
+
+  {
+    type: "paragraph",
+    text:
+      "Not every business needs a custom build immediately. However, brands experiencing rapid growth often benefit from a more flexible and performance-focused approach."
+  },
+
+  {
+    type: "list",
+    items: [
+      "Growing ecommerce brands",
+      "Direct-to-consumer businesses",
+      "FMCG companies",
+      "Sports and lifestyle brands",
+      "High-volume Shopify stores",
+      "Businesses investing in paid advertising",
+      "Brands focused on premium customer experiences"
+    ]
+  },
+
+  {
+    type: "h2",
+    text: "When a Shopify Theme Is Still the Right Choice"
+  },
+
+  {
+    type: "paragraph",
+    text:
+      "Themes remain an excellent solution for startups, early-stage stores, and businesses validating new products. If your primary goal is launching quickly and cost-effectively, a premium theme can still be the right decision."
+  },
+
+  {
+    type: "list",
+    items: [
+      "Launching a new ecommerce business",
+      "Testing a product idea",
+      "Operating with a limited budget",
+      "Managing a small product catalog"
+    ]
+  },
+
+  {
+    type: "h2",
+    text: "Why Brands Partner With ITcrista"
+  },
+
+  {
+    type: "paragraph",
+    text:
+      "Founded by Rajat Bharawa, ITcrista helps ecommerce brands build high-performance Shopify stores, custom ecommerce experiences, and scalable digital platforms. Working with businesses across India, Australia, and Canada, our team focuses on speed, technical SEO, conversions, website maintenance, and long-term growth support."
+  },
+
+  {
+    type: "list",
+    items: [
+      "Custom Shopify Development",
+      "Shopify Theme Customization",
+      "Website Maintenance Services",
+      "Technical SEO",
+      "Performance Optimization",
+      "Long-Term Growth Support"
+    ]
+  },
+
+  {
+    type: "h2",
+    text: "Ready to Scale Beyond Shopify Themes?"
+  },
+
+  {
+    type: "paragraph",
+    text:
+      "If your ecommerce store is growing and you're looking for better performance, stronger SEO, improved user experience, and higher conversions, custom Shopify development may be your next strategic investment."
+  },
+
+  {
+    type: "faqs",
+    faqs: [
+      {
+        q: "What is custom Shopify development?",
+        a: "Custom Shopify development involves creating tailored ecommerce experiences, functionality, and performance improvements designed specifically for a business rather than relying solely on pre-built themes."
+      },
+      {
+        q: "Is custom Shopify development better for SEO?",
+        a: "Yes. Custom Shopify development allows greater control over website performance, technical SEO, structured data, page architecture, and user experience."
+      },
+      {
+        q: "How long does a custom Shopify project take?",
+        a: "Most custom Shopify development projects take between 4 and 12 weeks depending on requirements, integrations, and design complexity."
+      },
+      {
+        q: "Do you provide Shopify maintenance services?",
+        a: "Yes. ITcrista provides ongoing Shopify maintenance, performance optimization, technical support, and long-term growth assistance."
+      },
+      {
+        q: "Do you work with international clients?",
+        a: "Yes. We work with ecommerce brands, agencies, and businesses across India, Australia, Canada, and other global markets."
+      }
+    ]
+  }
+],
 };
 
 export default function BlogArticle() {
