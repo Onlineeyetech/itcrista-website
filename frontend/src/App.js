@@ -14,6 +14,8 @@ import WordPressDevelopment from "./pages/WordPressDevelopment";
 import SpeedOptimization from "./pages/SpeedOptimization";
 import MaintenanceSupport from "./pages/MaintenanceSupport";
 import UIUXDesign from "./pages/UIUXDesign";
+import BlogArticle from "./pages/BlogArticle";
+
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -41,6 +43,7 @@ function App() {
 <Route path="/services/speed-optimization" element={<SpeedOptimization />} />
 <Route path="/services/maintenance-support" element={<MaintenanceSupport />} />
 <Route path="/services/ui-ux-design" element={<UIUXDesign />} />
+  <Route path="/blog/custom-website-development-guide" element={<BlogArticle />} />
           <Route path="*" element={<Home />} />
         </Routes>
         <Footer />
