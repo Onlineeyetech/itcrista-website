@@ -19,11 +19,11 @@ const article = {
     role: "Founder · ITcrista infoX",
     image:
       "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=400&q=80",
-    bio: "Aarav is the founder of ITcrista infoX. Over the last nine years he has shipped luxury ecommerce, SaaS and brand websites for clients across 40+ countries.",
+    bio: "Rajat is the founder of ITcrista infoX. Over the last nine years he has shipped luxury ecommerce, SaaS and brand websites for clients across 40+ countries.",
     socials: {
-      twitter: "#",
-      linkedin: "#",
-      email: "aarav@itcristainfox.com",
+      instagram: "https://www.instagram.com/_rajatbharawa_/",
+      linkedin: "www.linkedin.com/in/rajat-bharawa",
+      email: "Rajatbharawa@gmail.com",
     },
   },
   relatedPosts: [
