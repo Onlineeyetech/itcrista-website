@@ -212,8 +212,8 @@ function ServicesIncluded() {
             );
           })}
         </div>
-      </div>
         <p className="text-sm text-white/60 mt-3 leading-relaxed">Industries We Serve - Ecommerce • FMCG • SaaS • Sports Brands • Marketing Agencies • Automation Companies</p>
+      </div>
     </section>
   );
 }
