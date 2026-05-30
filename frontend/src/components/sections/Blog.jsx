@@ -1,10 +1,12 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight, Clock } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const posts = [
   {
     title: "Why premium ecommerce brands are abandoning Shopify themes in 2026",
     excerpt: "The shift toward fully custom Shopify Hydrogen storefronts is reshaping luxury DTC. Here's why — and what to ship instead.",
+    slug: "/blog/custom-website-development-guide",
     category: "Ecommerce",
     date: "Dec 12, 2025",
     read: "6 min",
@@ -68,14 +70,14 @@ function Card({ p, i }) {
           {p.title}
         </h3>
         <p className="text-sm text-white/55 mt-3 leading-relaxed line-clamp-3">{p.excerpt}</p>
-        <a
-          href="#"
-          data-testid={`blog-read-more-${i}`}
-          className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-white/85 group-hover:text-[#06B6D4] transition"
-        >
-          Read more
-          <ArrowUpRight className="w-4 h-4 group-hover:rotate-45 transition-transform" />
-        </a>
+        <Link
+  to={p.slug}
+  data-testid={`blog-read-more-${i}`}
+  className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-white/85 group-hover:text-[#06B6D4] transition"
+>
+  Read more
+  <ArrowUpRight className="w-4 h-4 group-hover:rotate-45 transition-transform" />
+</Link>
       </div>
     </motion.article>
   );
