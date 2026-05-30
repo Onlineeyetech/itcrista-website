@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const posts = [
   {
-    title: "Why premium ecommerce brands are abandoning Shopify themes in 2026",
-    excerpt: "The shift toward fully custom Shopify Hydrogen storefronts is reshaping luxury DTC. Here's why — and what to ship instead.",
+    title: "Why High-Growth Ecommerce Brands Choose Custom Shopify Development in 2026",
+    excerpt: "Discover why growing ecommerce brands are moving beyond generic Shopify themes and investing in custom Shopify development for better performance, SEO, conversions, and long-term growth.",
     slug: "/blog/custom-website-development-guide",
     category: "Ecommerce",
     date: "Dec 12, 2025",
