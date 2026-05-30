@@ -125,7 +125,7 @@ function WhyChoose() {
       <div className="max-w-7xl mx-auto px-6 md:px-10">
         <div className="grid lg:grid-cols-12 gap-10 mb-14">
           <div className="lg:col-span-7">
-            <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">/ Why custom</p>
+            <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">Why custom</p>
             <h2 className="font-display font-black tracking-tighter text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.02]">
               Themes scale teams.
               <br />
@@ -181,10 +181,11 @@ function ServicesIncluded() {
       <div className="absolute inset-0 bg-grid opacity-40" />
       <div className="relative max-w-7xl mx-auto px-6 md:px-10">
         <div className="text-center max-w-2xl mx-auto mb-14">
-          <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">/ What's included</p>
+          <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">What's included</p>
           <h2 className="font-display font-black tracking-tighter text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.02]">
             Everything you need, <span className="text-gradient">end-to-end.</span>
-          </h2>
+             </h2>
+      
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {included.map((s, i) => {
@@ -212,6 +213,7 @@ function ServicesIncluded() {
           })}
         </div>
       </div>
+        <p className="text-sm text-white/60 mt-3 leading-relaxed">Industries We Serve - Ecommerce • FMCG • SaaS • Sports Brands • Marketing Agencies • Automation Companies</p>
     </section>
   );
 }
