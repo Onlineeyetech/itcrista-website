@@ -91,11 +91,11 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="select-none pointer-events-none overflow-hidden">
+      {/* <div className="select-none pointer-events-none overflow-hidden">
         <div className="text-[18vw] leading-none font-display font-black tracking-tighter text-transparent text-center" style={{ WebkitTextStroke: "1px rgba(255,255,255,0.08)" }}>
           ITcrista
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 }
