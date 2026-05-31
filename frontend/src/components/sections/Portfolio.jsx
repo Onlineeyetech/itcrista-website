@@ -58,7 +58,7 @@ export default function Portfolio() {
                 exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.5, delay: i * 0.05 }}
                 data-testid={`portfolio-card-${i}`}
-                className="group relative rounded-2xl overflow-hidden border border-white/10 bg-[#0D1B2A] aspect-[4/5] block"
+                className="group relative rounded-2xl overflow-hidden border border-white/10 bg-[#0D1B2A] aspect-[1/1] block"
               >
                 <img
                   src={p.img}
