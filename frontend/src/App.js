@@ -16,6 +16,7 @@ import MaintenanceSupport from "./pages/MaintenanceSupport";
 import UIUXDesign from "./pages/UIUXDesign";
 import BlogArticle from "./pages/BlogArticle";
 import ShopifyVsWordPress from "./pages/ShopifyVsWordPress";
+import Blogs from "./pages/Blogs";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -39,12 +40,13 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/services/custom-website-development"  element={<CustomWebsiteDevelopment />}/>
           <Route path="/services/shopify-development" element={<ShopifyDevelopment />} />
-<Route path="/services/wordpress-development" element={<WordPressDevelopment />} />
-<Route path="/services/speed-optimization" element={<SpeedOptimization />} />
-<Route path="/services/maintenance-support" element={<MaintenanceSupport />} />
-<Route path="/services/ui-ux-design" element={<UIUXDesign />} />
-  <Route path="/blog/custom-website-development-guide" element={<BlogArticle />} />
-  <Route path="/blog/shopify-vs-wordpress" element={<ShopifyVsWordPress />} />
+          <Route path="/services/wordpress-development" element={<WordPressDevelopment />} />
+          <Route path="/services/speed-optimization" element={<SpeedOptimization />} />
+          <Route path="/services/maintenance-support" element={<MaintenanceSupport />} />
+          <Route path="/services/ui-ux-design" element={<UIUXDesign />} />
+          <Route path="/blog/custom-website-development-guide" element={<BlogArticle />} />
+          <Route path="/blog/shopify-vs-wordpress" element={<ShopifyVsWordPress />} />
+          <Route path="/blogs" element={<Blogs />} />
           <Route path="*" element={<Home />} />
         </Routes>
         <Footer />
