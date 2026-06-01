@@ -58,13 +58,14 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-5 md:px-10 flex items-center justify-between h-16 md:h-20">
         <Link to="/" data-testid="navbar-logo" className="flex items-center gap-2 group">
-          <div className="relative w-8 h-8 rounded-lg bg-gradient-to-br from-[#06B6D4] via-[#3B82F6] to-[#7C3AED] grid place-items-center">
+          {/* <div className="relative w-8 h-8 rounded-lg bg-gradient-to-br from-[#06B6D4] via-[#3B82F6] to-[#7C3AED] grid place-items-center">
             <span className="font-display font-black text-white text-sm">i</span>
             <span className="absolute -inset-1 rounded-xl bg-gradient-to-br from-[#06B6D4]/30 to-[#7C3AED]/30 blur-md opacity-0 group-hover:opacity-100 transition" />
           </div>
           <span className="font-display font-bold text-white text-lg tracking-tight">
             ITcrista <span className="text-[#06B6D4]">infoX</span>
-          </span>
+          </span> */}
+          <img src='/images/logo' style="width:100px;">
         </Link>
 
         <nav className="hidden lg:flex items-center gap-1">
