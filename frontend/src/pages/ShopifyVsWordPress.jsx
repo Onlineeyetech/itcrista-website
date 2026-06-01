@@ -6,9 +6,9 @@ export default function ShopifyVsWordPress() {
       title="Shopify vs WordPress: Which is Better for Business?"
       category="Ecommerce"
       publishDate="June 2026"
-      author={...}
-      content={[...]}
-      relatedPosts={[...]}
+      author="ITcrista infoX"
+      content={["Sample blog content"]}
+      relatedPosts={[]}
     />
   );
 }
