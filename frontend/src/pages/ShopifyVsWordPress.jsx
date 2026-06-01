@@ -111,7 +111,6 @@ const article = {
       "WordPress can support almost any website type."
     ]
   },
-
   {
     type: "h2",
     text: "Shopify vs WordPress for SEO"
