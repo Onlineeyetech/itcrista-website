@@ -16,10 +16,10 @@ const links = [
   },
   { to: "/portfolio", label: "Portfolio" },
   {
-    label: "Blog",
-    to: "/blog",
+    label: "Blogs",
+    to: "/blogs",
     children: [
-      { to: "/blog", label: "All Articles" },
+      { to: "/blogs", label: "All Articles" },
       { to: "/blog/category/shopify", label: "Shopify Blogs" },
       { to: "/blog/category/wordpress", label: "WordPress Blogs" },
       { to: "/blog/category/ecommerce", label: "Ecommerce Blogs" },
