@@ -65,7 +65,7 @@ export default function Navbar() {
           <span className="font-display font-bold text-white text-lg tracking-tight">
             ITcrista <span className="text-[#06B6D4]">infoX</span>
           </span> */}
-          <img src='/images/logo' style="width:100px;">
+          <img src='/images/logo' style="width:100px;" />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-1">
