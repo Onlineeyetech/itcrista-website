@@ -86,7 +86,7 @@ function Card({ p, i }) {
 
 export default function Blog() {
   return (
-    <section data-testid="blog-section" className="relative py-24 md:py-32 bg-[#071120] overflow-hidden">
+    <section data-testid="blog-section" className="relative py-8 md:py-16 bg-[#071120] overflow-hidden">
       <div className="absolute inset-0 bg-grid opacity-40" />
       <div className="relative max-w-7xl mx-auto px-6 md:px-10">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
