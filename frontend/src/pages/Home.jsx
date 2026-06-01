@@ -75,6 +75,7 @@ export default function Home() {
       <Testimonials />
       <Founder />
       <Technologies />
+      <Blog />
        <FAQ />
       <FinalCTA />
     </main>
