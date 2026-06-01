@@ -15,7 +15,7 @@ import SpeedOptimization from "./pages/SpeedOptimization";
 import MaintenanceSupport from "./pages/MaintenanceSupport";
 import UIUXDesign from "./pages/UIUXDesign";
 import BlogArticle from "./pages/BlogArticle";
-import ShopifyVsWordPress from "./page/ShopifyVsWordPress";
+import ShopifyVsWordPress from "./pages/ShopifyVsWordPress";
 
 
 function ScrollToTop() {
