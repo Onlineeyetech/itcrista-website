@@ -6,9 +6,9 @@ const categories = ["All", "Ecommerce", "SaaS", "Website", "Branding"];
 
 const projects = [
   { title: "Loop — Revenue Automation", category: "Saas", tag: "Shopify · Custom", img: "/images/loopagency.svg" },
-  { title: "Veaves — Ecommerce", category: "SaaS", tag: "Next.js · Node", img: "/images/veaves.png" },
-  { title: "Orbit Studio", category: "Website", tag: "Custom CMS", img: "/images/bestink.png" },
-  { title: "Lume Skincare", category: "Ecommerce", tag: "WooCommerce", img: "/images/buyveda.png" },
+  { title: "Veaves — Ecommerce", category: "SaaS", tag: "Shopify", img: "/images/veaves.png" },
+  { title: "Bestink", category: "Website", tag: "Custom + Shopify", img: "/images/bestink.png" },
+  { title: "Buyveda - Ayurvedic Wellness", category: "Ecommerce", tag: "Shopify Custom", img: "/images/buyveda.png" },
   { title: "Northwind CRM", category: "SaaS", tag: "React · Laravel", img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80" },
   { title: "Maven Agency", category: "Branding", tag: "Brand · UI", img: "https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1200&q=80" },
 ];
