@@ -205,7 +205,7 @@ export default function BlogPageTemplate({
         className="relative pt-32 md:pt-40 pb-16 overflow-hidden hero-glow"
       >
         <div className="absolute inset-0 bg-grid opacity-40 pointer-events-none" />
-        <div className="relative max-w-4xl mx-auto px-6 md:px-10">
+        <div className="relative max-w-7xl mx-auto px-6 md:px-10">
           <Link
             to="/blog"
             data-testid={test("back-link")}
@@ -265,7 +265,7 @@ export default function BlogPageTemplate({
 
       {/* --------------------- 2. FEATURED IMAGE ------------------------- */}
       {featuredImage && (
-        <div className="max-w-5xl mx-auto px-6 md:px-10">
+        <div className="max-w-7xl mx-auto px-6 md:px-10">
           <div
             data-testid={test("featured-image")}
             className="relative rounded-3xl overflow-hidden border border-white/10 aspect-[16/9]"
