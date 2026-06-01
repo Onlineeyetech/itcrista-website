@@ -49,7 +49,7 @@ export default function ServicePageTemplate({ content: c }) {
       {/* ---------------------------- 1. HERO ---------------------------- */}
       <section
         data-testid={test("hero")}
-        className="relative pt-8 md:pt-16 pb-24 md:pb-28 overflow-hidden hero-glow"
+        className="relative pt-32 md:pt-40 pb-24 md:pb-28 overflow-hidden hero-glow"
       >
         <div className="absolute inset-0 bg-grid opacity-50 pointer-events-none" />
         <div className="relative max-w-7xl mx-auto px-6 md:px-10 grid lg:grid-cols-12 gap-12 items-center">
