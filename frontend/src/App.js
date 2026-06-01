@@ -17,7 +17,6 @@ import UIUXDesign from "./pages/UIUXDesign";
 import BlogArticle from "./pages/BlogArticle";
 import ShopifyVsWordPress from "./pages/ShopifyVsWordPress";
 
-
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
