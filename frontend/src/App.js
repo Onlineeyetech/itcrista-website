@@ -44,6 +44,7 @@ function App() {
 <Route path="/services/maintenance-support" element={<MaintenanceSupport />} />
 <Route path="/services/ui-ux-design" element={<UIUXDesign />} />
   <Route path="/blog/custom-website-development-guide" element={<BlogArticle />} />
+  <Route path="/blog/shopify-vs-wordpress" element={<ShopifyVsWordPress />} />
           <Route path="*" element={<Home />} />
         </Routes>
         <Footer />
