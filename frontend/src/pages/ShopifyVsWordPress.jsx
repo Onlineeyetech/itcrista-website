@@ -1,7 +1,6 @@
 import BlogPageTemplate from "../components/BlogPageTemplate";
 
-content: [
-  {
+const article = {
     type: "paragraph",
     text:
       "One of the most common questions business owners ask before launching a website is: Shopify or WordPress — which platform is better? The answer depends on your business goals, budget, growth plans, and technical requirements. After building and maintaining websites for ecommerce brands, agencies, and businesses across India, Australia, and Canada, we've seen both platforms perform exceptionally well when used correctly. In this guide, we'll compare Shopify vs WordPress in terms of SEO, performance, customization, security, ecommerce functionality, and long-term business growth."
@@ -314,17 +313,21 @@ content: [
       }
     ]
   }
-]
+],
+  };
 
 export default function ShopifyVsWordPress() {
   return (
     <BlogPageTemplate
-      title="Shopify vs WordPress: Which is Better for Business?"
-      category="Ecommerce"
-      publishDate="June 2026"
-      author="ITcrista infoX"
-      content={["Sample blog content"]}
-      relatedPosts={[]}
+       slug={article.slug}
+      title={article.title}
+      excerpt={article.excerpt}
+      author={article.author}
+      publishDate={article.publishDate}
+      category={article.category}
+      featuredImage={article.featuredImage}
+      content={article.content}
+      relatedPosts={article.relatedPosts}
     />
   );
 }
