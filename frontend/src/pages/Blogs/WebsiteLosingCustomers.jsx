@@ -8,19 +8,19 @@ const article = {
 
  excerpt:
   "Discover the hidden website issues that hurt SEO rankings, reduce conversions, and cost businesses valuable leads. Learn how to identify and fix them before they impact growth.",
-  category: "Ecommerce",
+  category: "Website Growth",
 
   publishDate: "June 2026",
 
   featuredImage:
-    "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&w=1800&q=80",
+    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1800&q=80",
 
   author: {
     name: "Rajat Bharawa",
     role: "Founder · ITcrista infoX",
     image:
       "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=400&q=80",
-    bio: "Founder of ITcrista.",
+    bio: "Rajat Bharawa is the Founder of ITcrista, helping businesses improve website performance, SEO, lead generation, Shopify development, WordPress development, and custom web solutions.",
     socials: {
       linkedin: "https://www.linkedin.com/company/itcrista-infox"
     }
@@ -103,7 +103,7 @@ const article = {
    ],
 };
 
-export default function ShopifyVsWordPress() {
+export default function WebsiteLosingCustomers() {
   return (
     <BlogPageTemplate
       slug={article.slug}
