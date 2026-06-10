@@ -22,12 +22,12 @@ const posts = [
     img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
   },
   {
-    title: "Headless WordPress in 2026: when it's worth it (and when it isn't)",
-    excerpt: "A clear-eyed look at the tradeoffs of going headless on WordPress for content-heavy enterprise sites.",
-    category: "WordPress",
-    date: "Nov 24, 2025",
-    read: "7 min",
-    img: "https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1200&q=80",
+    title: "15 Signs Your Business Website Is Losing Customers (And How to Fix Them",
+    excerpt: "Is your website costing you leads and sales? Discover 15 common website problems that hurt SEO, reduce conversions, and drive potential customers away — plus practical solutions to improve performance and business growth.",
+    category: "Website Growth",
+    date: "June 10, 2026",
+    read: "10 min",
+    img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1800&q=80",
   },
   {
     title: "Designing pricing pages that quietly convert at 12%+",
