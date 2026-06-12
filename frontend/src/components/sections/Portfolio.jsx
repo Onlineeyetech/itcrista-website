@@ -10,7 +10,7 @@ const projects = [
   { title: "Bestink", category: "Website", tag: "Custom + Shopify", img: "/images/bestink.png" },
   { title: "Buyveda - Ayurvedic Wellness", category: "Ecommerce", tag: "Shopify Custom", img: "/images/buyveda.png" },
   { title: "Nivia Sports", category: "Ecommerce", tag: "Shopify Custom", img: "/images/nivia.png" },
-  { title: "Maven Agency", category: "Branding", tag: "Brand · UI", img: "https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1200&q=80" },
+  { title: "Artiosluxe", category: "Jewellery Store", tag: "Brand · UI", img: "/images/artiosluxe.png" },
 ];
 
 export default function Portfolio() {
