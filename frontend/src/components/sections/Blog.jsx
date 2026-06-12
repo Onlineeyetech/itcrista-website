@@ -25,6 +25,7 @@ const posts = [
     title: "15 Signs Your Business Website Is Losing Customers (And How to Fix Them",
     excerpt: "Is your website costing you leads and sales? Discover 15 common website problems that hurt SEO, reduce conversions, and drive potential customers away — plus practical solutions to improve performance and business growth.",
     category: "Website Growth",
+     slug: "/blog/websitelosingcustomers",
     date: "June 10, 2026",
     read: "10 min",
     img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1800&q=80",
