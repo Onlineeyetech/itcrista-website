@@ -52,7 +52,7 @@ export default function Founder() {
               {/* Card */}
               <div className="relative rounded-[2rem] overflow-hidden border border-white/10 bg-[#0D1B2A] aspect-[4/5]">
                 <img
-                  src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=900&q=80"
+                  src="frontend/public/Gemini_Generated_Image_bzqpp3bzqpp3bzqp.png"
                   alt="Founder"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
