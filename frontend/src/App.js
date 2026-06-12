@@ -47,7 +47,7 @@ function App() {
           <Route path="/services/ui-ux-design" element={<UIUXDesign />} />
           <Route path="/blog/custom-website-development-guide" element={<BlogArticle />} />
           <Route path="/blog/shopify-vs-wordpress" element={<ShopifyVsWordPress />} />
-          <Route path="/blog/WebsiteLosingCustomers" element={<WebsiteLosingCustomers />} />   
+          <Route path="/blog/websitelosingcustomers" element={<WebsiteLosingCustomers />} />   
           <Route path="/blogs" element={<Blogs />} />
           <Route path="*" element={<Home />} />
         </Routes>
