@@ -13,7 +13,7 @@ const items = [
     quote: "My go to web designer! Trusted & work always on point. Understands my aesthetics & implement it. 11/10 from my side",
     name: "Vidhi Goel",
     role: "Scoopofjewels · Founder",
-    img: "/images/logo/IMG_0379.PNG",
+    img: "/logo/IMG_0379.PNG",
   },
   {
     quote: "Rajat is a great guy to work with, always available. He is very good and fast with his work. He is a very hard working guy.",
