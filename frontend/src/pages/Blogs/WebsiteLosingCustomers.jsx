@@ -1,4 +1,4 @@
-import BlogPageTemplate from "../components/BlogPageTemplate";
+import BlogPageTemplate from "../../components/BlogPageTemplate";
 
 const article = {
   slug: "15-signs-your-business-website-is-losing-customers",
