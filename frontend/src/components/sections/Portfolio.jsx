@@ -9,7 +9,7 @@ const projects = [
   { title: "Veaves — Ecommerce", category: "SaaS", tag: "Shopify", img: "/images/veaves.png" },
   { title: "Bestink", category: "Website", tag: "Custom + Shopify", img: "/images/bestink.png" },
   { title: "Buyveda - Ayurvedic Wellness", category: "Ecommerce", tag: "Shopify Custom", img: "/images/buyveda.png" },
-  { title: "Northwind CRM", category: "SaaS", tag: "React · Laravel", img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80" },
+  { title: "Nivia Sports", category: "Ecommerce", tag: "Shopify Custom", img: "/images/nivia.png" },
   { title: "Maven Agency", category: "Branding", tag: "Brand · UI", img: "https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1200&q=80" },
 ];
 
