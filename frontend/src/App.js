@@ -17,6 +17,7 @@ import UIUXDesign from "./pages/UIUXDesign";
 import BlogArticle from "./pages/BlogArticle";
 import ShopifyVsWordPress from "./pages/ShopifyVsWordPress";
 import Blogs from "./pages/Blogs";
+import WebsiteLosingCustomers from "./pages/Blogs/WebsiteLosingCustomers";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -46,6 +47,7 @@ function App() {
           <Route path="/services/ui-ux-design" element={<UIUXDesign />} />
           <Route path="/blog/custom-website-development-guide" element={<BlogArticle />} />
           <Route path="/blog/shopify-vs-wordpress" element={<ShopifyVsWordPress />} />
+          <Route path="/blog/WebsiteLosingCustomers" element={<WebsiteLosingCustomers />} />   
           <Route path="/blogs" element={<Blogs />} />
           <Route path="*" element={<Home />} />
         </Routes>
