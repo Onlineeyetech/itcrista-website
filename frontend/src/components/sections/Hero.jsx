@@ -11,7 +11,7 @@ const stats = [
 ];
 
 function Counter({ value, suffix }) {
-  const [v, setV] = useState(0);
+const [v, setV] = useState(value);
   useEffect(() => {
     let raf;
     const start = performance.now();
