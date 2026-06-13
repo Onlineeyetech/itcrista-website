@@ -18,6 +18,7 @@ import BlogArticle from "./pages/BlogArticle";
 import ShopifyVsWordPress from "./pages/ShopifyVsWordPress";
 import Blogs from "./pages/Blogs";
 import WebsiteLosingCustomers from "./pages/Blogs/WebsiteLosingCustomers";
+import howtochoose from "./pages/Blogs/howtochoose";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -48,6 +49,7 @@ function App() {
           <Route path="/blog/custom-website-development-guide" element={<BlogArticle />} />
           <Route path="/blog/shopify-vs-wordpress" element={<ShopifyVsWordPress />} />
           <Route path="/blog/websitelosingcustomers" element={<WebsiteLosingCustomers />} />   
+          <Route path="/blog/how-to-choose-the-right-web-development-agency-2026" element={<howtochoose />} />   
           <Route path="/blogs" element={<Blogs />} />
           <Route path="*" element={<Home />} />
         </Routes>
