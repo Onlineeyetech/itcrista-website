@@ -34,6 +34,7 @@ const posts = [
     title: "How to Choose the Right Web Development Agency in 2026",
     excerpt: "Choosing the right web development agency can determine the success of your website project. Learn the key factors, warning signs, and evaluation criteria businesses should consider before hiring a web development partner..",
     category: "Right Agency",
+    slug: "how-to-choose-the-right-web-development-agency-2026",
     date: "June 13, 2026",
     read: "5 min",
     img: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
