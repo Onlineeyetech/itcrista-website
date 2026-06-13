@@ -306,7 +306,7 @@ excerpt:
 ],
 };
 
-export default function howtochoose() {
+export default function HowToChoose() {
   return (
     <BlogPageTemplate
       slug={article.slug}
