@@ -77,7 +77,7 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.15 }}
             className="mt-7 text-base sm:text-lg text-white/60 max-w-xl leading-relaxed"
           >
-            ITcrista infoX is a luxury technology studio. We design and build premium ecommerce, custom websites and SaaS platforms for the world's most ambitious brands.
+            ITcrista infoX specializes in custom website development, Shopify development, WordPress websites, ecommerce solutions, SEO optimization, and website maintenance services for businesses worldwide.
           </motion.p>
 
           <motion.div
