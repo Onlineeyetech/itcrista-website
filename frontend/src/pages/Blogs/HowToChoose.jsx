@@ -1,4 +1,3 @@
-
 import BlogPageTemplate from "../../components/BlogPageTemplate";
 
 const article = {
