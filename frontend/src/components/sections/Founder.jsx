@@ -63,7 +63,7 @@ export default function Founder() {
                 {/* Signature */}
                 <div className="absolute bottom-6 left-6 right-6 flex items-end justify-between">
                   <div>
-                    <div className="font-display font-black text-2xl text-white tracking-tight">A. Crista</div>
+                    {/* <div className="font-display font-black text-2xl text-white tracking-tight">A. Crista</div> */}
                     <div
                       className="mt-1 text-[#06B6D4] text-2xl"
                       style={{ fontFamily: "'Dancing Script', 'Caveat', cursive", fontStyle: "italic" }}
@@ -86,7 +86,7 @@ export default function Founder() {
                 className="absolute -left-4 top-10 glass rounded-2xl px-4 py-3 hidden md:block"
               >
                 <div className="text-[11px] uppercase tracking-[0.2em] text-white/50">Founded</div>
-                <div className="font-display font-black text-xl text-white">2016</div>
+                <div className="font-display font-black text-xl text-white">2022</div>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: 20 }}
