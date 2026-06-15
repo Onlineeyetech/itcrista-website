@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const categories = ["All", "Ecommerce", "SaaS", "Website", "Branding"];
 
@@ -18,6 +19,19 @@ export default function Portfolio() {
   const filtered = active === "All" ? projects : projects.filter((p) => p.category === active);
 
   return (
+    <>
+  <Helmet>
+    <title>Portfolio | Web Design, Shopify & Development Projects | ITCrista</title>
+
+    <meta
+      name="description"
+      content="Explore ITCrista portfolio featuring Shopify stores, custom websites, ecommerce projects, UI/UX design and web development solutions delivered for global businesses."
+    />
+
+    <link rel="canonical" href="https://itcrista.in/portfolio" />
+  </Helmet>
+
+
     <section data-testid="portfolio-section" id="portfolio" className="relative py-8 md:py-16 bg-[#071120] overflow-hidden">
       <div className="absolute inset-0 bg-grid opacity-40" />
       <div className="relative max-w-7xl mx-auto px-6 md:px-10">
@@ -82,5 +96,7 @@ export default function Portfolio() {
         </div>
       </div>
     </section>
+      
+</>
   );
 }
