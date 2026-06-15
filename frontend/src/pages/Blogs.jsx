@@ -201,7 +201,7 @@ export default function Blogs() {
                     <Link to={p.slug} className="contents">
                       <div className="relative aspect-[16/10] overflow-hidden">
                         <img
-                          src={p.image}
+                          src={p.img}
                           alt={p.title}
                           className="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
                         />
