@@ -189,7 +189,7 @@ export default function Blogs() {
                     data-testid={`blogs-card-${i}`}
                     className="group relative rounded-2xl overflow-hidden border border-white/10 bg-white/[0.03] hover:bg-white/[0.05] transition-colors flex flex-col"
                   >
-                    <Link to={`/blog/${p.slug}`} className="contents">
+                    <Link to={p.slug} className="contents">
                       <div className="relative aspect-[16/10] overflow-hidden">
                         <img
                           src={p.image}
