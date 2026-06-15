@@ -36,11 +36,20 @@ const BLOG_POSTS = [
   },
   {
     title: "How to Choose the Right Web Development Agency in 2026",
-    excerpt: "Choosing the right web development agency can determine the success of your website project. Learn the key factors, warning signs, and evaluation criteria businesses should consider before hiring a web development partner..",
+    excerpt: "Choosing the right web development agency can determine the success of your website project. Learn the key factors, warning signs, and evaluation criteria businesses should consider before hiring a web development partner.",
     category: "Right Agency",
     slug: "/blog/how-to-choose-the-right-web-development-agency-2026",
     date: "June 13, 2026",
     read: "5 min",
+    img: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
+  },
+  {
+    title: "25 Website Mistakes That Hurt Google Rankings (And How to Fix Them)",
+    excerpt: "Discover the most common website and technical SEO mistakes that prevent businesses from ranking on Google. Learn how to improve website performance, search visibility, user experience, and organic traffic.",
+    category: "SEO",
+    slug: "/blog/25-website-mistakes-that-hurt-google-rankings",
+    date: "June 15, 2026",
+    read: "10 min",
     img: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
   },
 ];
