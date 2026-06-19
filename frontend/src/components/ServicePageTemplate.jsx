@@ -116,7 +116,7 @@ export default function ServicePageTemplate({ content: c }) {
         <div className="max-w-7xl mx-auto px-6 md:px-10">
           <div className="grid lg:grid-cols-12 gap-10 mb-14">
             <div className="lg:col-span-7">
-              <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">/ Why us</p>
+              <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">Why us</p>
               <h2 className="font-display font-black tracking-tighter text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.02]">
                 {c.whyTitle}
                 <br />
@@ -155,7 +155,7 @@ export default function ServicePageTemplate({ content: c }) {
         <div className="absolute inset-0 bg-grid opacity-40" />
         <div className="relative max-w-7xl mx-auto px-6 md:px-10">
           <div className="text-center max-w-2xl mx-auto mb-14">
-            <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">/ What's included</p>
+            <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">What's included</p>
             <h2 className="font-display font-black tracking-tighter text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.02]">
               {c.includedTitle} <span className="text-gradient">{c.includedAccent}</span>
             </h2>
@@ -193,7 +193,7 @@ export default function ServicePageTemplate({ content: c }) {
         <div className="max-w-7xl mx-auto px-6 md:px-10">
           <div className="grid lg:grid-cols-12 gap-10 mb-14">
             <div className="lg:col-span-7">
-              <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">/ Process</p>
+              <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">Process</p>
               <h2 className="font-display font-black tracking-tighter text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.02]">
                 A calm 6-step <span className="text-gradient">delivery system.</span>
               </h2>
@@ -239,7 +239,7 @@ export default function ServicePageTemplate({ content: c }) {
         <div className="absolute inset-0 bg-grid opacity-30" />
         <div className="relative max-w-7xl mx-auto px-6 md:px-10">
           <div className="text-center max-w-2xl mx-auto mb-14">
-            <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">/ Stack</p>
+            <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">Stack</p>
             <h2 className="font-display font-black tracking-tighter text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.02]">
               The stack <span className="text-gradient">we trust.</span>
             </h2>
@@ -278,7 +278,7 @@ export default function ServicePageTemplate({ content: c }) {
       <section data-testid={test("features")} className="relative py-24 md:py-28 bg-[#0A1525] border-y border-white/10 overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 md:px-10">
           <div className="text-center max-w-2xl mx-auto mb-14">
-            <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">/ Features</p>
+            <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">Features</p>
             <h2 className="font-display font-black tracking-tighter text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.02]">
               {c.featuresTitle} <span className="text-gradient">{c.featuresAccent}</span>
             </h2>
@@ -311,7 +311,7 @@ export default function ServicePageTemplate({ content: c }) {
         <div className="relative max-w-7xl mx-auto px-6 md:px-10">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
             <div>
-              <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">/ Recent work</p>
+              <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">Recent work</p>
               <h2 className="font-display font-black tracking-tighter text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.02]">
                 {c.portfolioTitle} <span className="text-gradient">{c.portfolioAccent}</span>
               </h2>
@@ -366,7 +366,7 @@ export default function ServicePageTemplate({ content: c }) {
         <div className="absolute inset-0 bg-grid opacity-30" />
         <div className="relative max-w-4xl mx-auto px-6 md:px-10">
           <div className="text-center mb-12">
-            <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">/ FAQ</p>
+            <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">FAQ</p>
             <h2 className="font-display font-black tracking-tighter text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.02]">
               Common questions.
             </h2>
@@ -435,7 +435,7 @@ function Testimonials({ items, slug }) {
   return (
     <section data-testid={test("testimonials")} className="relative py-24 md:py-32 bg-[#0A1525] border-y border-white/10 overflow-hidden">
       <div className="max-w-5xl mx-auto px-6 md:px-10 text-center">
-        <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">/ Client voices</p>
+        <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">Client voices</p>
         <h2 className="font-display font-black tracking-tighter text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.02]">
           Loved by <span className="text-gradient">premium teams.</span>
         </h2>
