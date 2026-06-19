@@ -99,7 +99,7 @@ export default function Blog() {
             </h2>
           </div>
           <a
-            href="#"
+            href="https://itcrista.in/blogs"
             data-testid="blog-view-all"
             className="self-start md:self-auto inline-flex items-center gap-2 px-5 py-3 rounded-full border border-white/15 text-white/85 font-semibold hover:bg-white/5 transition"
           >
