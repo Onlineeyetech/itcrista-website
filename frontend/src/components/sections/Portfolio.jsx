@@ -3,15 +3,15 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 
-const categories = ["All", "Ecommerce", "SaaS", "Website", "Branding"];
+const categories = ["All", "Fashion", "SaaS", "Sports", "Ecommerce"];
 
 const projects = [
   { title: "Loop — Revenue Automation", category: "Saas", tag: "Shopify · Custom", img: "/images/loopagency.svg" },
-  { title: "Veaves — Ecommerce", category: "SaaS", tag: "Shopify", img: "/images/veaves.png" },
-  { title: "Bestink", category: "Website", tag: "Custom + Shopify", img: "/images/bestink.png" },
+  { title: "Veaves — Ecommerce", category: "Fashion", tag: "Shopify", img: "/images/veaves.png" },
+  { title: "Bestink", category: "Ecommerce", tag: "Custom + Shopify", img: "/images/bestink.png" },
   { title: "Buyveda - Ayurvedic Wellness", category: "Ecommerce", tag: "Shopify Custom", img: "/images/buyveda.png" },
-  { title: "Nivia Sports", category: "Ecommerce", tag: "Shopify Custom", img: "/images/nivia.png" },
-  { title: "Artiosluxe", category: "Jewellery Store", tag: "Brand · UI", img: "/images/artiosluxe.png" },
+  { title: "Nivia Sports", category: "Sports", tag: "Shopify Custom", img: "/images/nivia.png" },
+  { title: "Artiosluxe", category: "Fashion", tag: "Brand · UI", img: "/images/artiosluxe.png" },
 ];
 
 export default function Portfolio() {
