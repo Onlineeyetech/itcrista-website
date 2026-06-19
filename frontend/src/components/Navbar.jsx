@@ -12,7 +12,7 @@ const links = [
       { to: "/services/custom-website-development", label: "Custom Website Development" },
       { to: "/services/shopify-development", label: "Shopify Development" },
       { to: "/services/wordpress-development", label: "WordPress Development" },
-       { to: "/services/maintenance-support", label: "WordPress Development" },
+       { to: "/services/maintenance-support", label: "Maintenance & Support" },
     ],
   },
   { to: "/portfolio", label: "Portfolio" },
