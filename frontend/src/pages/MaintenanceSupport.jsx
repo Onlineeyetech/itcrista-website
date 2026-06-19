@@ -11,7 +11,7 @@ const content = {
   subtitle:
     "Proactive monitoring, security, performance and growth-focused support — a senior team on call so your digital product never becomes someone else's problem.",
   heroImage:
-    "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=1200&q=80",
+    "/images/maintenance-team-image.png",
   stats: [
     { v: "<2h", l: "Avg. response" },
     { v: "99.99%", l: "Uptime SLA" },
