@@ -12,6 +12,7 @@ const projects = [
   { title: "Buyveda - Ayurvedic Wellness", category: "Ecommerce", tag: "Shopify Custom", img: "/images/buyveda.png" },
   { title: "Nivia Sports", category: "Sports", tag: "Shopify Custom", img: "/images/nivia.png" },
   { title: "Artiosluxe", category: "Fashion", tag: "Brand · UI", img: "/images/artiosluxe.png" },
+    { title: "Artiosluxe", category: "Fashion", tag: "Brand · UI", img: "/images/artiosluxe.png" },
 ];
 
 export default function Portfolio() {
