@@ -89,12 +89,55 @@ const content = {
     { q: "The most considered Shopify engagement we've ever run. Calm process, surgical execution.", n: "Marcus Hale", r: "Founder · Mercato", img: TESTIMONIAL_IMGS.b },
   ],
   faqs: [
-    { q: "Do you work on Shopify Basic or only Plus?", a: "Both. We work across Basic, Advanced and Plus — most premium engagements run on Plus for Functions, Markets and checkout extensibility." },
-    { q: "How long does a custom Shopify build take?", a: "A premium custom theme typically launches in 6–10 weeks. Full Hydrogen storefronts run 10–16 weeks depending on scope and integrations." },
-    { q: "Can you migrate us from Magento / WooCommerce?", a: "Yes — we handle product, customer and order migrations, 301 redirect strategy, SEO preservation and zero-downtime cutovers." },
-    { q: "Do you build private Shopify apps?", a: "Absolutely. Embedded apps, OAuth flows, custom admin UI, webhook architecture — all part of our standard playbook." },
-    { q: "What does a Shopify build cost?", a: "Premium custom themes start at $6.9k, full Hydrogen storefronts from $19.9k. We provide a transparent SOW with milestone-based payments." },
-  ],
+  {
+    q: "What are Shopify development services?",
+    a: "Shopify development services include custom Shopify store development, theme customization, app integration, performance optimization, Shopify SEO, store migration, and ongoing maintenance to help businesses build and scale successful ecommerce stores."
+  },
+  {
+    q: "Why should I choose Shopify for my ecommerce business?",
+    a: "Shopify is one of the world's leading ecommerce platforms, offering secure hosting, scalability, easy store management, payment integrations, and powerful tools for selling products online."
+  },
+  {
+    q: "How much does Shopify website development cost?",
+    a: "Shopify development costs depend on store complexity, custom features, theme design, third-party integrations, and business requirements. Each Shopify project is tailored to specific business goals."
+  },
+  {
+    q: "Do you provide custom Shopify store development?",
+    a: "Yes. We build custom Shopify stores designed for performance, SEO, user experience, and conversions. Every store is tailored to match your brand and business requirements."
+  },
+  {
+    q: "Can you customize existing Shopify themes?",
+    a: "Yes. We provide Shopify theme customization services, including design improvements, custom sections, advanced functionality, performance optimization, and conversion-focused enhancements."
+  },
+  {
+    q: "Do you offer Shopify SEO services?",
+    a: "Yes. Our Shopify SEO services include technical SEO, schema markup, site speed optimization, collection optimization, product page optimization, and search engine visibility improvements."
+  },
+  {
+    q: "Can you migrate my website to Shopify?",
+    a: "Yes. We provide Shopify migration services from WooCommerce, WordPress, Magento, Wix, BigCommerce, and other ecommerce platforms while preserving data, SEO value, and store functionality."
+  },
+  {
+    q: "Will my Shopify store be mobile-friendly?",
+    a: "Absolutely. Every Shopify store we build is fully responsive and optimized for desktop, tablet, and mobile devices to deliver the best shopping experience."
+  },
+  {
+    q: "Do you integrate third-party apps and payment gateways?",
+    a: "Yes. We integrate Shopify apps, payment gateways, shipping solutions, CRM systems, marketing tools, inventory management systems, and custom business workflows."
+  },
+  {
+    q: "How can Shopify development improve conversions?",
+    a: "Professional Shopify development improves user experience, site speed, navigation, product presentation, checkout flow, and overall customer journey, helping increase conversion rates and sales."
+  },
+  {
+    q: "Do you provide Shopify maintenance and support?",
+    a: "Yes. We offer ongoing Shopify maintenance, bug fixes, speed optimization, store updates, technical support, and performance monitoring to keep your store running smoothly."
+  },
+  {
+    q: "Why choose ITcrista for Shopify development?",
+    a: "ITcrista specializes in custom Shopify development, Shopify theme customization, Shopify SEO, speed optimization, ecommerce growth strategies, and long-term Shopify support for businesses worldwide."
+  }
+],
   finalCta: {
     title: "Ready for a Shopify store",
     titleAccent: "that actually converts?",
