@@ -555,11 +555,54 @@ function Testimonials() {
 /*                                 Section 9                                  */
 /* -------------------------------------------------------------------------- */
 const faqs = [
-  { q: "How long does a custom website take?", a: "Most premium custom websites launch in 6–10 weeks. Larger platforms with custom integrations typically run 10–16 weeks depending on scope." },
-  { q: "Do you build on a CMS or fully custom?", a: "Both. We default to a custom Next.js / Node stack with a headless CMS (Sanity, Strapi or custom) so your content team has full control without touching engineering." },
-  { q: "What is the typical investment?", a: "Premium custom websites at ITcrista start at $4.9k and scale based on scope. We provide a transparent SOW with milestone-based payments." },
-  { q: "Do you handle hosting & ongoing support?", a: "Yes — we deploy on Vercel / AWS / Cloudflare and offer optional monthly support retainers for monitoring, performance and growth experiments." },
-  { q: "Can you migrate from WordPress or Webflow?", a: "Absolutely. We handle content modelling, redirects, SEO preservation and zero-downtime cutovers as part of our standard migration playbook." },
+  {
+    q: "What is custom website development?",
+    a: "Custom website development is the process of building a website from scratch based on your business goals, branding, functionality requirements, and customer experience needs. Unlike templates, custom websites are designed specifically for your business."
+  },
+  {
+    q: "Why choose custom website development over website templates?",
+    a: "Custom website development offers greater flexibility, better performance, improved SEO, stronger security, and a unique user experience. Businesses that want long-term growth often choose custom web development instead of relying on generic templates."
+  },
+  {
+    q: "How much does custom website development cost?",
+    a: "The cost of custom website development depends on project complexity, features, integrations, design requirements, and business goals. Every project is unique, so pricing is typically customized based on requirements."
+  },
+  {
+    q: "How long does it take to build a custom website?",
+    a: "Most custom website development projects take between 3 and 12 weeks depending on the size of the website, functionality requirements, content availability, and design complexity."
+  },
+  {
+    q: "Will my custom website be SEO friendly?",
+    a: "Yes. Our custom websites are built with SEO best practices including optimized page structure, fast loading speed, mobile responsiveness, schema markup, technical SEO implementation, and search-engine-friendly architecture."
+  },
+  {
+    q: "Do you provide responsive website development?",
+    a: "Yes. Every website we build is fully responsive and optimized for desktops, tablets, and mobile devices to ensure the best user experience across all screen sizes."
+  },
+  {
+    q: "Can you redesign my existing website?",
+    a: "Yes. We provide website redesign services for businesses looking to improve website performance, modernize their design, enhance user experience, and increase lead generation."
+  },
+  {
+    q: "Do you build ecommerce websites?",
+    a: "Yes. We develop custom ecommerce websites, Shopify stores, and scalable online shopping experiences designed to improve conversions, performance, and customer engagement."
+  },
+  {
+    q: "Which technologies do you use for custom website development?",
+    a: "We work with modern technologies including React.js, Next.js, Node.js, Shopify, WordPress, and custom development frameworks to build fast, scalable, and future-ready websites."
+  },
+  {
+    q: "Do you provide website maintenance and support?",
+    a: "Yes. We offer ongoing website maintenance, security updates, performance optimization, bug fixes, technical support, and website monitoring to ensure long-term reliability."
+  },
+  {
+    q: "Can a custom website improve Google rankings?",
+    a: "A well-developed custom website can significantly improve technical SEO, Core Web Vitals, website speed, mobile usability, and overall search visibility, helping businesses achieve better Google rankings."
+  },
+  {
+    q: "Why choose ITcrista for custom website development?",
+    a: "ITcrista specializes in custom website development, Shopify development, WordPress development, website maintenance, technical SEO, and performance optimization. We build websites focused on business growth, lead generation, and long-term scalability."
+  }
 ];
 
 function FAQ() {
