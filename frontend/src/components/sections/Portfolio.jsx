@@ -7,7 +7,7 @@ const categories = ["All", "Fashion", "SaaS", "Sports", "Ecommerce"];
 
 const projects = [
   { title: "Loop — Revenue Automation", category: "SaaS", tag: "Shopify · Custom", img: "/images/loopagency.svg" },
-  { title: "Veaves — Ecommerce", category: "Fashion", tag: "Shopify", img: "/images/veaves.png" },
+  { title: "Veaves — Ecommerce", category: "Fashion", tag: "Shopify", img: "/images/veavesmockup.png" },
   { title: "Bestink", category: "Ecommerce", tag: "Custom + Shopify", img: "/images/bestink.png" },
   { title: "Buyveda - Ayurvedic Wellness", category: "Ecommerce", tag: "Shopify Custom", img: "/images/buyveda.png" },
   { title: "Nivia Sports", category: "Sports", tag: "Shopify Custom", img: "/images/nivia.png" },
