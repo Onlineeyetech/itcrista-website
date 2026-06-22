@@ -18,13 +18,7 @@ const links = [
   { to: "/portfolio", label: "Portfolio" },
   {
     label: "Blogs",
-    to: "/blogs",
-    children: [
-      { to: "/blogs", label: "All Articles" },
-      { to: "/blog/category/shopify", label: "Shopify Blogs" },
-      { to: "/blog/category/wordpress", label: "WordPress Blogs" },
-      { to: "/blog/category/ecommerce", label: "Ecommerce Blogs" },
-    ],
+    to: "/blogs"
   },
   { to: "/about", label: "About" },
   { to: "/contact", label: "Contact" },
