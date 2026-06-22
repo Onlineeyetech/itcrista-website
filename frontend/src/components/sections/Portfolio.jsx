@@ -43,13 +43,13 @@ const projects = [
     img: "/images/artiosluxe.png",
   },
 
-  // Future projects add here
-  // {
-  //   title: "New Project",
-  //   category: "Ecommerce",
-  //   tag: "Shopify",
-  //   img: "/images/new-project.png",
-  // },
+  Future projects add here
+  {
+    title: "New Project",
+    category: "Ecommerce",
+    tag: "Shopify",
+    img: "/images/new-project.png",
+  },
 ];
 
 export default function Portfolio() {
