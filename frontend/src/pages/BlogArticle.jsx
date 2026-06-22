@@ -28,28 +28,28 @@ const article = {
   },
   relatedPosts: [
     {
-      title: "A practical playbook for sub-1s Core Web Vitals on production sites",
-      category: "Performance",
-      date: "Dec 03, 2025",
+      title: "Shopify vs WordPress: Which is Better for Business",
+      category: "Ecommerce",
+      date: "June 01, 2026",
       image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80",
-      href: "#",
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+      href: "/blog/shopify-vs-wordpress",
     },
     {
-      title: "Headless WordPress in 2026: when it's worth it (and when it isn't)",
-      category: "WordPress",
-      date: "Nov 24, 2025",
+      title: "15 Signs Your Business Website Is Losing Customers",
+      category: "Website Growth",
+      date: "June 10, 2026",
       image:
-        "https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=900&q=80",
-      href: "#",
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1800&q=80",
+      href: "/blog/websitelosingcustomers",
     },
     {
-      title: "Designing pricing pages that quietly convert at 12%+",
-      category: "Conversion",
-      date: "Nov 14, 2025",
+      title: "How to Choose the Right Web Development Agency in 2026",
+      category: "Right Agency",
+      date: "June 13, 2026",
       image:
-        "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=80",
-      href: "#",
+        "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
+      href: "/blog/how-to-choose-the-right-web-development-agency-2026",
     },
   ],
 content: [
