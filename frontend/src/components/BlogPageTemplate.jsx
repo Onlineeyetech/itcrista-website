@@ -247,7 +247,7 @@ export default function BlogPageTemplate({
           <div className="mt-10 flex flex-wrap items-center justify-between gap-6">
             <div className="flex items-center gap-3">
               <img
-                src={author.image}
+                src="/Gemini_Generated_Image_bzqpp3bzqpp3bzqp.png"
                 alt={author.name}
                 className="w-12 h-12 rounded-full border border-white/15 object-cover"
               />
