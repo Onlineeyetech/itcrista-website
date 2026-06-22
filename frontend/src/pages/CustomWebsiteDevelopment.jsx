@@ -388,7 +388,7 @@ function FeaturesGrid() {
 /* -------------------------------------------------------------------------- */
 const portfolio = [
   {
-    title: "Orbit Studio",
+    title: "Crescent Group",
     cat: "Custom CMS",
     metric: "+62% engagement",
     img: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1400&q=80",
