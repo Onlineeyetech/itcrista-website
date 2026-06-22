@@ -19,7 +19,7 @@ const items = [
     quote: "Rajat is a great guy to work with, always available. He is very good and fast with his work. He is a very hard working guy.",
     name: "Vatsala Chopra ",
     role: "Veaves · Founder",
-    img: "https://images.unsplash.com/photo-1767175620484-1ed37931a0d1?auto=format&fit=crop&w=400&q=80",
+    img: "/logo/veaves.png",
   },
 ];
 
