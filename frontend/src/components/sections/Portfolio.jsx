@@ -42,8 +42,6 @@ const projects = [
     tag: "Brand · UI",
     img: "/images/artiosluxe.png",
   },
-
-  Future projects add here
   {
     title: "New Project",
     category: "Ecommerce",
