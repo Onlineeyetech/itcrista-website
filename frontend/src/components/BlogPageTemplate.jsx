@@ -335,7 +335,7 @@ export default function BlogPageTemplate({
             className="glass rounded-3xl p-8 md:p-10 flex flex-col md:flex-row gap-6 md:items-center"
           >
             <img
-              src={author.image}
+              src="/Gemini_Generated_Image_bzqpp3bzqpp3bzqp.png"
               alt={author.name}
               className="w-20 h-20 rounded-full object-cover border border-white/15"
             />
