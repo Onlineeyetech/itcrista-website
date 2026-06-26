@@ -22,9 +22,10 @@ const cols = [
   title: "Company",
   links: [
     { name: "About", url: "/about" },
-    { name: "Portfolio", url: "/portfolio" },
+    { name: "Blogs", url: "/blogs" },
     { name: "Contact", url: "/contact" },
-      { name: "Blogs", url: "/blogs" }
+    { name: "Portfolio", url: "/portfolio" }  
+    
   ]
 }
 ];
