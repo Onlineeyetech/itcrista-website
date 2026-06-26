@@ -13,9 +13,9 @@ const cols = [
   {
   title: "Solutions",
   links: [
-    { name: "UI / UX Design", url: "/services/ui-ux-design" },
-    { name: "Speed Optimization", url: "/services/speed-optimization" },
-    { name: "Maintenance & Support", url: "/services/maintenance-support" },
+       { name: "Maintenance & Support", url: "/services/maintenance-support" },
+     { name: "Speed Optimization", url: "/services/speed-optimization" },
+     { name: "UI / UX Design", url: "/services/ui-ux-design" },
   ],
 },
  {
