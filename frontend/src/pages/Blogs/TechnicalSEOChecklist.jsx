@@ -366,8 +366,218 @@ const article = {
   type: "quote",
   quote: "The best-performing websites are rarely perfect from day one. They improve consistently through regular technical audits, content updates, and performance optimization.",
   cite: "ITcrista Technical SEO Team"
-}
+},
+{
+  type: "h2",
+  text: "21. Ignoring Image SEO"
+},
 
+{
+  type: "paragraph",
+  text: "Images play a significant role in both user experience and search visibility. Large image files, missing alt text, generic filenames, and poor compression reduce page performance and make it harder for search engines to understand visual content. Optimized images improve accessibility, page speed, and Google Image Search visibility."
+},
+
+{
+  type: "list",
+  items: [
+    "Compress every image before uploading",
+    "Use descriptive file names",
+    "Add meaningful alt text",
+    "Use modern image formats like WebP",
+    "Implement lazy loading"
+  ]
+},
+
+{
+  type: "h2",
+  text: "22. Poor Website Accessibility"
+},
+
+{
+  type: "paragraph",
+  text: "An accessible website provides a better experience for every visitor, including users with disabilities. Accessibility improvements often enhance usability, increase engagement, and support better SEO by making website content easier to understand."
+},
+
+{
+  type: "list",
+  items: [
+    "Proper heading hierarchy",
+    "Keyboard-friendly navigation",
+    "Accessible forms",
+    "High color contrast",
+    "Image alt attributes"
+  ]
+},
+
+{
+  type: "h2",
+  text: "23. Weak Call-to-Action Strategy"
+},
+
+{
+  type: "paragraph",
+  text: "Driving traffic is only one part of SEO. Every page should encourage visitors to take the next step, whether it's requesting a quote, scheduling a consultation, contacting your team, or exploring another service. Clear calls-to-action improve conversions and overall website performance."
+},
+
+{
+  type: "h2",
+  text: "24. Never Updating Website Content"
+},
+
+{
+  type: "paragraph",
+  text: "Search engines prefer websites that remain active and continuously provide valuable information. Updating existing pages, refreshing statistics, improving service content, and publishing helpful articles demonstrate that your website remains relevant."
+},
+
+{
+  type: "list",
+  items: [
+    "Refresh old blog posts",
+    "Update service pages",
+    "Improve internal linking",
+    "Replace outdated information",
+    "Add new case studies"
+  ]
+},
+
+{
+  type: "h2",
+  text: "25. No Long-Term SEO Strategy"
+},
+
+{
+  type: "paragraph",
+  text: "Many businesses expect immediate SEO results after publishing a few pages. Sustainable Google rankings require consistent content publishing, technical optimization, website maintenance, backlink acquisition, and ongoing improvements. SEO is a long-term investment that compounds over time."
+},
+
+{
+  type: "quote",
+  quote: "The businesses that consistently rank on Google are not necessarily the biggest—they are the ones that continuously improve their websites.",
+  cite: "Rajat Bharawa, Founder · ITcrista"
+},
+
+{
+  type: "h2",
+  text: "SEO Checklist Summary"
+},
+
+{
+  type: "paragraph",
+  text: "If you want your website to rank higher on Google, focus on building a technically strong foundation before chasing advanced SEO tactics. Fast loading pages, mobile responsiveness, technical SEO, quality content, structured data, internal linking, and regular maintenance create long-term search visibility and sustainable business growth."
+},
+
+{
+  type: "stats",
+  items: [
+    {
+      label: "Speed",
+      value: "Core Web Vitals",
+      note: "Fast websites create better user experiences and stronger rankings."
+    },
+    {
+      label: "SEO",
+      value: "Technical Health",
+      note: "Strong technical SEO improves crawling, indexing, and visibility."
+    },
+    {
+      label: "Content",
+      value: "Authority",
+      note: "Helpful content builds trust with both users and search engines."
+    },
+    {
+      label: "Growth",
+      value: "Long-Term",
+      note: "Consistent optimization produces sustainable organic growth."
+    }
+  ]
+},
+
+{
+  type: "h2",
+  text: "How ITcrista Helps Businesses Improve Google Rankings"
+},
+
+{
+  type: "paragraph",
+  text: "At ITcrista, we build websites that are designed for both users and search engines. Our services include custom website development, Shopify development, WordPress development, website redesign, technical SEO, Core Web Vitals optimization, website maintenance, and long-term performance improvements. Every project is developed with scalability, speed, security, and search visibility in mind to help businesses generate more qualified leads and achieve sustainable online growth."
+},
+
+{
+  type: "list",
+  items: [
+    "Custom Website Development",
+    "Shopify Development",
+    "WordPress Development",
+    "Website Maintenance",
+    "Technical SEO",
+    "Core Web Vitals Optimization",
+    "Website Speed Optimization",
+    "Performance Audits",
+    "Conversion Optimization",
+    "Long-Term Technical Support"
+  ]
+},
+
+{
+  type: "h2",
+  text: "Frequently Asked Questions"
+},
+
+{
+  type: "faqs",
+  faqs: [
+    {
+      q: "What is the biggest website mistake that hurts Google rankings?",
+      a: "Poor technical SEO, slow page speed, weak content quality, and poor mobile usability are among the biggest reasons websites struggle to rank."
+    },
+    {
+      q: "How often should a business perform an SEO audit?",
+      a: "Most businesses should perform a technical SEO audit every three to six months and review website performance regularly."
+    },
+    {
+      q: "Can website speed improve SEO rankings?",
+      a: "Yes. Website speed and Core Web Vitals directly influence user experience and are important ranking signals used by Google."
+    },
+    {
+      q: "Why is technical SEO important?",
+      a: "Technical SEO helps search engines crawl, understand, and index your website efficiently while improving website performance and user experience."
+    },
+    {
+      q: "Does mobile responsiveness affect SEO?",
+      a: "Absolutely. Google uses mobile-first indexing, making responsive design essential for search visibility."
+    },
+    {
+      q: "What is schema markup?",
+      a: "Schema markup is structured data that helps search engines better understand your content and may improve eligibility for rich search results."
+    },
+    {
+      q: "How can businesses improve organic traffic?",
+      a: "Businesses should combine technical SEO, high-quality content, internal linking, website speed optimization, and regular website maintenance."
+    },
+    {
+      q: "How long does SEO take to show results?",
+      a: "SEO is a long-term strategy. Meaningful improvements typically become visible over several months depending on competition and website quality."
+    },
+    {
+      q: "Do you provide technical SEO services?",
+      a: "Yes. ITcrista provides technical SEO audits, website optimization, performance improvements, Core Web Vitals optimization, and long-term SEO support."
+    },
+    {
+      q: "Why choose ITcrista for website optimization?",
+      a: "ITcrista combines modern web development, technical SEO, website maintenance, Shopify development, WordPress development, and performance optimization to build websites that rank well, load fast, and generate more business opportunities."
+    }
+  ]
+},
+
+{
+  type: "h2",
+  text: "Final Thoughts"
+},
+
+{
+  type: "paragraph",
+  text: "Google rankings are built on trust, quality, and consistency—not shortcuts. Businesses that continuously improve website performance, technical SEO, content quality, and user experience are more likely to achieve long-term search visibility and sustainable growth. By avoiding these 25 common website mistakes and following proven SEO best practices, you can build a website that not only ranks higher but also converts more visitors into loyal customers."
+}
 ],
 };
 
