@@ -84,7 +84,7 @@ const submit = async (e) => {
               <Field label="Your Name" value={form.name} onChange={(v) => update("name", v)} required testid="contact-name" />
               <Field label="Email" type="email" value={form.email} onChange={(v) => update("email", v)} required testid="contact-email" />
             </div>
-       <div className="grid sm:grid-cols-2 gap-4">
+       <div className="grid sm:grid-cols-1 gap-4">
               <Field label="Company" value={form.company} onChange={(v) => update("company", v)} testid="contact-company" />
               {/* <div>
                 <label className="text-xs uppercase tracking-[0.25em] text-white/50">Budget</label>
