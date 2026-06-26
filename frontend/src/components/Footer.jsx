@@ -23,7 +23,8 @@ const cols = [
   links: [
     { name: "About", url: "/about" },
     { name: "Portfolio", url: "/portfolio" },
-    { name: "Contact", url: "/contact" }
+    { name: "Contact", url: "/contact" },
+      { name: "Blogs", url: "/blogs" }
   ]
 }
 ];
