@@ -52,6 +52,15 @@ const BLOG_POSTS = [
     read: "10 min",
     img: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
   },
+  {
+    title: "Technical SEO Checklist for Business Websites: The Complete 2026 Guide",
+    excerpt: "Follow this complete technical SEO checklist to improve Google rankings, Core Web Vitals, website speed, crawlability, indexing, mobile usability, schema markup, and overall website performance.",
+    category: "Technical SEO",
+    slug: "/blog/technical-seo-checklist-for-business-websites",
+    date: "June 26, 2026",
+    read: "20 min",
+    img: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
+  },
 ];
 
 const CATEGORIES = ["All", "Ecommerce", "Shopify", "WordPress", "Performance", "Design", "Engineering", "Conversion"];
