@@ -59,7 +59,7 @@ const BLOG_POSTS = [
     slug: "/blog/technical-seo-checklist-for-business-websites",
     date: "June 26, 2026",
     read: "20 min",
-    img: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=400&q=80",
+    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1800&q=80",
   },
 ];
 
