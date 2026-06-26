@@ -31,192 +31,186 @@ const article = {
  content: [
   {
     type: "paragraph",
-    text: "Many businesses invest in website design, content creation, and digital marketing but still struggle to rank on Google. In most cases, the problem is not a lack of effort—it is a collection of small website mistakes that quietly damage SEO performance. From slow page speed and poor mobile experience to weak content and technical SEO issues, these mistakes can significantly reduce organic traffic, leads, and revenue. In this guide, we'll cover 25 common website mistakes that hurt Google rankings and explain how to fix them."
-  },
-
-  {
-    type: "h2",
-    text: "Technical SEO Mistakes That Hurt Rankings"
-  },
-
-  {
-    type: "paragraph",
-    text: "Technical SEO forms the foundation of search visibility. Even great content can struggle to rank if search engines encounter crawling, indexing, or performance issues."
-  },
-
-  {
-    type: "list",
-    items: [
-      "Slow website loading speed",
-      "Poor Core Web Vitals scores",
-      "Broken internal links",
-      "Missing XML sitemap",
-      "Missing robots.txt configuration",
-      "Duplicate content issues",
-      "Incorrect canonical tags",
-      "Unoptimized URL structures",
-      "404 errors on important pages",
-      "No structured data or schema markup"
-    ]
-  },
-
-  {
-    type: "h2",
-    text: "Content and On-Page SEO Mistakes"
-  },
-
-  {
-    type: "paragraph",
-    text: "Google rewards content that demonstrates expertise, relevance, and value. Websites that publish low-quality or poorly optimized content often struggle to compete in search results."
-  },
-
-  {
-    type: "list",
-    items: [
-      "Keyword stuffing",
-      "Thin content pages",
-      "Duplicate page titles",
-      "Missing meta descriptions",
-      "Weak heading structure",
-      "No internal linking strategy",
-      "Outdated website content",
-      "Publishing content without search intent"
-    ]
-  },
-
-  {
-    type: "h2",
-    text: "User Experience Mistakes That Damage SEO"
-  },
-
-  {
-    type: "paragraph",
-    text: "Google increasingly evaluates user experience signals when ranking websites. A website that frustrates visitors often experiences higher bounce rates, lower engagement, and weaker SEO performance."
-  },
-
-  {
-    type: "list",
-    items: [
-      "Poor mobile responsiveness",
-      "Confusing website navigation",
-      "Intrusive popups",
-      "Weak calls-to-action",
-      "Poor accessibility standards",
-      "Unoptimized images",
-      "Outdated website design"
-    ]
+    text: "Ranking on Google is no longer just about publishing content with the right keywords. Modern search engines evaluate website performance, user experience, technical SEO, content quality, mobile usability, security, and hundreds of other ranking signals before deciding where your pages should appear. Many businesses invest heavily in website design and marketing but unknowingly make technical mistakes that reduce visibility, lower organic traffic, and cost valuable leads. This guide explains the 25 most common website mistakes that hurt Google rankings and shows you how to fix them to build a faster, more search-friendly, and conversion-focused website."
   },
 
   {
     type: "quote",
-    quote: "Most websites don't fail because of one major SEO issue. They fail because dozens of small problems compound over time.",
+    quote: "Most websites don't fail because of one major SEO problem. They lose rankings because dozens of small technical issues accumulate over time.",
     cite: "Rajat Bharawa, Founder · ITcrista"
   },
 
   {
     type: "h2",
-    text: "How to Improve Your Website Rankings"
+    text: "Why Website SEO Matters More Than Ever"
   },
 
   {
     type: "paragraph",
-    text: "Improving Google rankings requires a combination of technical SEO, content optimization, website performance improvements, and user experience enhancements. Businesses that regularly audit their websites are more likely to maintain strong search visibility and consistent organic growth."
+    text: "Search engine optimization has evolved significantly over the past few years. Google now rewards websites that provide fast loading speeds, helpful content, excellent user experience, mobile responsiveness, and strong technical foundations. Businesses that ignore technical SEO often experience declining rankings, reduced organic traffic, and fewer qualified leads."
   },
 
   {
     type: "list",
     items: [
-      "Improve website speed",
-      "Optimize Core Web Vitals",
-      "Create high-quality content",
-      "Strengthen internal linking",
-      "Implement schema markup",
-      "Fix technical SEO issues",
-      "Maintain mobile responsiveness",
-      "Perform regular SEO audits"
+      "Better Google Rankings",
+      "Higher Organic Traffic",
+      "Improved User Experience",
+      "Better Core Web Vitals",
+      "Higher Conversion Rates",
+      "Long-Term Business Growth"
     ]
   },
 
   {
     type: "h2",
-    text: "Why Website Maintenance Matters for SEO"
+    text: "1. Slow Website Loading Speed"
   },
 
   {
     type: "paragraph",
-    text: "SEO is not a one-time task. Search engines constantly update their algorithms, competitors publish new content, and website technologies evolve. Regular website maintenance ensures your site remains secure, fast, optimized, and aligned with current SEO best practices."
+    text: "Website speed remains one of the most important ranking factors. Slow-loading websites frustrate visitors, increase bounce rates, and reduce conversions. Google considers page speed as part of its ranking algorithms because users expect websites to load almost instantly."
   },
 
   {
-    type: "h2",
-    text: "How ITcrista Helps Businesses Improve Rankings"
-  },
-
-  {
-    type: "paragraph",
-    text: "At ITcrista, we help businesses identify and fix website issues that affect SEO performance, user experience, and lead generation. Our services include technical SEO audits, website maintenance, Shopify development, WordPress development, performance optimization, and custom website development designed to support long-term growth."
-  },
-
-  {
-    type: "stats",
+    type: "list",
     items: [
-      {
-        label: "SEO",
-        value: "Visibility",
-        note: "Better optimization improves rankings."
-      },
-      {
-        label: "Speed",
-        value: "Performance",
-        note: "Fast websites improve user experience."
-      },
-      {
-        label: "Traffic",
-        value: "Growth",
-        note: "SEO drives sustainable traffic."
-      },
-      {
-        label: "Leads",
-        value: "Conversions",
-        note: "Optimized websites generate more inquiries."
-      }
+      "Compress images",
+      "Reduce unused JavaScript",
+      "Enable browser caching",
+      "Minify CSS",
+      "Use modern image formats like WebP"
     ]
   },
 
   {
     type: "h2",
-    text: "Final Thoughts"
+    text: "2. Poor Core Web Vitals"
   },
 
   {
     type: "paragraph",
-    text: "Google rankings are influenced by hundreds of factors, but many websites struggle because of a handful of avoidable mistakes. By fixing technical SEO issues, improving content quality, enhancing user experience, and maintaining website performance, businesses can significantly increase organic visibility, attract qualified traffic, and generate more leads."
+    text: "Core Web Vitals measure real user experience by evaluating loading performance, visual stability, and page responsiveness. Websites with poor Core Web Vitals often struggle to compete against faster competitors."
   },
 
   {
-    type: "faqs",
-    faqs: [
-      {
-        q: "What is the biggest mistake that hurts Google rankings?",
-        a: "Slow website performance, poor content quality, and technical SEO issues are among the most common ranking problems."
-      },
-      {
-        q: "Can website speed affect SEO?",
-        a: "Yes. Website speed and Core Web Vitals are important ranking factors that influence user experience and search visibility."
-      },
-      {
-        q: "How often should I perform an SEO audit?",
-        a: "Most businesses should review their website performance and SEO health regularly to identify issues before they impact rankings."
-      },
-      {
-        q: "Does technical SEO matter for small businesses?",
-        a: "Absolutely. Technical SEO helps search engines crawl, index, and understand your website more effectively."
-      },
-      {
-        q: "Can ITcrista help improve website rankings?",
-        a: "Yes. ITcrista provides technical SEO, website optimization, performance improvements, and custom development solutions for businesses worldwide."
-      }
+    type: "list",
+    items: [
+      "Optimize Largest Contentful Paint (LCP)",
+      "Improve Interaction to Next Paint (INP)",
+      "Reduce Cumulative Layout Shift (CLS)"
     ]
+  },
+
+  {
+    type: "h2",
+    text: "3. Poor Mobile Experience"
+  },
+
+  {
+    type: "paragraph",
+    text: "Google uses mobile-first indexing, meaning the mobile version of your website is considered the primary version for ranking. Websites that are difficult to use on smartphones lose both traffic and potential customers."
+  },
+
+  {
+    type: "list",
+    items: [
+      "Responsive layouts",
+      "Readable typography",
+      "Touch-friendly buttons",
+      "Fast mobile loading"
+    ]
+  },
+
+  {
+    type: "h2",
+    text: "4. Missing Technical SEO Foundation"
+  },
+
+  {
+    type: "paragraph",
+    text: "Without proper technical SEO implementation, search engines may struggle to crawl and index your website correctly. Important pages can remain invisible in search results despite having valuable content."
+  },
+
+  {
+    type: "list",
+    items: [
+      "XML Sitemap",
+      "Robots.txt",
+      "Canonical Tags",
+      "Schema Markup",
+      "Proper Indexing"
+    ]
+  },
+
+  {
+    type: "h2",
+    text: "5. Duplicate Content"
+  },
+
+  {
+    type: "paragraph",
+    text: "Publishing duplicate or near-identical content confuses search engines and reduces the overall authority of your website. Every important page should provide unique value."
+  },
+
+  {
+    type: "h2",
+    text: "6. Weak Internal Linking"
+  },
+
+  {
+    type: "paragraph",
+    text: "Internal links help search engines understand your website structure while guiding users toward relevant information. Poor internal linking wastes ranking potential and makes important pages harder to discover."
+  },
+
+  {
+    type: "list",
+    items: [
+      "Link related blog articles",
+      "Connect service pages",
+      "Use descriptive anchor text",
+      "Avoid orphan pages"
+    ]
+  },
+
+  {
+    type: "h2",
+    text: "7. Missing Meta Titles and Descriptions"
+  },
+
+  {
+    type: "paragraph",
+    text: "Optimized title tags and meta descriptions improve click-through rates and help search engines understand page topics. Every important page should have unique metadata."
+  },
+
+  {
+    type: "h2",
+    text: "8. Poor Heading Structure"
+  },
+
+  {
+    type: "paragraph",
+    text: "Proper use of H1, H2, H3, and H4 headings improves readability while helping search engines understand content hierarchy."
+  },
+
+  {
+    type: "h2",
+    text: "9. Large Unoptimized Images"
+  },
+
+  {
+    type: "paragraph",
+    text: "Heavy images increase page loading time and negatively impact Core Web Vitals. Image optimization is one of the easiest ways to improve website performance."
+  },
+
+  {
+    type: "h2",
+    text: "10. Missing Schema Markup"
+  },
+
+  {
+    type: "paragraph",
+    text: "Structured data helps search engines understand your business, services, articles, FAQs, and products. Implementing schema markup can improve your chances of appearing in rich search results and AI-powered search experiences."
   }
 ],
 };
