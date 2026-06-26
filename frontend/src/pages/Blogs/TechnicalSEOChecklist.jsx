@@ -1,26 +1,30 @@
 import BlogPageTemplate from "../../components/BlogPageTemplate";
 
 const article = {
-  slug: "25-website-mistakes-that-hurt-google-rankings",
+  slug: "technical-seo-checklist-for-business-websites",
 
   title:
-    "25 Website Mistakes That Hurt Google Rankings (And How to Fix Them)",
+    "Technical SEO Checklist for Business Websites: The Complete 2026 Guide",
 
- excerpt:
-  "Discover the most common website and technical SEO mistakes that prevent businesses from ranking on Google. Learn how to improve website performance, search visibility, user experience, and organic traffic.",
-  category: "SEO",
+  excerpt:
+    "Follow this complete technical SEO checklist to improve Google rankings, Core Web Vitals, website speed, crawlability, indexing, mobile usability, schema markup, and overall website performance.",
+
+  category: "Technical SEO",
 
   publishDate: "June 2026",
 
   featuredImage:
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1800&q=80",
+    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1800&q=80",
 
   author: {
     name: "Rajat Bharawa",
-    role: "Founder · ITcrista infoX",
+    role: "Founder & Technical SEO Consultant · ITcrista infoX",
     image:
       "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=400&q=80",
-    bio: "Rajat Bharawa is the Founder of ITcrista, helping businesses improve website performance, SEO, lead generation, Shopify development, WordPress development, and custom web solutions.",
+
+    bio:
+      "Rajat Bharawa is the Founder of ITcrista, helping businesses build SEO-friendly, high-performance websites through custom web development, Shopify development, WordPress development, technical SEO, website maintenance, and Core Web Vitals optimization.",
+
     socials: {
       linkedin: "https://www.linkedin.com/company/itcrista-infox"
     }
