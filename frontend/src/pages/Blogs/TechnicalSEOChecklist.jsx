@@ -211,7 +211,163 @@ const article = {
   {
     type: "paragraph",
     text: "Structured data helps search engines understand your business, services, articles, FAQs, and products. Implementing schema markup can improve your chances of appearing in rich search results and AI-powered search experiences."
-  }
+  },
+{
+  type: "h2",
+  text: "11. Broken Internal and External Links"
+},
+
+{
+  type: "paragraph",
+  text: "Broken links create a poor user experience and prevent search engines from crawling your website efficiently. Every 404 error represents a missed opportunity to retain visitors and distribute SEO authority across your website."
+},
+
+{
+  type: "list",
+  items: [
+    "Audit links regularly",
+    "Fix 404 pages",
+    "Update outdated URLs",
+    "Redirect deleted pages"
+  ]
+},
+
+{
+  type: "h2",
+  text: "12. Incorrect URL Structure"
+},
+
+{
+  type: "paragraph",
+  text: "URLs should be short, descriptive, and easy to understand. Long URLs filled with random numbers or unnecessary parameters make it difficult for both users and search engines to understand page content."
+},
+
+{
+  type: "list",
+  items: [
+    "Use keywords naturally",
+    "Keep URLs readable",
+    "Avoid unnecessary parameters",
+    "Use hyphens instead of underscores"
+  ]
+},
+
+{
+  type: "h2",
+  text: "13. Missing XML Sitemap"
+},
+
+{
+  type: "paragraph",
+  text: "An XML sitemap helps search engines discover important pages on your website. Without a sitemap, new pages may take longer to be indexed, reducing your visibility in search results."
+},
+
+{
+  type: "h2",
+  text: "14. Poor Robots.txt Configuration"
+},
+
+{
+  type: "paragraph",
+  text: "An incorrectly configured robots.txt file can accidentally block search engines from crawling important pages. Review your robots directives carefully whenever making technical changes."
+},
+
+{
+  type: "h2",
+  text: "15. Missing HTTPS Security"
+},
+
+{
+  type: "paragraph",
+  text: "Website security is a confirmed ranking signal. HTTPS encryption protects visitor data while building trust with users and search engines. Every modern business website should use a valid SSL certificate."
+},
+
+{
+  type: "list",
+  items: [
+    "Install SSL certificate",
+    "Redirect HTTP to HTTPS",
+    "Fix mixed content",
+    "Monitor certificate renewal"
+  ]
+},
+
+{
+  type: "h2",
+  text: "16. JavaScript Blocking Search Engines"
+},
+
+{
+  type: "paragraph",
+  text: "Heavy JavaScript applications can delay rendering and make it difficult for search engines to fully understand your content. Optimize rendering and avoid relying entirely on client-side JavaScript for essential information."
+},
+
+{
+  type: "h2",
+  text: "17. Thin or Low-Quality Content"
+},
+
+{
+  type: "paragraph",
+  text: "Publishing short pages with little useful information rarely performs well in competitive search results. Google rewards content that demonstrates expertise, answers real user questions, and provides comprehensive value."
+},
+
+{
+  type: "list",
+  items: [
+    "Answer search intent",
+    "Include original insights",
+    "Add supporting visuals",
+    "Update outdated content"
+  ]
+},
+
+{
+  type: "h2",
+  text: "18. Ignoring Search Intent"
+},
+
+{
+  type: "paragraph",
+  text: "Even well-written content may fail if it doesn't match what users are actually searching for. Understanding informational, commercial, and transactional search intent is essential for ranking competitive keywords."
+},
+
+{
+  type: "h2",
+  text: "19. Poor Website Navigation"
+},
+
+{
+  type: "paragraph",
+  text: "Visitors should be able to find information quickly. Confusing navigation increases bounce rates and makes it harder for search engines to understand your site's hierarchy."
+},
+
+{
+  type: "list",
+  items: [
+    "Clear navigation menus",
+    "Logical page hierarchy",
+    "Breadcrumb navigation",
+    "Simple user journeys"
+  ]
+},
+
+{
+  type: "h2",
+  text: "20. No Regular SEO Audits"
+},
+
+{
+  type: "paragraph",
+  text: "SEO is not a one-time task. Websites require regular audits to identify crawl errors, broken links, indexing issues, duplicate content, performance problems, and new optimization opportunities. Businesses that continuously improve their websites generally outperform competitors over time."
+},
+
+{
+  type: "quote",
+  quote: "The best-performing websites are rarely perfect from day one. They improve consistently through regular technical audits, content updates, and performance optimization.",
+  cite: "ITcrista Technical SEO Team"
+}
+
 ],
 };
 
