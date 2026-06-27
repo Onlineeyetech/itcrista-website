@@ -86,7 +86,7 @@ export default function Founder() {
                 className="absolute -left-4 top-10 glass rounded-2xl px-4 py-3 hidden md:block"
               >
                 <div className="text-[11px] uppercase tracking-[0.2em] text-white/50">Founded</div>
-                <div className="font-display font-black text-xl text-white">2022</div>
+                <div className="font-display font-black text-xl text-white">2025</div>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: 20 }}
@@ -114,7 +114,7 @@ export default function Founder() {
              Built on Trust. Engineered for Growth.
             </h3>
             <p className="mt-3 text-white/70 leading-relaxed text-base md:text-lg max-w-xl">
-            Rajat Bharawa founded ITcrista in 2022 after years of freelance web development experience and trusted client partnerships. Today, the agency delivers end-to-end web solutions including 
+            Rajat Bharawa founded ITcrista in 2025 after years of freelance web development experience and trusted client partnerships. Today, the agency delivers end-to-end web solutions including 
               <span className="text-white"> Shopify development, WordPress websites, React.js, Next.js, Node.js, and custom-coded platforms </span>
 built for performance, SEO, scalability, and long-term business growth.
             </p>
