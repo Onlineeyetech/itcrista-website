@@ -66,6 +66,12 @@ const projects = [
     tag: "Shopify",
     img: "/images/agdesign.png",
   },
+    {
+    title: "Home Yarn",
+    category: "Ecommerce",
+    tag: "Shopify",
+    img: "/images/homeyarn.png",
+  },
 ];
 
 export default function Portfolio() {
