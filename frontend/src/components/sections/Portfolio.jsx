@@ -60,6 +60,12 @@ const projects = [
     tag: "Shopify",
     img: "/images/thechakrasoul.png",
   },
+  {
+    title: "Agdesign",
+    category: "Ecommerce",
+    tag: "Shopify",
+    img: "/images/agdesign.png",
+  },
 ];
 
 export default function Portfolio() {
