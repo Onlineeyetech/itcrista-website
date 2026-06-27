@@ -43,10 +43,10 @@ const projects = [
     img: "/images/artiosluxe.png",
   },
   {
-    title: "New Project",
-    category: "Ecommerce",
+    title: "Bluebrew",
+    category: "Fashion",
     tag: "Shopify",
-    img: "/images/new-project.png",
+    img: "/images/bluebrew.png",
   },
 ];
 
