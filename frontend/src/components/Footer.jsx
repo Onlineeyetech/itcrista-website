@@ -3,7 +3,7 @@ import { ArrowUpRight, Github, Linkedin, Twitter, Instagram, Mail } from "lucide
 const socialLinks = [
   {
     icon: Linkedin,
-    url: "https://www.linkedin.com/in/rajat-bharawa/",
+    url: "https://www.linkedin.com/company/itcrista-infox",
     label: "LinkedIn",
   },
   {
