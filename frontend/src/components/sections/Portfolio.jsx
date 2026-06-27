@@ -48,6 +48,12 @@ const projects = [
     tag: "Shopify",
     img: "/images/bluebrew.png",
   },
+    {
+    title: "Nindhaara",
+    category: "Ecommerce",
+    tag: "Shopify",
+    img: "/images/nindhara.png",
+  },
 ];
 
 export default function Portfolio() {
