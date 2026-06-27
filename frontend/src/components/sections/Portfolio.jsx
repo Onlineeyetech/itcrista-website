@@ -54,6 +54,12 @@ const projects = [
     tag: "Shopify",
     img: "/images/nindhara.png",
   },
+   {
+    title: "TheChakrasoul",
+    category: "Ecommerce",
+    tag: "Shopify",
+    img: "/images/thechakrasoul.png",
+  },
 ];
 
 export default function Portfolio() {
