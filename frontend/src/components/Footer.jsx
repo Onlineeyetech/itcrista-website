@@ -1,5 +1,22 @@
 import { Link } from "react-router-dom";
 import { ArrowUpRight, Github, Linkedin, Twitter, Instagram, Mail } from "lucide-react";
+const socialLinks = [
+  {
+    icon: Linkedin,
+    url: "https://www.linkedin.com/in/rajat-bharawa/",
+    label: "LinkedIn",
+  },
+  {
+    icon: Instagram,
+    url: "https://www.instagram.com/itcrista/",
+    label: "Instagram",
+  },
+  {
+    icon: Mail,
+    url: "mailto:admin@itcrista.in",
+    label: "Email",
+  },
+];
 
 const cols = [
   {
@@ -75,21 +92,34 @@ export default function Footer() {
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div className="flex flex-wrap items-center gap-4 text-sm text-white/50">
             <span>© {new Date().getFullYear()} ITcrista infoX. All rights reserved.</span>
-            <span className="hidden md:inline">·</span>  <span><a href="www.linkedin.com/in/rajat-bharawa">Design & Developed By Rajat Bharawa</a></span>
+            <span className="hidden md:inline">·</span>  <span><a
+  href="https://www.linkedin.com/in/rajat-bharawa/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-white transition-colors"
+>
+  Design & Developed By Rajat Bharawa
+</a></span>
              </div>
-          <div className="flex items-center gap-3">
-            {[Linkedin, Instagram, Mail].map((Ic, i) => (
-              <a
-                key={i}
-                href="#"
-                aria-label="social"
-                data-testid={`footer-social-${i}`}
-                className="w-10 h-10 grid place-items-center rounded-full border border-white/10 text-white/70 hover:text-white hover:border-[#06B6D4]/50 hover:bg-white/5 transition-colors"
-              >
-                <Ic className="w-4 h-4" />
-              </a>
-            ))}
-          </div>
+         <div className="flex items-center gap-3">
+  {socialLinks.map((item, i) => {
+    const Icon = item.icon;
+
+    return (
+      <a
+        key={i}
+        href={item.url}
+        target={item.url.startsWith("http") ? "_blank" : "_self"}
+        rel="noopener noreferrer"
+        aria-label={item.label}
+        data-testid={`footer-social-${i}`}
+        className="w-10 h-10 grid place-items-center rounded-full border border-white/10 text-white/70 hover:text-white hover:border-[#06B6D4]/50 hover:bg-white/5 transition-colors"
+      >
+        <Icon className="w-4 h-4" />
+      </a>
+    );
+  })}
+</div>
         </div>
       </div>
 
