@@ -8,7 +8,7 @@ const socialLinks = [
   },
   {
     icon: Instagram,
-    url: "https://www.instagram.com/itcrista/",
+    url: "https://www.instagram.com/itcrista_infox/",
     label: "Instagram",
   },
   {
