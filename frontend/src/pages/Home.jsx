@@ -27,15 +27,28 @@ export default function Home() {
           content="Custom website development, Shopify stores, WordPress, SEO optimization, website redesign and eCommerce solutions for growing businesses worldwide."
         />
 
-       <link rel="canonical" href="https://www.itcrista.in/" />
+      <link rel="canonical" href="https://itcrista.in/" />
 <script type="application/ld+json">
 {JSON.stringify({
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "ITcrista",
-  "alternateName": "ITcrista infoX",
-  "url": "https://www.itcrista.in",
-  "logo": "https://www.itcrista.in/logo.png",
+ "name": "ITcrista infoX",
+"alternateName": [
+  "ITcrista",
+  "IT Crista",
+  "IT-Crista",
+  "ITCRISTA",
+  "IT CRISTA",
+  "ITcrista infoX",
+  "ITCRISTA INFOX",
+  "ITcrista InfoX",
+  "IT Crista infoX",
+  "IT-Crista infoX",
+  "ITCRISTA INFO",
+  "IT Crista Info"
+],
+"url": "https://itcrista.in",
+"logo": "https://itcrista.in/logo.png",
   "description":
     "ITcrista is a web development agency providing custom website development, Shopify development, WordPress development, React.js, Next.js, website maintenance, eCommerce solutions and technical SEO services for businesses worldwide.",
   "founder": {
