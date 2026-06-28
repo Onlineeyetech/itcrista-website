@@ -48,7 +48,7 @@ export default function Home() {
   "IT Crista Info"
 ],
 "url": "https://itcrista.in",
-"logo": "https://itcrista.in/logo.png",
+"logo": "https://itcrista.in/logo/itcrista-logo.png",
   "description":
     "ITcrista is a web development agency providing custom website development, Shopify development, WordPress development, React.js, Next.js, website maintenance, eCommerce solutions and technical SEO services for businesses worldwide.",
   "founder": {
