@@ -49,8 +49,8 @@ const submit = async (e) => {
         <div className="max-w-7xl mx-auto px-6 md:px-10 grid lg:grid-cols-12 gap-10">
           <div className="lg:col-span-5 space-y-5">
             {[
-              { Ic: Mail, label: "Email", value: "hello@itcristainfox.com" },
-              { Ic: Phone, label: "Phone", value: "+1 (415) 555-0142" },
+              { Ic: Mail, label: "Email", value: "admin@itcrista.in" },
+              { Ic: Phone, label: "Phone", value: "........" },
               { Ic: MapPin, label: "Studio", value: "Remote · Worldwide" },
             ].map((c) => (
               <div key={c.label} className="glass rounded-2xl p-6 flex items-start gap-4">
