@@ -112,7 +112,7 @@ export default function ServicePageTemplate({ content: c }) {
       </section>
 
       {/* ---------------------------- 2. WHY ---------------------------- */}
-      <section data-testid={test("why")} className="relative py-24 md:py-28 bg-[#0A1525] border-y border-white/10 overflow-hidden">
+      <section data-testid={test("why")} className="relative py-8 md:py-16 bg-[#0A1525] border-y border-white/10 overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 md:px-10">
           <div className="grid lg:grid-cols-12 gap-10 mb-14">
             <div className="lg:col-span-7">
@@ -151,7 +151,7 @@ export default function ServicePageTemplate({ content: c }) {
       </section>
 
       {/* ---------------------------- 3. INCLUDED ---------------------------- */}
-      <section data-testid={test("included")} className="relative py-24 md:py-32 bg-[#071120] overflow-hidden">
+      <section data-testid={test("included")} className="relative py-8 md:py-16 bg-[#071120] overflow-hidden">
         <div className="absolute inset-0 bg-grid opacity-40" />
         <div className="relative max-w-7xl mx-auto px-6 md:px-10">
           <div className="text-center max-w-2xl mx-auto mb-14">
@@ -189,7 +189,7 @@ export default function ServicePageTemplate({ content: c }) {
       </section>
 
       {/* ---------------------------- 4. PROCESS ---------------------------- */}
-      <section data-testid={test("process")} className="relative py-24 md:py-28 bg-[#0A1525] border-y border-white/10 overflow-hidden">
+      <section data-testid={test("process")} className="relative py-8 md:py-16 bg-[#0A1525] border-y border-white/10 overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 md:px-10">
           <div className="grid lg:grid-cols-12 gap-10 mb-14">
             <div className="lg:col-span-7">
@@ -235,7 +235,7 @@ export default function ServicePageTemplate({ content: c }) {
       </section>
 
       {/* ---------------------------- 5. STACK ---------------------------- */}
-      <section data-testid={test("stack")} className="relative py-24 md:py-32 bg-[#071120] overflow-hidden">
+      <section data-testid={test("stack")} className="relative py-8 md:py-16 bg-[#071120] overflow-hidden">
         <div className="absolute inset-0 bg-grid opacity-30" />
         <div className="relative max-w-7xl mx-auto px-6 md:px-10">
           <div className="text-center max-w-2xl mx-auto mb-14">
@@ -275,7 +275,7 @@ export default function ServicePageTemplate({ content: c }) {
       </section>
 
       {/* ---------------------------- 6. FEATURES ---------------------------- */}
-      <section data-testid={test("features")} className="relative py-24 md:py-28 bg-[#0A1525] border-y border-white/10 overflow-hidden">
+      <section data-testid={test("features")} className="relative py-8 md:py-16 bg-[#0A1525] border-y border-white/10 overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 md:px-10">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">Features</p>
@@ -306,7 +306,7 @@ export default function ServicePageTemplate({ content: c }) {
       </section>
 
       {/* ---------------------------- 7. PORTFOLIO ---------------------------- */}
-      <section data-testid={test("portfolio")} className="relative py-24 md:py-32 bg-[#071120] overflow-hidden">
+      <section data-testid={test("portfolio")} className="relative py-8 md:py-16 bg-[#071120] overflow-hidden">
         <div className="absolute inset-0 bg-grid opacity-40" />
         <div className="relative max-w-7xl mx-auto px-6 md:px-10">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
@@ -362,7 +362,7 @@ export default function ServicePageTemplate({ content: c }) {
       <Testimonials items={c.testimonials} slug={slug} />
 
       {/* ---------------------------- 9. FAQ ---------------------------- */}
-      <section data-testid={test("faq")} className="relative py-24 md:py-32 bg-[#071120] overflow-hidden">
+      <section data-testid={test("faq")} className="relative py-8 md:py-16 bg-[#071120] overflow-hidden">
         <div className="absolute inset-0 bg-grid opacity-30" />
         <div className="relative max-w-4xl mx-auto px-6 md:px-10">
           <div className="text-center mb-12">
@@ -390,7 +390,7 @@ export default function ServicePageTemplate({ content: c }) {
       </section>
 
       {/* ---------------------------- 10. FINAL CTA ---------------------------- */}
-      <section data-testid={test("final-cta")} className="relative py-24 md:py-32 bg-[#071120] overflow-hidden">
+      <section data-testid={test("final-cta")} className="relative py-8 md:py-16 bg-[#071120] overflow-hidden">
         <div className="absolute inset-0">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[60%] bg-gradient-to-r from-[#06B6D4]/20 via-[#3B82F6]/15 to-[#7C3AED]/20 blur-3xl rounded-full" />
         </div>
@@ -433,7 +433,7 @@ function Testimonials({ items, slug }) {
   const t = items[i];
   const test = (k) => `${slug}-${k}`;
   return (
-    <section data-testid={test("testimonials")} className="relative py-24 md:py-32 bg-[#0A1525] border-y border-white/10 overflow-hidden">
+    <section data-testid={test("testimonials")} className="relative py-8 md:py-16 bg-[#0A1525] border-y border-white/10 overflow-hidden">
       <div className="max-w-5xl mx-auto px-6 md:px-10 text-center">
         <p className="text-xs uppercase tracking-[0.3em] text-[#06B6D4] mb-4">Client voices</p>
         <h2 className="font-display font-black tracking-tighter text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.02]">
