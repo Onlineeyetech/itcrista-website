@@ -45,7 +45,7 @@ export default function BlogInner() {
   return (
     <section data-testid="blog-inner-section" className="relative bg-[#071120] text-white">
       {/* Hero */}
-      <div className="relative pt-32 md:pt-40 pb-16 hero-glow overflow-hidden">
+      <div className="relative pt-8 md:pt-16 pb-16 hero-glow overflow-hidden">
         <div className="absolute inset-0 bg-grid opacity-40 pointer-events-none" />
         <div className="relative max-w-4xl mx-auto px-6 md:px-10">
           <a
@@ -134,7 +134,7 @@ export default function BlogInner() {
       </div>
 
       {/* Body grid */}
-      <div className="relative py-16 md:py-24">
+      <div className="relative py-8 md:py-16">
         <div className="max-w-7xl mx-auto px-6 md:px-10 grid lg:grid-cols-12 gap-10 lg:gap-16">
           {/* TOC */}
           <aside className="lg:col-span-3 order-2 lg:order-1">
