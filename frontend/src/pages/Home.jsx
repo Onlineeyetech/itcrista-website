@@ -32,7 +32,8 @@ export default function Home() {
 {JSON.stringify({
   "@context": "https://schema.org",
   "@type": "Organization",
- "name": "ITcrista infoX",
+ "name": "IT Crista infoX",
+  "legalName": "ITcrista infoX",
 "alternateName": [
   "ITcrista",
   "IT Crista",
