@@ -5,14 +5,14 @@ import { Link } from "react-router-dom";
 const tiers = [
   {
     name: "Starter",
-    price: "$1,499",
+    price: "$699",
     desc: "Single landing page or 5-page premium website.",
     features: ["Pixel-perfect design", "Mobile-first build", "SEO foundations", "1 round of revisions", "2-week delivery"],
     highlighted: false,
   },
   {
     name: "Growth",
-    price: "$4,999",
+    price: "$1,299",
     desc: "Custom website + ecommerce or CMS build.",
     features: ["Full UI/UX design system", "Up to 15 pages", "Shopify / Woo / Custom CMS", "Speed & SEO optimisation", "3 rounds of revisions", "Priority support"],
     highlighted: true,
