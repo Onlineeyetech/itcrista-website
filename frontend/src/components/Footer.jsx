@@ -55,7 +55,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
           <div className="lg:col-span-2">
             <Link to="/" className="inline-flex items-center gap-2">
-              <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-[#06B6D4] via-[#3B82F6] to-[#7C3AED] grid place-items-center font-display font-black text-white">i</div>
+              {/* <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-[#06B6D4] via-[#3B82F6] to-[#7C3AED] grid place-items-center font-display font-black text-white">i</div> */}
               {/* <span className="font-display text-2xl font-bold tracking-tight">ITcrista <span className="text-[#06B6D4]">infoX</span></span> */}
                 <img src="/logo/itcrista-logo-white.png" style={{ width: "149px" }} />
             </Link>
