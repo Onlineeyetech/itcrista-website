@@ -56,7 +56,8 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <Link to="/" className="inline-flex items-center gap-2">
               <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-[#06B6D4] via-[#3B82F6] to-[#7C3AED] grid place-items-center font-display font-black text-white">i</div>
-              <span className="font-display text-2xl font-bold tracking-tight">ITcrista <span className="text-[#06B6D4]">infoX</span></span>
+              {/* <span className="font-display text-2xl font-bold tracking-tight">ITcrista <span className="text-[#06B6D4]">infoX</span></span> */}
+                <img src="/logo/itcrista-logo-white.png" style={{ width: "149px" }} />
             </Link>
             <p className="mt-5 text-white/60 max-w-sm leading-relaxed">
               A world-class IT agency crafting premium digital experiences for ambitious brands, startups and enterprises across the globe.
