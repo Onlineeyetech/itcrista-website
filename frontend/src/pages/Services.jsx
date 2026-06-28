@@ -10,7 +10,7 @@ export default function ServicesPage() {
   return (
     <main data-testid="services-page">
       <PageHeader
-        eyebrow="/ Services"
+        eyebrow="Services"
         title={<>End-to-end <span className="text-gradient">digital services.</span></>}
         subtitle="From discovery to delivery, our senior team handles every layer of your digital product — design, engineering, performance, growth and ongoing support."
       />
