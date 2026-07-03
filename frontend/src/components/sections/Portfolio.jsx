@@ -58,7 +58,7 @@ const projects = [
     title: "TheChakrasoul",
     category: "Ecommerce",
     tag: "Shopify",
-    img: "/images/thechakrasoul.png",
+    img: "/images/chakrasaul.png",
   },
   {
     title: "Agdesign",
