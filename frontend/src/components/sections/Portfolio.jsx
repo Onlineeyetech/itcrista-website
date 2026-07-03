@@ -150,7 +150,7 @@ export default function Portfolio() {
               {visibleProjects.map((p, i) => (
                 <motion.a
                   key={p.title}
-                  href="#"
+                  href={p.url}
                   layout
                   initial={{ opacity: 0, y: 24 }}
                   animate={{ opacity: 1, y: 0 }}
