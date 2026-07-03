@@ -11,6 +11,7 @@ const projects = [
     category: "SaaS",
     tag: "Shopify · Custom",
     img: "/images/loopagency.svg",
+     url: "https://loopagency.ca/" ,
   },
   {
     title: "Veaves — Ecommerce",
