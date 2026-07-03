@@ -151,6 +151,7 @@ export default function Portfolio() {
                 <motion.a
                   key={p.title}
                   href={p.url}
+                  target="_blank"
                   layout
                   initial={{ opacity: 0, y: 24 }}
                   animate={{ opacity: 1, y: 0 }}
