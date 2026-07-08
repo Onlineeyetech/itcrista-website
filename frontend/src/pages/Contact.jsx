@@ -29,6 +29,7 @@ const submit = async (e) => {
     setForm({
       name: "",
       email: "",
+      phone: "",
       company: "",
       message: "",
     });
@@ -80,10 +81,41 @@ const submit = async (e) => {
                 <Check className="w-4 h-4 text-[#06B6D4]" /> Thanks — we'll get back to you within 24 hours.
               </div>
             )}
-            <div className="grid sm:grid-cols-2 gap-4">
-              <Field label="Your Name" value={form.name} onChange={(v) => update("name", v)} required testid="contact-name" />
-              <Field label="Email" type="email" value={form.email} onChange={(v) => update("email", v)} required testid="contact-email" />
-            </div>
+           <div className="grid sm:grid-cols-2 gap-4">
+  <Field
+    label="Your Name"
+    value={form.name}
+    onChange={(v) => update("name", v)}
+    required
+    testid="contact-name"
+  />
+
+  <Field
+    label="Email"
+    type="email"
+    value={form.email}
+    onChange={(v) => update("email", v)}
+    required
+    testid="contact-email"
+  />
+
+  <Field
+    label="Phone Number"
+    type="tel"
+    value={form.phone}
+    onChange={(v) => update("phone", v)}
+    required
+    testid="contact-phone"
+  />
+
+  <Field
+    label="Company"
+    value={form.company}
+    onChange={(v) => update("company", v)}
+    testid="contact-company"
+  />
+</div>
+            
        <div className="grid sm:grid-cols-1 gap-4">
               <Field label="Company" value={form.company} onChange={(v) => update("company", v)} testid="contact-company" />
               {/* <div>
