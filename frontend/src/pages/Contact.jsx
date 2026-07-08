@@ -4,11 +4,25 @@ import PageHeader from "../components/PageHeader";
 
 export default function ContactPage() {
   const [sent, setSent] = useState(false);
-  const [form, setForm] = useState({ name: "", email: "", company: "", budget: "", message: "" });
+ const [form, setForm] = useState({
+  name: "",
+  email: "",
+  phone: "",
+  company: "",
+  budget: "",
+  message: ""
+});
 
   const update = (k, v) => setForm((f) => ({ ...f, [k]: v }));
 const submit = async (e) => {
   e.preventDefault();
+  
+  const phoneRegex = /^\+?[1-9]\d{9,14}$/;
+
+  if (!phoneRegex.test(form.phone)) {
+    alert("Please enter a valid phone number.");
+    return;
+  }
 
   try {
 
@@ -105,6 +119,8 @@ const submit = async (e) => {
     value={form.phone}
     onChange={(v) => update("phone", v)}
     required
+      pattern="[0-9]{10,15}"
+      maxLength={15}
     testid="contact-phone"
   />
 
@@ -159,7 +175,16 @@ const submit = async (e) => {
   );
 }
 
-function Field({ label, type = "text", value, onChange, required, testid }) {
+function Field({
+  label,
+  type = "text",
+  value,
+  onChange,
+  required,
+  testid,
+  pattern,
+  maxLength
+}) {
   return (
     <div>
       <label className="text-xs uppercase tracking-[0.25em] text-white/50">{label}</label>
@@ -169,6 +194,8 @@ function Field({ label, type = "text", value, onChange, required, testid }) {
         value={value}
         onChange={(e) => onChange(e.target.value)}
         data-testid={testid}
+        pattern={pattern}
+maxLength={maxLength}
         className="mt-2 w-full bg-white/[0.04] border border-white/10 rounded-xl px-4 py-3.5 text-white outline-none focus:border-[#06B6D4]/50"
       />
     </div>
