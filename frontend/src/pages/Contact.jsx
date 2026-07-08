@@ -116,10 +116,9 @@ const submit = async (e) => {
   />
 </div>
             
-       <div className="grid sm:grid-cols-1 gap-4">
+       {/* <div className="grid sm:grid-cols-1 gap-4">
               <Field label="Company" value={form.company} onChange={(v) => update("company", v)} testid="contact-company" />
-              {/* <div>
-                <label className="text-xs uppercase tracking-[0.25em] text-white/50">Budget</label>
+              <label className="text-xs uppercase tracking-[0.25em] text-white/50">Budget</label>
                 <select
                   value={form.budget}
                   onChange={(e) => update("budget", e.target.value)}
@@ -132,8 +131,8 @@ const submit = async (e) => {
                   <option className="bg-[#0D1B2A]">$15k — $50k</option>
                   <option className="bg-[#0D1B2A]">$50k+</option>
                 </select>
-              </div> */}
-            </div> 
+              </div> 
+            </div>  */}
             <div>
               <label className="text-xs uppercase tracking-[0.25em] text-white/50">Tell us about the project</label>
               <textarea
