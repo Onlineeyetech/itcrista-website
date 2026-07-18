@@ -56,7 +56,7 @@ function App() {
           <Route path="/blog/how-to-choose-the-right-web-development-agency-2026" element={<HowToChoose />} />   
           <Route path="/blog/25-website-mistakes-that-hurt-google-rankings" element={<Websitemistakes />} />   
           <Route path="/blog/technical-seo-checklist-for-business-websites" element={<TechnicalSEOChecklist />} /> 
-          <Route path="/blog/aipowered" element={<AIPowered />} /> 
+          <Route path="/blog/ai-powered-web-development" element={<AIPowered />} /> 
           <Route path="/blogs" element={<Blogs />} />
           <Route path="*" element={<Home />} />
         </Routes>
