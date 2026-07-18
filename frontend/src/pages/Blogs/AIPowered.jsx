@@ -2,7 +2,6 @@
 import BlogPageTemplate from "../../components/BlogPageTemplate";
 
 const article = {
-{
   slug: "ai-powered-web-development",
 
   title:
@@ -188,7 +187,7 @@ content: [
 ],
 };
 
-export default function HowToChoose() {
+export default function AIPowered() {
   return (
     <BlogPageTemplate
       slug={article.slug}
