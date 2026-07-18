@@ -101,7 +101,7 @@ const article = {
     },
     {
   type: "image",
-  src: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1600&q=80",
+  src: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
   alt: "AI-powered web development dashboard",
   caption: "Artificial Intelligence is transforming every stage of modern website development."
 },
