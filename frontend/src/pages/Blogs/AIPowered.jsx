@@ -100,6 +100,12 @@ const article = {
       quote:"AI accelerates development, but human expertise delivers production-ready software."
     },
     {
+  type: "image",
+  src: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1600&q=80",
+  alt: "AI-powered web development dashboard",
+  caption: "Artificial Intelligence is transforming every stage of modern website development."
+},
+    {
   type: "h2",
   text: "How AI Is Speeding Up Website Development"
 },
@@ -133,7 +139,12 @@ const article = {
   quote:
     "AI removes repetitive work so developers can spend more time solving real business problems."
 },
-
+{
+  type: "image",
+  src: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=1600&q=80",
+  alt: "Software testing dashboard",
+  caption: "AI-powered testing automates quality assurance and bug detection."
+},
 {
   type: "h2",
   text: "AI in Software Testing and Quality Assurance"
