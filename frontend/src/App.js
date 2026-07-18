@@ -21,6 +21,7 @@ import WebsiteLosingCustomers from "./pages/Blogs/WebsiteLosingCustomers";
 import HowToChoose from "./pages/Blogs/HowToChoose";
 import Websitemistakes from "./pages/Blogs/Websitemistakes";
 import TechnicalSEOChecklist from "./pages/Blogs/TechnicalSEOChecklist";
+import AIPowered from "./pages/Blogs/AIPowered";
 
 
 function ScrollToTop() {
