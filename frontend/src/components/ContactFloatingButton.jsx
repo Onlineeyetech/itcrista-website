@@ -150,7 +150,7 @@ function ContactPopup({ open, onClose }) {
                 .contact-popup-embed [data-testid="page-header"] {
                   padding-top: 1.5rem;
                   padding-bottom: 1rem;
-                  display:none;
+                
                 }
                 .contact-popup-embed [data-testid="contact-page"] > section:last-child {
                   padding-bottom: 2rem;
