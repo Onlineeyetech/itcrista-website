@@ -79,7 +79,7 @@ const content = {
   portfolioTitle: "Shopify stores",
   portfolioAccent: "in production.",
   portfolio: [
-    { title: "Aurora — Luxury Fashion DTC", cat: "Shopify Hydrogen", metric: "+34% conversion", img: SHARED_PORTFOLIO_IMGS.a },
+    { title: "Veaves — Ecommerce", cat: "Shopify Hydrogen", metric: "+34% conversion", img: "/images/veavesmockup.png" },
     { title: "Lume Skincare", cat: "OS 2.0 + Recharge", metric: "+41% AOV", img: SHARED_PORTFOLIO_IMGS.b },
     { title: "Mercato Marketplace", cat: "Shopify Plus", metric: "10k+ SKUs migrated", img: SHARED_PORTFOLIO_IMGS.c },
   ],
