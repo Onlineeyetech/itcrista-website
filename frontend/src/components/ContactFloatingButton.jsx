@@ -156,7 +156,7 @@ function ContactPopup({ open, onClose }) {
                   padding-bottom: 2rem;
                 }
                .lg:col-span-5{
-display: none;
+display: none!important;
                }
               `}</style>
             </div>
