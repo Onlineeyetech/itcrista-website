@@ -178,6 +178,13 @@
  * - Closes via X button, overlay click, or Escape key
  * - Locks body scroll while open
  */
+
+import { useEffect, useState, useCallback } from "react";
+import { createPortal } from "react-dom";
+import { motion, AnimatePresence } from "framer-motion";
+import { MessageCircle, X } from "lucide-react";
+import ContactForm from "./ContactForm";
+
 export default function ContactFloatingButton() {
   const [open, setOpen] = useState(false);
 
