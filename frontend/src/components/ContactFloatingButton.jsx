@@ -155,9 +155,7 @@ function ContactPopup({ open, onClose }) {
                 .contact-popup-embed [data-testid="contact-page"] > section:last-child {
                   padding-bottom: 2rem;
                 }
-               .lg:col-span-5{
-display: none!important;
-               }
+            
               `}</style>
             </div>
           </motion.div>
