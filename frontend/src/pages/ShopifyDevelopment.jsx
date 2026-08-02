@@ -84,9 +84,9 @@ const content = {
     { title: "Loop — Revenue Automation", cat: "Shopify Custom Base", metric: "AI Automations", img: "/images/loopagency.svg" },
   ],
   testimonials: [
-    { q: "Migrating to a custom Hydrogen storefront cut our LCP from 4.1s to 0.8s and lifted conversion 34% in 60 days.", n: "Sophia Reeves", r: "VP Product · Aurora Studios", img: TESTIMONIAL_IMGS.a },
-    { q: "ITcrista understood luxury DTC in a way our previous Shopify partner never did. Every detail felt intentional.", n: "Aisha Khan", r: "Head of Growth · Lume", img: TESTIMONIAL_IMGS.c },
-    { q: "The most considered Shopify engagement we've ever run. Calm process, surgical execution.", n: "Marcus Hale", r: "Founder · Mercato", img: TESTIMONIAL_IMGS.b },
+    { q: "Superb, Rajat has been super easy to work with, always available to get the work done", n: "Aditya Rathi", r: "Bluebrew.in · Founder", img: "https://images.unsplash.com/photo-1638290047807-4c9d389b9aa6?auto=format&fit=crop&w=400&q=80" },
+    { q: "My go to web designer! Trusted & work always on point. Understands my aesthetics & implement it. 11/10 from my side", n: "Vidhi Goel", r: "jewelspop.com", img: "/logo/IMG_0379.PNG" },
+    { q: "Rajat is a great guy to work with, always available. He is very good and fast with his work. He is a very hard working guy."", n: "Vatsala Chopra", r: "Founder · Veaves.in", img: "/logo/veaves.png" },
   ],
   faqs: [
   {
