@@ -23,7 +23,7 @@ const content = {
   subtitle:
     "Custom themes, Hydrogen storefronts, app development and headless commerce — built for ambitious brands that refuse to look like everyone else.",
   heroImage:
-    "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&w=1200&q=80",
+    "/images/shopifylogo.png",
   stats: [
     { v: "+34%", l: "Avg. CR lift" },
     { v: "0.8s", l: "LCP target" },
