@@ -3,8 +3,7 @@ import { useEffect, useState, useCallback } from "react";
 import { createPortal } from "react-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { MessageCircle, X } from "lucide-react";
-import { useState, useEffect, useCallback } from "react";
-import { ArrowUpRight, Check, MessageCircle, X } from "lucide-react";
+import Contact from "../pages/Contact";
 
 // /**
 //  * Mobile-only floating "Contact Us" button + glassmorphism modal
@@ -79,88 +78,92 @@ export default function ContactFloatingButton() {
 /*                            Popup                                    */
 /* ------------------------------------------------------------------ */
 function ContactPopup({ open, onClose }) {
-const [sent, setSent] = useState(false);
+  if (typeof document === "undefined") return null;
 
-const [form, setForm] = useState({
-  name: "",
-  email: "",
-  phone: "",
-  company: "",
-  budget: "",
-  message: "",
-});
+  return createPortal(
+    <AnimatePresence>
+      {open && (
+        <div
+          className="lg:hidden fixed inset-0 z-[90]"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="contact-popup-title"
+          data-testid="contact-popup"
+        >
+          {/* Overlay */}
+          <motion.button
+            type="button"
+            aria-label="Close contact popup"
+            onClick={onClose}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.25 }}
+            data-testid="contact-popup-overlay"
+            className="absolute inset-0 bg-[#03080F]/75 backdrop-blur-xl cursor-default"
+          />
 
-const update = (k, v) => setForm((f) => ({ ...f, [k]: v }));
+          {/* Panel */}
+          <motion.div
+            initial={{ opacity: 0, y: 40, scale: 0.98 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: 30, scale: 0.98 }}
+            transition={{ type: "spring", stiffness: 300, damping: 30 }}
+            className="absolute inset-x-3 top-4 bottom-4 rounded-3xl overflow-hidden border border-white/10 shadow-2xl bg-[#071120]/85 backdrop-blur-2xl flex flex-col"
+          >
+            {/* Gradient glow */}
+            <div className="pointer-events-none absolute -top-24 -right-24 w-[26rem] h-[26rem] rounded-full bg-gradient-to-br from-[#06B6D4]/25 via-[#3B82F6]/15 to-[#7C3AED]/25 blur-3xl" />
 
-const submit = async (e) => {
- return (
-  <form
-    onSubmit={submit}
-    data-testid="contact-form"
-    className="glass rounded-3xl p-8 md:p-10 space-y-5"
-  >
-    {sent && (
-      <div className="flex items-center gap-3 rounded-xl border border-[#06B6D4]/40 bg-[#06B6D4]/10 px-4 py-3 text-sm text-white">
-        <Check className="w-4 h-4 text-[#06B6D4]" />
-        Thanks — we'll get back to you within 24 hours.
-      </div>
-    )}
+            {/* Header */}
+            <div className="relative flex items-center justify-between px-5 py-4 border-b border-white/10 bg-white/[0.02]">
+              <div className="flex items-center gap-2.5">
+                <span className="w-8 h-8 rounded-full bg-gradient-to-br from-[#06B6D4] via-[#3B82F6] to-[#7C3AED] grid place-items-center text-white">
+                  <MessageCircle className="w-4 h-4" />
+                </span>
+                <div id="contact-popup-title" className="font-display font-bold text-white tracking-tight">
+                  Contact Us
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={onClose}
+                aria-label="Close"
+                data-testid="contact-popup-close"
+                className="w-10 h-10 grid place-items-center rounded-full border border-white/10 text-white/80 hover:text-white hover:bg-white/5 transition"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
 
-    <div className="grid sm:grid-cols-2 gap-4">
-      <Field
-        label="Your Name"
-        value={form.name}
-        onChange={(v) => update("name", v)}
-        required
-      />
+            {/* Scrollable body — hosts the existing Contact page */}
+            <div
+              className="relative flex-1 overflow-y-auto overscroll-contain"
+              data-testid="contact-popup-body"
+            >
+              {/* Neutralise the page's top hero padding when embedded in modal */}
+              <div className="contact-popup-embed">
+                <Contact />
+              </div>
 
-      <Field
-        label="Email"
-        type="email"
-        value={form.email}
-        onChange={(v) => update("email", v)}
-        required
-      />
-
-      <Field
-        label="Phone Number"
-        type="tel"
-        value={form.phone}
-        onChange={(v) => update("phone", v)}
-        required
-        pattern="[0-9]{10,15}"
-        maxLength={15}
-      />
-
-      <Field
-        label="Company"
-        value={form.company}
-        onChange={(v) => update("company", v)}
-      />
-    </div>
-
-    <div>
-      <label className="text-xs uppercase tracking-[0.25em] text-white/50">
-        Tell us about the project
-      </label>
-
-      <textarea
-        rows={5}
-        value={form.message}
-        onChange={(e) => update("message", e.target.value)}
-        required
-        className="mt-2 w-full bg-white/[0.04] border border-white/10 rounded-xl px-4 py-3.5 text-white placeholder:text-white/30 outline-none focus:border-[#06B6D4]/50"
-        placeholder="Goals, timeline, links, anything else..."
-      />
-    </div>
-
-    <button
-      type="submit"
-      className="inline-flex items-center gap-2 px-7 py-4 rounded-full bg-white text-[#071120] font-semibold hover:bg-[#06B6D4] hover:text-white transition-colors btn-shine"
-    >
-      Send Message <ArrowUpRight className="w-4 h-4" />
-    </button>
-  </form>
-);
-};
+              {/* Local style: trim large top padding of the embedded page hero */}
+              <style>{`
+                .contact-popup-embed [data-testid="page-header"] {
+                  padding-top: 1.5rem;
+                  padding-bottom: 1rem;
+                
+                }
+                .contact-popup-embed [data-testid="contact-page"] > section:last-child {
+                  padding-bottom: 2rem;
+                }
+            
+              `}</style>
+            </div>
+          </motion.div>
+        </div>
+      )}
+    </AnimatePresence>,
+    document.body
+  );
 }
+
+
