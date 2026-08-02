@@ -63,7 +63,7 @@ export default function ContactFloatingButton() {
           <span className="w-9 h-9 -ml-2 rounded-full bg-gradient-to-br from-[#06B6D4] via-[#3B82F6] to-[#7C3AED] grid place-items-center text-white shadow-inner">
             <MessageCircle className="w-4 h-4" />
           </span>
-          <span className="font-display tracking-tight">Contact Us</span>
+          {/* <span className="font-display tracking-tight">Contact Us</span> */}
           <span className="w-2 h-2 rounded-full bg-[#06B6D4] animate-pulse" />
         </motion.button>
       </div>
