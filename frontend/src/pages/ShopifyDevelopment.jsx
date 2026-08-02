@@ -81,7 +81,7 @@ const content = {
   portfolio: [
     { title: "Veaves — Ecommerce", cat: "Shopify Hydrogen", metric: "+34% conversion", img: "/images/veavesmockup.png" },
     { title: "Bestink", cat: "Custom + Shopify", metric: "+41% AOV", img: "/images/bestink.png" },
-    { title: "Nivia Sports", cat: "Shopify Plus", metric: "10k+ SKUs Manage, img: "/images/nivia.png" },
+    { title: "Nivia Sports", cat: "Shopify Plus", metric: "10k+ SKUs Manage", img: "/images/nivia.png" },
   ],
   testimonials: [
     { q: "Migrating to a custom Hydrogen storefront cut our LCP from 4.1s to 0.8s and lifted conversion 34% in 60 days.", n: "Sophia Reeves", r: "VP Product · Aurora Studios", img: TESTIMONIAL_IMGS.a },
