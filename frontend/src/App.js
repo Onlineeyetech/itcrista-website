@@ -23,7 +23,7 @@ import Websitemistakes from "./pages/Blogs/Websitemistakes";
 import TechnicalSEOChecklist from "./pages/Blogs/TechnicalSEOChecklist";
 import AIPowered from "./pages/Blogs/AIPowered";
 import ContactFloatingButton from "./components/ContactFloatingButton";
-
+import WebsiteGetsTrafficButNoLeads from "./components/WebsiteGetsTrafficButNoLeads";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -58,6 +58,7 @@ function App() {
           <Route path="/blog/25-website-mistakes-that-hurt-google-rankings" element={<Websitemistakes />} />   
           <Route path="/blog/technical-seo-checklist-for-business-websites" element={<TechnicalSEOChecklist />} /> 
           <Route path="/blog/ai-powered-web-development" element={<AIPowered />} /> 
+          <Route path="/blog/Website-Gets-Traffic-But-No-Leads" element={<WebsiteGetsTrafficButNoLeads />} /> 
           <Route path="/blogs" element={<Blogs />} />
           <Route path="*" element={<Home />} />
         </Routes>
