@@ -10,7 +10,7 @@ const projects = [
     title: "kingcouture",
     category: "Fashion",
     tag: "Shopify + Custom",
-    img: "/images/loopagency.svg",
+    img: "/images/kingcouture.png",
     url: "https://kingcouture.in/" ,
   },
   {
