@@ -1,176 +1,402 @@
 import BlogPageTemplate from "../../components/BlogPageTemplate";
 
 const article = {
-  slug: "ai-powered-web-development",
-  title: "AI-Powered Web Development: How AI Is Transforming Coding, Testing & UX in 2026",
+  slug: "website-gets-traffic-but-no-leads",
+
+  title:
+    "Why Your Website Gets Traffic But No Leads: 15 Conversion Problems",
+
   excerpt:
-    "Discover how AI is transforming coding, testing, UX, and modern website development in 2026.",
-  category: "Artificial Intelligence",
-  publishDate: "July 2026",
+    "Getting website traffic but no leads? Discover 15 common conversion problems that stop visitors from becoming customers, from weak CTAs and poor UX to slow performance, unclear messaging, and trust issues.",
+
+  category: "Conversion Optimization",
+
+  publishDate: "August 2026",
+
   featuredImage:
-    "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1800&q=80",
+    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1800&q=80",
+
   author: {
     name: "Rajat Bharawa",
     role: "Founder · ITcrista",
-    bio: "Founder of ITcrista, helping businesses build high-performance websites with React, Shopify, WordPress, Technical SEO and AI-assisted development.",
+    bio:
+      "Rajat Bharawa is the Founder of ITcrista, helping businesses improve website performance, conversion rates, technical SEO, Shopify stores, WordPress websites, and custom web solutions.",
     socials: {
       linkedin: "https://www.linkedin.com/company/itcrista-infox"
     }
   },
+
   relatedPosts: [],
+
   content: [
-    {
-      type: "paragraph",
-      text: "Artificial Intelligence has become one of the biggest innovations in modern web development. AI-powered tools help developers write better code, automate repetitive tasks, improve testing, optimize performance, and create more personalized user experiences."
-    },
-    {
-      type: "quote",
-      quote: "AI won't replace web developers. Developers who use AI effectively will outperform those who don't."
-    },
-    {
-      type: "h2",
-      text: "What Is AI-Powered Web Development?"
-    },
-    {
-      type: "paragraph",
-      text: "AI-powered web development combines artificial intelligence with traditional development workflows to improve productivity, code quality, testing, design, accessibility, SEO, and deployment."
-    },
-    {
-      type: "list",
-      items: [
-        "AI-assisted coding",
-        "Automated testing",
-        "Bug detection",
-        "Performance optimization",
-        "Technical SEO improvements",
-        "UX personalization"
-      ]
-    },
-    {
-      type: "h2",
-      text: "Why Businesses Are Adopting AI"
-    },
-    {
-      type: "paragraph",
-      text: "Businesses expect faster launches, fewer bugs, and better user experiences. AI helps development teams reduce repetitive work while improving consistency and delivery speed."
-    },
-    {
-      type: "stats",
-      items: [
-        {
-          "label":"Developer Productivity",
-          "value":"60%",
-          "note":"Less time spent on repetitive coding tasks."
-        },
-        {
-          "label":"Testing Speed",
-          "value":"80%",
-          "note":"AI automation accelerates quality assurance."
-        },
-        {
-          "label":"Efficiency",
-          "value":"3×",
-          "note":"Higher productivity with AI-assisted workflows."
-        }
-      ]
-    },
-    {
-      type:"h2",
-      text:"Popular AI Development Tools"
-    },
-    {
-      type:"list",
-      items:[
-        "GitHub Copilot",
-        "Cursor",
-        "Claude",
-        "ChatGPT",
-        "Gemini",
-        "Codeium",
-        "Tabnine",
-        "Amazon CodeWhisperer"
-      ]
-    },
-    {
-      type:"paragraph",
-      text:"These tools improve developer productivity, but every AI-generated suggestion should still be reviewed by experienced engineers to ensure security, scalability, maintainability, and business alignment."
-    },
-    {
-      type:"quote",
-      quote:"AI accelerates development, but human expertise delivers production-ready software."
-    },
-    {
-  type: "image",
-  src: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-  alt: "AI-powered web development dashboard",
-  caption: "Artificial Intelligence is transforming every stage of modern website development."
+ {
+  type: "paragraph",
+  text:
+    "Getting traffic to your website is a good sign. It means people are finding your business through Google, social media, referrals, advertising, or other channels. But traffic alone does not grow a business. If hundreds or thousands of people visit your website and almost nobody contacts you, requests a quote, books a call, starts checkout, or makes a purchase, the real problem may be conversion—not traffic."
 },
-    {
+
+{
+  type: "paragraph",
+  text:
+    "A website can rank well on Google and still lose potential customers because of unclear messaging, weak calls to action, slow loading speeds, confusing navigation, poor mobile experience, lack of trust signals, or a complicated enquiry process. In this guide, we will look at 15 common website conversion problems that can turn valuable traffic into missed opportunities—and explain what you can do to fix them."
+},
+
+{
+  type: "quote",
+  quote:
+    "Traffic brings people to your website. A well-designed conversion experience gives them a reason to stay and take action."
+},
+
+{
   type: "h2",
-  text: "How AI Is Speeding Up Website Development"
+  text: "Traffic Is Not the Same as Business Growth"
 },
 
 {
   type: "paragraph",
-  text: "One of the biggest advantages of AI-powered web development is speed. Traditional development workflows often require developers to spend hours writing repetitive code, debugging simple issues, creating documentation, and configuring project structures. Modern AI assistants significantly reduce these repetitive tasks, allowing developers to focus on solving business problems, building scalable architectures, and creating better user experiences."
+  text:
+    "One of the biggest mistakes businesses make is measuring website success only by the number of visitors. High traffic numbers can look impressive in analytics, but they do not necessarily mean that your website is attracting the right audience or convincing visitors to become customers."
 },
 
 {
   type: "paragraph",
-  text: "Today, AI can generate reusable components, explain unfamiliar codebases, suggest optimized algorithms, identify security vulnerabilities, and even create documentation automatically. Instead of replacing developers, AI acts as a highly productive development assistant that helps experienced engineers work faster while maintaining high-quality standards."
+  text:
+    "A smaller number of highly relevant visitors can be more valuable than a large amount of untargeted traffic. This is why conversion rate optimization, user experience, website performance, and clear messaging should work alongside SEO and digital marketing."
 },
 
 {
   type: "list",
   items: [
-    "Generate reusable UI components",
-    "Suggest optimized JavaScript and React code",
-    "Create API boilerplate",
-    "Automatically write documentation",
-    "Detect syntax and logic errors",
-    "Improve code readability",
-    "Generate SQL queries",
-    "Recommend performance optimizations"
+    "SEO brings relevant visitors",
+    "Content answers their questions",
+    "UX helps them navigate",
+    "Trust signals reduce hesitation",
+    "Calls to action guide the next step",
+    "Conversion optimization turns interest into action"
+  ]
+},
+
+{
+  type: "h2",
+  text: "1. Your Website Does Not Clearly Explain What You Do"
+},
+
+{
+  type: "paragraph",
+  text:
+    "Visitors should understand what your business offers within seconds of landing on your website. If your homepage uses vague statements, complicated language, or generic marketing phrases, potential customers may leave before understanding why they should choose you."
+},
+
+{
+  type: "paragraph",
+  text:
+    "Your hero section should clearly communicate three things: what you offer, who you help, and what the visitor should do next. Instead of simply saying 'We create digital experiences', a business could explain the actual outcome it provides, such as 'High-performance websites that help growing businesses generate more qualified leads.'"
+},
+
+{
+  type: "h2",
+  text: "2. Your Call-to-Action Is Weak or Missing"
+},
+
+{
+  type: "paragraph",
+  text:
+    "A visitor may be interested in your service but still leave because the website never clearly tells them what to do next. Every important page should have a logical next step."
+},
+
+{
+  type: "list",
+  items: [
+    "Request a Quote",
+    "Book a Consultation",
+    "Start Your Project",
+    "Talk to an Expert",
+    "Get a Free Website Audit",
+    "Shop Now"
+  ]
+},
+
+{
+  type: "paragraph",
+  text:
+    "Avoid filling every section with multiple competing buttons. Choose one primary conversion action and make supporting actions secondary."
+},
+
+{
+  type: "h2",
+  text: "3. Your Website Is Too Slow"
+},
+
+{
+  type: "paragraph",
+  text:
+    "A slow website creates friction before visitors even see your offer. Large images, unnecessary scripts, heavy animations, poorly optimized applications, and inefficient code can increase loading times and make the experience frustrating."
+},
+
+{
+  type: "paragraph",
+  text:
+    "Website speed matters for both user experience and search visibility. Improving image optimization, JavaScript delivery, caching, server performance, and Core Web Vitals can create a smoother experience for potential customers."
+},
+
+{
+  type: "h2",
+  text: "4. Your Website Looks Good but Does Not Build Trust"
+},
+
+{
+  type: "paragraph",
+  text:
+    "Visual design can create a strong first impression, but design alone does not establish credibility. Visitors want evidence that your business is legitimate and capable of delivering what it promises."
+},
+
+{
+  type: "list",
+  items: [
+    "Client logos",
+    "Real testimonials",
+    "Case studies",
+    "Reviews",
+    "Certifications where relevant",
+    "Clear contact information",
+    "Business details",
+    "Portfolio examples"
+  ]
+},
+
+{
+  type: "h2",
+  text: "5. Your Website Is Not Designed for Mobile Visitors"
+},
+
+{
+  type: "paragraph",
+  text:
+    "A website that works perfectly on desktop can still lose leads on mobile. Small buttons, difficult forms, oversized images, horizontal scrolling, unreadable text, and slow mobile performance can make visitors abandon the page."
+},
+
+{
+  type: "paragraph",
+  text:
+    "Responsive design should not simply shrink the desktop layout. Mobile users often need a different content hierarchy, simpler navigation, faster interactions, and easier access to important actions such as calling, messaging, booking, or submitting an enquiry."
+},
+
+{
+  type: "h2",
+  text: "6. Your Website Has Too Many Distractions"
+},
+
+{
+  type: "paragraph",
+  text:
+    "More features do not automatically create more conversions. Multiple popups, sliders, animations, banners, chat widgets, notifications, and competing CTAs can overwhelm visitors and make it difficult to identify the primary action."
+},
+
+{
+  type: "paragraph",
+  text:
+    "A conversion-focused website should have a clear visual hierarchy. Every section should have a purpose, and unnecessary elements should be removed when they do not contribute to the customer's journey."
+},
+
+{
+  type: "h2",
+  text: "7. Your Forms Are Too Complicated"
+},
+
+{
+  type: "paragraph",
+  text:
+    "Long enquiry forms can create unnecessary friction. If someone only wants to request a consultation, asking for ten or fifteen pieces of information before they can submit the form may discourage them."
+},
+
+{
+  type: "list",
+  items: [
+    "Ask only for information you actually need",
+    "Use clear field labels",
+    "Make error messages understandable",
+    "Keep the form visually simple",
+    "Provide confirmation after submission"
+  ]
+},
+
+{
+  type: "h2",
+  text: "8. Your Website Copy Talks About You Instead of the Customer"
+},
+
+{
+  type: "paragraph",
+  text:
+    "Many business websites focus heavily on company history, services, technology, and achievements without explaining how those things solve the customer's problem. Effective website copy connects features to outcomes."
+},
+
+{
+  type: "paragraph",
+  text:
+    "Instead of only saying that you provide Shopify development, explain what that means for the customer: a faster storefront, better mobile experience, improved product discovery, easier management, or a store designed to support growth."
+},
+
+{
+  type: "h2",
+  text: "9. Your Pricing or Offer Is Too Unclear"
+},
+
+{
+  type: "paragraph",
+  text:
+    "Visitors may leave when they cannot understand what they are buying or what is included. You do not always need to publish exact pricing, especially for custom services, but you should clearly explain your process, deliverables, scope, and what happens after someone contacts you."
+},
+
+{
+  type: "h2",
+  text: "10. You Are Not Showing Real Results"
+},
+
+{
+  type: "paragraph",
+  text:
+    "Potential customers want proof. A portfolio tells visitors what you have built, while a case study explains the problem, the solution, and the outcome. This difference can have a major impact on credibility."
+},
+
+{
+  type: "list",
+  items: [
+    "Show the original problem",
+    "Explain your solution",
+    "Highlight measurable improvements when verified",
+    "Show before-and-after experiences",
+    "Include relevant client feedback"
+  ]
+},
+
+{
+  type: "h2",
+  text: "11. Your Navigation Is Confusing"
+},
+
+{
+  type: "paragraph",
+  text:
+    "Visitors should not have to search through complicated menus to find your services, portfolio, contact information, or important product categories. Clear navigation reduces friction and helps users move naturally through the website."
+},
+
+{
+  type: "paragraph",
+  text:
+    "For service businesses, a simple structure such as Services, Work, About, Blog, and Contact can be more effective than a menu filled with dozens of unrelated links."
+},
+
+{
+  type: "h2",
+  text: "12. Your Website Does Not Answer Customer Questions"
+},
+
+{
+  type: "paragraph",
+  text:
+    "Visitors often hesitate before taking action because they have unanswered questions. A strong FAQ section can remove uncertainty around pricing, timelines, process, support, technology, revisions, delivery, returns, or other business-specific concerns."
+},
+
+{
+  type: "paragraph",
+  text:
+    "Good FAQs should answer real questions customers ask—not simply repeat keywords. This helps users make decisions while also creating useful content that search engines can understand."
+},
+
+{
+  type: "h2",
+  text: "13. Your Website Does Not Make Contact Easy"
+},
+
+{
+  type: "paragraph",
+  text:
+    "If someone decides they want to contact your business, the process should be obvious and frictionless. Important contact options should be easy to find throughout the customer journey."
+},
+
+{
+  type: "list",
+  items: [
+    "Visible contact button",
+    "Simple enquiry form",
+    "Business email",
+    "Phone number where appropriate",
+    "WhatsApp or messaging option where relevant",
+    "Clear confirmation after enquiry"
+  ]
+},
+
+{
+  type: "h2",
+  text: "14. Your Website Has Poor SEO and the Wrong Traffic"
+},
+
+{
+  type: "paragraph",
+  text:
+    "Sometimes the problem is not conversion optimization at all—the website is attracting the wrong visitors. Ranking for broad keywords that have little connection to your actual products or services can produce traffic without meaningful enquiries."
+},
+
+{
+  type: "paragraph",
+  text:
+    "SEO should focus on search intent. A business selling premium Shopify development should target relevant commercial searches rather than chasing unrelated high-volume keywords. The goal is not simply more traffic; it is more qualified traffic."
+},
+
+{
+  type: "h2",
+  text: "15. You Are Not Measuring the Conversion Journey"
+},
+
+{
+  type: "paragraph",
+  text:
+    "You cannot effectively improve conversions if you do not know where visitors are dropping off. Analytics and event tracking can reveal which pages receive traffic, which buttons are clicked, where users abandon forms, and which channels generate meaningful enquiries."
+},
+
+{
+  type: "list",
+  items: [
+    "Track form submissions",
+    "Track CTA clicks",
+    "Measure important page journeys",
+    "Monitor landing page performance",
+    "Compare traffic sources",
+    "Identify high-exit pages"
   ]
 },
 
 {
   type: "quote",
   quote:
-    "AI removes repetitive work so developers can spend more time solving real business problems."
+    "If you cannot see where users are dropping off, you are optimizing your website based on assumptions instead of evidence."
 },
-{
-  type: "image",
-  src: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=1600&q=80",
-  alt: "Software testing dashboard",
-  caption: "AI-powered testing automates quality assurance and bug detection."
-},
+
 {
   type: "h2",
-  text: "AI in Software Testing and Quality Assurance"
+  text: "How to Turn More Website Visitors Into Leads"
 },
 
 {
   type: "paragraph",
-  text: "Website testing has traditionally been one of the most time-consuming stages of software development. Developers manually verify layouts, validate forms, test APIs, check browser compatibility, and reproduce bugs before deployment. AI-powered testing tools dramatically improve this process by automating repetitive quality assurance tasks while detecting issues much earlier in the development lifecycle."
-},
-
-{
-  type: "paragraph",
-  text: "Modern AI testing platforms analyze user behavior, generate realistic test scenarios, identify visual regressions, detect broken workflows, and prioritize bugs based on their impact. This allows development teams to deliver reliable websites with fewer production issues."
+  text:
+    "Improving website conversions does not usually require changing everything at once. Start by identifying the biggest sources of friction and address them in order of business impact. Clarify your messaging, strengthen your calls to action, improve speed, simplify forms, add proof, and make the mobile experience easier to use."
 },
 
 {
   type: "list",
   items: [
-    "Automated regression testing",
-    "Visual UI comparison",
-    "Cross-browser testing",
-    "Performance testing",
-    "Accessibility validation",
-    "API testing",
-    "Form validation",
-    "Bug prediction using AI"
+    "Clarify your value proposition",
+    "Improve your hero section",
+    "Add stronger calls to action",
+    "Optimize mobile UX",
+    "Improve website speed",
+    "Add genuine trust signals",
+    "Simplify lead forms",
+    "Create useful FAQs",
+    "Improve internal navigation",
+    "Track conversion events"
   ]
 },
 
@@ -178,203 +404,60 @@ const article = {
   type: "stats",
   items: [
     {
-      value: "80%",
-      label: "Faster QA",
-      note: "AI automates repetitive testing workflows."
+      value: "Traffic",
+      label: "Attract",
+      note: "Bring relevant visitors through SEO and digital marketing."
     },
     {
-      value: "50%",
-      label: "Earlier Bug Detection",
-      note: "Potential issues can be identified before production."
+      value: "UX",
+      label: "Engage",
+      note: "Give visitors a clear and frictionless experience."
     },
     {
-      value: "24/7",
-      label: "Continuous Testing",
-      note: "Automated pipelines can validate every deployment."
+      value: "Trust",
+      label: "Convince",
+      note: "Use proof, clarity, and credibility to reduce hesitation."
+    },
+    {
+      value: "CTA",
+      label: "Convert",
+      note: "Make the next action obvious and easy."
     }
   ]
 },
 
 {
   type: "h2",
-  text: "How AI Is Transforming User Experience (UX)"
+  text: "When Should You Consider a Website Redesign?"
 },
 
 {
   type: "paragraph",
-  text: "User experience is no longer limited to attractive designs. Modern websites are expected to adapt to user behavior, display personalized content, improve accessibility, and deliver faster interactions. Artificial Intelligence helps businesses create experiences that feel more relevant to every visitor."
+  text:
+    "If your website receives consistent traffic but generates very few enquiries, a redesign may be worth considering. However, redesigning everything without understanding the underlying problem can waste time and money. Start with a website audit that evaluates performance, SEO, user experience, messaging, navigation, mobile usability, and conversion paths."
 },
 
 {
   type: "paragraph",
-  text: "By analyzing visitor behavior, browsing history, device information, and engagement patterns, AI can recommend products, personalize landing pages, optimize navigation, and improve conversion rates. These intelligent experiences help businesses increase customer satisfaction while improving sales and lead generation."
-},
-
-{
-  type: "list",
-  items: [
-    "Personalized content recommendations",
-    "AI-powered search",
-    "Smart chatbots",
-    "Product recommendations",
-    "Dynamic landing pages",
-    "Accessibility improvements",
-    "Behavior-based personalization",
-    "Conversion optimization"
-  ]
-},
-
-{
-  type: "quote",
-  quote:
-    "The best user experiences are no longer static—they adapt intelligently to every visitor."
+  text:
+    "A strategic website redesign should preserve what already works while improving the areas that prevent visitors from taking action. The goal is not simply to create a newer-looking website. The goal is to create a website that performs better for both users and the business."
 },
 
 {
   type: "h2",
-  text: "Best AI Tools for Web Developers in 2026"
+  text: "How ITcrista Helps Businesses Increase Website Conversions"
 },
 
 {
   type: "paragraph",
-  text: "The AI ecosystem continues to evolve rapidly, providing developers with powerful tools for coding, debugging, testing, design, documentation, and deployment. Choosing the right tools depends on your workflow, programming language, and project requirements."
-},
-
-{
-  type: "list",
-  items: [
-    "GitHub Copilot – AI-assisted coding",
-    "Cursor AI – Intelligent code editor",
-    "Claude – Architecture planning and documentation",
-    "ChatGPT – Code generation and debugging",
-    "Google Gemini – Development assistance",
-    "Codeium – Free AI coding assistant",
-    "Tabnine – AI autocomplete",
-    "Amazon CodeWhisperer – AWS-focused development",
-    "Figma AI – UI generation",
-    "v0 by Vercel – React UI generation",
-    "Playwright – Automated testing",
-    "Cypress – End-to-end testing"
-  ]
+  text:
+    "At ITcrista, we look beyond visual design when improving business websites. Our approach combines custom website development, Shopify development, WordPress development, technical SEO, website speed optimization, user experience, and conversion-focused design."
 },
 
 {
   type: "paragraph",
-  text: "Although these tools significantly improve productivity, successful projects still depend on experienced developers who understand software architecture, security, scalability, accessibility, and business objectives. AI can generate code quickly, but professional review remains essential before deploying applications into production."
-},
-
-{
-  type: "h2",
-  text: "AI vs Traditional Web Development"
-},
-
-{
-  type: "paragraph",
-  text: "Traditional web development relies almost entirely on manual implementation, while AI-powered development introduces intelligent automation into everyday workflows. The biggest difference is not the quality of developers—it is the speed at which repetitive tasks are completed."
-},
-
-{
-  type: "stats",
-  items: [
-    {
-      value: "Traditional",
-      label: "Development",
-      note: "Manual coding, testing, debugging and documentation."
-    },
-    {
-      value: "AI-Assisted",
-      label: "Development",
-      note: "Automation supports coding while developers focus on strategy and architecture."
-    }
-  ]
-},
-
-{
-  type: "paragraph",
-  text: "For businesses, AI-assisted development often means shorter project timelines, reduced costs, faster updates, and more consistent software quality. However, the best results are achieved when AI is combined with experienced human developers rather than replacing them."
-},
-    {
-  type: "h2",
-  text: "Challenges and Limitations of AI in Web Development"
-},
-
-{
-  type: "paragraph",
-  text: "Despite its impressive capabilities, Artificial Intelligence is not a complete replacement for experienced web developers. AI can generate code, automate testing, and speed up workflows, but it still lacks deep business understanding, strategic thinking, and architectural decision-making. Every AI-generated solution should be carefully reviewed before it reaches production."
-},
-
-{
-  type: "paragraph",
-  text: "Businesses should treat AI as a productivity tool rather than a replacement for human expertise. Skilled developers ensure that applications remain secure, scalable, maintainable, and aligned with long-term business goals."
-},
-
-{
-  type: "list",
-  items: [
-    "AI may generate inefficient code.",
-    "Security vulnerabilities can still exist.",
-    "Business logic requires human expertise.",
-    "AI cannot replace product strategy.",
-    "Code reviews remain essential.",
-    "Complex architectures still require experienced developers."
-  ]
-},
-
-{
-  type: "quote",
-  quote:
-    "Artificial Intelligence accelerates development—but experience ensures quality."
-},
-
-{
-  type: "h2",
-  text: "The Future of AI-Powered Web Development"
-},
-
-{
-  type: "paragraph",
-  text: "Over the next few years, AI will become deeply integrated into every stage of website development. Developers will increasingly rely on AI to generate interfaces, optimize performance, automate testing, improve accessibility, and monitor applications in real time. Instead of replacing developers, AI will become an intelligent development partner that improves productivity and software quality."
-},
-
-{
-  type: "paragraph",
-  text: "Businesses that adopt AI-assisted development today will be better positioned to launch products faster, reduce operational costs, and deliver exceptional digital experiences to their customers."
-},
-
-{
-  type: "stats",
-  items: [
-    {
-      value: "2026",
-      label: "AI-First Development",
-      note: "AI-assisted workflows are becoming the industry standard."
-    },
-    {
-      value: "24/7",
-      label: "Monitoring",
-      note: "AI continuously detects issues and performance bottlenecks."
-    },
-    {
-      value: "100%",
-      label: "Human Review",
-      note: "Professional review remains essential before deployment."
-    }
-  ]
-},
-
-{
-  type: "h2",
-  text: "How ITcrista Uses AI Responsibly"
-},
-
-{
-  type: "paragraph",
-  text: "At ITcrista, we use Artificial Intelligence to improve productivity—not to compromise quality. AI helps our team automate repetitive coding tasks, generate documentation, improve testing, and accelerate development timelines. However, every project is reviewed, optimized, and validated by experienced developers before deployment."
-},
-
-{
-  type: "paragraph",
-  text: "Our approach combines AI-powered efficiency with human creativity, technical expertise, and business strategy. This enables us to deliver fast, secure, SEO-friendly, and scalable websites for businesses across multiple industries."
+  text:
+    "We help businesses identify the technical and UX issues that can prevent website visitors from becoming leads. From improving page speed and mobile usability to restructuring content and creating clearer conversion paths, the objective is to build a website that supports measurable business growth."
 },
 
 {
@@ -383,18 +466,73 @@ const article = {
     "Custom Website Development",
     "Shopify Development",
     "WordPress Development",
-    "React & Next.js Development",
     "Technical SEO",
     "Website Speed Optimization",
-    "Website Maintenance",
-    "AI-Assisted Development Workflows"
+    "Conversion Rate Optimization",
+    "Website Redesign",
+    "Ongoing Website Maintenance"
   ]
 },
 
 {
-  type: "quote",
-  quote:
-    "The best websites are built through the perfect balance of Artificial Intelligence and human expertise."
+  type: "h2",
+  text: "Frequently Asked Questions"
+},
+
+{
+  type: "faqs",
+  faqs: [
+    {
+      q: "Why is my website getting traffic but no leads?",
+      a:
+        "Common reasons include unclear messaging, weak calls to action, poor user experience, slow performance, lack of trust signals, complicated forms, and attracting visitors who do not match your target audience."
+    },
+    {
+      q: "How can I increase website conversion rates?",
+      a:
+        "Start by improving your value proposition, calls to action, mobile experience, website speed, trust signals, forms, navigation, and overall customer journey. Use analytics to identify the areas with the greatest friction."
+    },
+    {
+      q: "Can SEO bring traffic without generating leads?",
+      a:
+        "Yes. SEO can generate traffic that has little commercial intent. A strong SEO strategy should target keywords and topics that match the needs and buying intent of your ideal customers."
+    },
+    {
+      q: "Does website speed affect conversions?",
+      a:
+        "Yes. Slow pages create friction and can cause visitors to leave before they see your offer. Improving performance can create a smoother user experience and support better conversion performance."
+    },
+    {
+      q: "What is conversion rate optimization?",
+      a:
+        "Conversion rate optimization, or CRO, is the process of improving a website so a higher percentage of relevant visitors complete a desired action such as submitting a form, making a purchase, or booking a consultation."
+    },
+    {
+      q: "Should every website have a call to action?",
+      a:
+        "Important landing pages should generally provide a clear next step. The CTA should match the visitor's intent and the purpose of the page."
+    },
+    {
+      q: "How do I know if my website needs a redesign?",
+      a:
+        "Consistently low conversions, poor mobile usability, slow performance, outdated content, confusing navigation, and weak trust signals are common indicators that a strategic redesign or optimization project may be useful."
+    },
+    {
+      q: "Can a better website generate more leads without increasing traffic?",
+      a:
+        "Yes. Improving conversion paths can help you generate more enquiries from your existing relevant traffic. This is why CRO and website optimization are important alongside SEO."
+    },
+    {
+      q: "What should I track to measure website conversions?",
+      a:
+        "Track meaningful actions such as form submissions, phone clicks, WhatsApp clicks, bookings, purchases, CTA interactions, and important customer journeys rather than relying only on page views."
+    },
+    {
+      q: "Does ITcrista provide conversion-focused website development?",
+      a:
+        "Yes. ITcrista provides custom website development, Shopify development, WordPress development, technical SEO, performance optimization, and conversion-focused website solutions for businesses."
+    }
+  ]
 },
 
 {
@@ -404,58 +542,14 @@ const article = {
 
 {
   type: "paragraph",
-  text: "AI-powered web development is reshaping the digital industry by making coding faster, testing smarter, and user experiences more personalized. Businesses that embrace AI can reduce development time, improve software quality, and deliver better customer experiences. However, AI works best when combined with experienced developers who understand architecture, security, performance, accessibility, and business strategy."
+  text:
+    "If your website is getting traffic but not generating leads, do not assume that you simply need more visitors. The real opportunity may be inside the website itself. Small problems with messaging, trust, speed, mobile usability, navigation, forms, and calls to action can create significant friction throughout the customer journey."
 },
 
 {
   type: "paragraph",
-  text: "Whether you're planning a new business website, an eCommerce platform, or a complex web application, combining AI-powered workflows with professional development expertise offers the best path toward long-term success."
-},
-
-{
-  type: "faqs",
-  faqs: [
-    {
-      q: "What is AI-powered web development?",
-      a: "AI-powered web development uses artificial intelligence to improve coding, testing, design, optimization, and deployment processes while increasing developer productivity."
-    },
-    {
-      q: "Can AI build an entire website?",
-      a: "AI can generate layouts, code, and content, but experienced developers are still required for architecture, security, scalability, integrations, and business logic."
-    },
-    {
-      q: "Does AI replace web developers?",
-      a: "No. AI enhances developer productivity but cannot replace strategic thinking, creativity, and technical expertise."
-    },
-    {
-      q: "Which AI tools are popular for developers?",
-      a: "GitHub Copilot, Cursor, ChatGPT, Claude, Gemini, Codeium, Tabnine, and Figma AI are among the most widely used tools."
-    },
-    {
-      q: "How does AI improve website testing?",
-      a: "AI automates regression testing, visual testing, accessibility checks, bug detection, and quality assurance workflows."
-    },
-    {
-      q: "Is AI useful for Shopify development?",
-      a: "Yes. AI helps generate Liquid code, automate repetitive tasks, optimize storefront performance, and improve developer productivity."
-    },
-    {
-      q: "Can AI improve website SEO?",
-      a: "AI assists with technical SEO audits, content optimization, keyword research, metadata generation, and structured data recommendations."
-    },
-    {
-      q: "Is AI-generated code production-ready?",
-      a: "Not always. Every AI-generated solution should be reviewed and tested by experienced developers before deployment."
-    },
-    {
-      q: "Why should businesses choose AI-assisted development?",
-      a: "AI-assisted development helps reduce project timelines, improve code quality, accelerate testing, and lower development costs while maintaining high standards."
-    },
-    {
-      q: "How does ITcrista use AI?",
-      a: "ITcrista uses AI to accelerate coding, documentation, testing, and optimization while ensuring every project is reviewed by experienced developers before launch."
-    }
-  ]
+  text:
+    "The strongest websites combine SEO with user experience and conversion strategy. They attract the right audience, answer their questions, build confidence, and make the next step easy. By identifying and fixing the conversion problems that affect your website, you can make better use of the traffic you already have while building a stronger foundation for future growth."
 }
   ]
   
