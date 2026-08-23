@@ -6,6 +6,13 @@ import { Helmet } from "react-helmet-async";
 const categories = ["All", "Fashion", "SaaS", "Sports", "Ecommerce"];
 
 const projects = [
+   {
+    title: "kingcouture",
+    category: "Fashion",
+    tag: "Shopify + Custom",
+    img: "/images/loopagency.svg",
+    url: "https://kingcouture.in/" ,
+  },
   {
     title: "Loop — Revenue Automation",
     category: "SaaS",
