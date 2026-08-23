@@ -7,6 +7,15 @@ import { Search, ArrowUpRight, Clock, Calendar, Tag, BookOpen } from "lucide-rea
 /*                    Reusable blog dataset                            */
 /* ------------------------------------------------------------------ */
 const BLOG_POSTS = [
+    {
+    title: "Why Your Website Gets Traffic But No Leads: 15 Conversion Problems",
+    excerpt: "Getting website traffic but no leads? Discover 15 common conversion problems that stop visitors from becoming customers, from weak CTAs and poor UX to slow performance, unclear messaging, and trust issues.",
+    slug: "/blog/Website-Gets-Traffic-But-No-Leads",
+    category: "Conversion Optimization",
+    date: "August 23, 2026",
+    read: "15 min",
+    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1800&q=80",
+  },
   {
     title: "Why High-Growth Ecommerce Brands Choose Custom Shopify Development in 2026",
     excerpt: "Discover why growing ecommerce brands are moving beyond generic Shopify themes and investing in custom Shopify development for better performance, SEO, conversions, and long-term growth.",
