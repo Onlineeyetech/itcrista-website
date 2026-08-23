@@ -23,7 +23,7 @@ import Websitemistakes from "./pages/Blogs/Websitemistakes";
 import TechnicalSEOChecklist from "./pages/Blogs/TechnicalSEOChecklist";
 import AIPowered from "./pages/Blogs/AIPowered";
 import ContactFloatingButton from "./components/ContactFloatingButton";
-import WebsiteGetsTrafficButNoLeads from "./components/WebsiteGetsTrafficButNoLeads";
+import WebsiteGetsTrafficButNoLeads from "./components/Blogs/WebsiteGetsTrafficButNoLeads";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
