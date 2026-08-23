@@ -39,15 +39,15 @@ const posts = [
     read: "10 min",
     img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1800&q=80",
   },
-  {
-    title: "How to Choose the Right Web Development Agency in 2026",
-    excerpt: "Choosing the right web development agency can determine the success of your website project. Learn the key factors, warning signs, and evaluation criteria businesses should consider before hiring a web development partner..",
-    category: "Right Agency",
-    slug: "/blog/how-to-choose-the-right-web-development-agency-2026",
-    date: "June 13, 2026",
-    read: "5 min",
-    img: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
-  },
+  // {
+  //   title: "How to Choose the Right Web Development Agency in 2026",
+  //   excerpt: "Choosing the right web development agency can determine the success of your website project. Learn the key factors, warning signs, and evaluation criteria businesses should consider before hiring a web development partner..",
+  //   category: "Right Agency",
+  //   slug: "/blog/how-to-choose-the-right-web-development-agency-2026",
+  //   date: "June 13, 2026",
+  //   read: "5 min",
+  //   img: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
+  // },
 ];
 
 function Card({ p, i }) {
