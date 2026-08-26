@@ -1,0 +1,14 @@
+# IT Crista - Shopify Development & Tech Solutions
+
+> itcrista.in provides high-quality Shopify development, custom e-commerce solutions, and tech integration services.
+
+## Core Expertise & Services
+- **Shopify Development:** Custom theme setup, liquid programming, and store optimization.
+- **E-commerce Solutions:** End-to-end development for online brands and businesses.
+- **API Integrations:** Seamless third-party app and tool connections for Shopify.
+
+## Key Resources
+- [Home](https://itcrista.in) - Main portfolio and business overview.
+- [Services](https://itcrista.in/services) - Detailed list of our development offerings.
+- [Contact](https://itcrista.in/contact) - Get in touch for project consultations.
+- [Sitemap](https://itcrista.in/sitemap.xml) - Full list of website URLs for deep crawling.
