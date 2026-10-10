@@ -6,13 +6,13 @@ import { Helmet } from "react-helmet-async";
 const categories = ["All", "Fashion", "SaaS", "Sports", "Ecommerce"];
 
 const projects = [
-   {
-    title: "kingcouture",
-    category: "Fashion",
-    tag: "Shopify + Custom",
-    img: "/images/kingcouture.png",
-    url: "https://kingcouture.in/" ,
-  },
+  //  {
+  //   title: "kingcouture",
+  //   category: "Fashion",
+  //   tag: "Shopify + Custom",
+  //   img: "/images/kingcouture.png",
+  //   url: "https://kingcouture.in/" ,
+  // },
   {
     title: "Loop — Revenue Automation",
     category: "SaaS",
@@ -48,13 +48,13 @@ const projects = [
     img: "/images/buyveda.png",
     url: "https://buyveda.com" ,
   },
-  {
-    title: "Artiosluxe",
-    category: "Fashion",
-    tag: "Brand · UI",
-    img: "/images/artiosluxe.png",
-    url: "https://in.artiosluxe.com" ,
-  },
+  // {
+  //   title: "Artiosluxe",
+  //   category: "Fashion",
+  //   tag: "Brand · UI",
+  //   img: "/images/artiosluxe.png",
+  //   url: "https://in.artiosluxe.com" ,
+  // },
   {
     title: "Bluebrew",
     category: "Fashion",
