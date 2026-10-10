@@ -83,13 +83,13 @@ const projects = [
     img: "/images/agdesign.png",
     url: "https://agdhandmade.com" ,
   },
-    {
-    title: "Home Yarn",
-    category: "Ecommerce",
-    tag: "Shopify",
-    img: "/images/homeyarn.png",
-      url: "https://homeyarn.in//" ,
-  },
+  //   {
+  //   title: "Home Yarn",
+  //   category: "Ecommerce",
+  //   tag: "Shopify",
+  //   img: "/images/homeyarn.png",
+  //     url: "https://homeyarn.in//" ,
+  // },
 ];
 
 export default function Portfolio() {
