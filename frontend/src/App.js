@@ -22,7 +22,7 @@ import HowToChoose from "./pages/Blogs/HowToChoose";
 import Websitemistakes from "./pages/Blogs/Websitemistakes";
 import TechnicalSEOChecklist from "./pages/Blogs/TechnicalSEOChecklist";
 import AIPowered from "./pages/Blogs/AIPowered";
-// import ContactFloatingButton from "./components/ContactFloatingButton";
+import ContactFloatingButton from "./components/ContactFloatingButton";
 import WebsiteGetsTrafficButNoLeads from "./pages/Blogs/WebsiteGetsTrafficButNoLeads";
 
 function ScrollToTop() {
@@ -63,7 +63,7 @@ function App() {
           <Route path="*" element={<Home />} />
         </Routes>
         <Footer />
-   // <ContactFloatingButton />   {/* ← add this line */}
+   <ContactFloatingButton />   {/* ← add this line */}
       </BrowserRouter>
     </div>
   );
